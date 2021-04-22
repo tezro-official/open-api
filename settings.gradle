@@ -1,0 +1,3 @@
+include ':shop'
+include ':sample'
+rootProject.name = "OpenApi"
