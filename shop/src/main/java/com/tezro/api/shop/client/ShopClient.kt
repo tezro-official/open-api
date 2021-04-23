@@ -25,7 +25,10 @@ interface ShopClient {
      * @return simple response with status code and message
      * @see SimpleResponse
      */
-    fun sendMessage(orderId: String, message: String): Request<SimpleResponse>
+    fun sendMessage(
+        orderId: String,
+        message: String
+    ): Request<SimpleResponse>
 
 
     /**
@@ -40,7 +43,10 @@ interface ShopClient {
      * @return simple response with status code and message
      * @see SimpleResponse
      */
-    fun confirmDelivery(orderId: String, comment: String? = null): Request<SimpleResponse>
+    fun confirmDelivery(
+        orderId: String,
+        comment: String? = null
+    ): Request<SimpleResponse>
 
 
     /**
@@ -54,7 +60,10 @@ interface ShopClient {
      * @see Order.Status
      * @see OrdersPage
      */
-    fun getOrders(pagination: InputPagination? = null, status: Order.Status? = null): Request<OrdersPage>
+    fun getOrders(
+        pagination: InputPagination? = null,
+        status: Order.Status? = null
+    ): Request<OrdersPage>
 
 
     /**
@@ -66,7 +75,10 @@ interface ShopClient {
      * @return the request order
      * @see Order
      */
-    fun getOrder(eosName: String, orderId: String): Request<Order>
+    fun getOrder(
+        eosName: String,
+        orderId: String
+    ): Request<Order>
 
 
 }
