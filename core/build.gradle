@@ -10,3 +10,8 @@ dependencies {
 
     dokkaHtmlPlugin 'org.jetbrains.dokka:kotlin-as-java-plugin:1.4.30'
 }
+
+dokkaGfm {
+    def outputDir = new File(projectDir.parent + "/docs/core")
+    outputDirectory.set(outputDir)
+}

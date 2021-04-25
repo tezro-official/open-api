@@ -14,3 +14,8 @@ dependencies {
 
     api project(":core")
 }
+
+dokkaGfm {
+    def outputDir = new File(projectDir.parent + "/docs/shop")
+    outputDirectory.set(outputDir)
+}

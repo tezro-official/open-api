@@ -1,0 +1,49 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:com.tezro.api.core.client.requests////PointingToDeclaration/core/com.tezro.api.core.client.requests/index.md
+$dokka.location:com.tezro.api.core.client.requests/IRequest///PointingToDeclaration/core/com.tezro.api.core.client.requests/-i-request/index.md
+$dokka.location:com.tezro.api.core.client.requests/IRequest/cancel/#/PointingToDeclaration/core/com.tezro.api.core.client.requests/-i-request/cancel.md
+$dokka.location:com.tezro.api.core.client.requests/IRequest/enqueue/#/PointingToDeclaration/core/com.tezro.api.core.client.requests/-i-request/enqueue.md
+$dokka.location:com.tezro.api.core.client.requests/IRequest/setErrorListener/#kotlin.Function1[com.tezro.api.core.client.responses.Error,kotlin.Unit]?/PointingToDeclaration/core/com.tezro.api.core.client.requests/-i-request/set-error-listener.md
+$dokka.location:com.tezro.api.core.client.requests/IRequest/setSuccessListener/#kotlin.Function1[TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]?/PointingToDeclaration/core/com.tezro.api.core.client.requests/-i-request/set-success-listener.md
+$dokka.location:com.tezro.api.core.client.requests/IRequestDelegate///PointingToDeclaration/core/com.tezro.api.core.client.requests/-i-request-delegate/index.md
+$dokka.location:com.tezro.api.core.client.requests/IRequestDelegate/notifyError/#com.tezro.api.core.client.responses.Error/PointingToDeclaration/core/com.tezro.api.core.client.requests/-i-request-delegate/notify-error.md
+$dokka.location:com.tezro.api.core.client.requests/IRequestDelegate/notifySuccess/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/core/com.tezro.api.core.client.requests/-i-request-delegate/notify-success.md
+$dokka.location:com.tezro.api.core.client.requests/IRequestDelegate/setCancelBlock/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/core/com.tezro.api.core.client.requests/-i-request-delegate/set-cancel-block.md
+$dokka.location:com.tezro.api.core.client.requests/IRequestDelegate/setEnqueueBlock/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/core/com.tezro.api.core.client.requests/-i-request-delegate/set-enqueue-block.md
+$dokka.location:com.tezro.api.core.client.requests/Request///PointingToDeclaration/core/com.tezro.api.core.client.requests/-request/index.md
+$dokka.location:com.tezro.api.core.client.requests/Request/Request/#/PointingToDeclaration/core/com.tezro.api.core.client.requests/-request/-request.md
+$dokka.location:com.tezro.api.core.client.requests/Request/cancel/#/PointingToDeclaration/core/com.tezro.api.core.client.requests/-request/cancel.md
+$dokka.location:com.tezro.api.core.client.requests/Request/enqueue/#/PointingToDeclaration/core/com.tezro.api.core.client.requests/-request/enqueue.md
+$dokka.location:com.tezro.api.core.client.requests/Request/notifyError/#com.tezro.api.core.client.responses.Error/PointingToDeclaration/core/com.tezro.api.core.client.requests/-request/notify-error.md
+$dokka.location:com.tezro.api.core.client.requests/Request/notifySuccess/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/core/com.tezro.api.core.client.requests/-request/notify-success.md
+$dokka.location:com.tezro.api.core.client.requests/Request/setCancelBlock/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/core/com.tezro.api.core.client.requests/-request/set-cancel-block.md
+$dokka.location:com.tezro.api.core.client.requests/Request/setEnqueueBlock/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/core/com.tezro.api.core.client.requests/-request/set-enqueue-block.md
+$dokka.location:com.tezro.api.core.client.requests/Request/setErrorListener/#kotlin.Function1[com.tezro.api.core.client.responses.Error,kotlin.Unit]?/PointingToDeclaration/core/com.tezro.api.core.client.requests/-request/set-error-listener.md
+$dokka.location:com.tezro.api.core.client.requests/Request/setSuccessListener/#kotlin.Function1[TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]?/PointingToDeclaration/core/com.tezro.api.core.client.requests/-request/set-success-listener.md
+$dokka.location:com.tezro.api.core.client.responses////PointingToDeclaration/core/com.tezro.api.core.client.responses/index.md
+$dokka.location:com.tezro.api.core.client.responses/Error///PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/index.md
+$dokka.location:com.tezro.api.core.client.responses/Error/Error/#kotlin.String#kotlin.Int/PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/-error.md
+$dokka.location:com.tezro.api.core.client.responses/Error/message/#/PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/message.md
+$dokka.location:com.tezro.api.core.client.responses/Error/statusCode/#/PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/status-code.md
+$dokka.location:com.tezro.api.core.client.responses/SimpleResponse///PointingToDeclaration/core/com.tezro.api.core.client.responses/-simple-response/index.md
+$dokka.location:com.tezro.api.core.client.responses/SimpleResponse/SimpleResponse/#kotlin.Int#kotlin.String/PointingToDeclaration/core/com.tezro.api.core.client.responses/-simple-response/-simple-response.md
+$dokka.location:com.tezro.api.core.client.responses/SimpleResponse/message/#/PointingToDeclaration/core/com.tezro.api.core.client.responses/-simple-response/message.md
+$dokka.location:com.tezro.api.core.client.responses/SimpleResponse/statusCode/#/PointingToDeclaration/core/com.tezro.api.core.client.responses/-simple-response/status-code.md
+$dokka.location:com.tezro.api.core.service.core////PointingToDeclaration/core/com.tezro.api.core.service.core/index.md
+$dokka.location:com.tezro.api.core.service.core/IService///PointingToDeclaration/core/com.tezro.api.core.service.core/-i-service/index.md
+$dokka.location:com.tezro.api.core.service.core/IService/cancelAllRequests/#/PointingToDeclaration/core/com.tezro.api.core.service.core/-i-service/cancel-all-requests.md
+$dokka.location:com.tezro.api.core.service.core/Service///PointingToDeclaration/core/com.tezro.api.core.service.core/-service/index.md
+$dokka.location:com.tezro.api.core.service.core/Service/Service/#/PointingToDeclaration/core/com.tezro.api.core.service.core/-service/-service.md
+$dokka.location:com.tezro.api.core.service.core/Service/cancelAllRequests/#/PointingToDeclaration/core/com.tezro.api.core.service.core/-service/cancel-all-requests.md
+$dokka.location:com.tezro.api.core.service////PointingToDeclaration/core/com.tezro.api.core.service/index.md
+$dokka.location:com.tezro.api.core.service/RetrofitService.Companion///PointingToDeclaration/core/com.tezro.api.core.service/-retrofit-service/-companion/index.md
+$dokka.location:com.tezro.api.core.service/RetrofitService.Companion/DEFAULT_ERROR_CODE/#/PointingToDeclaration/core/com.tezro.api.core.service/-retrofit-service/-companion/-d-e-f-a-u-l-t_-e-r-r-o-r_-c-o-d-e.md
+$dokka.location:com.tezro.api.core.service/RetrofitService.Companion/DEFAULT_ERROR_MESSAGE/#/PointingToDeclaration/core/com.tezro.api.core.service/-retrofit-service/-companion/-d-e-f-a-u-l-t_-e-r-r-o-r_-m-e-s-s-a-g-e.md
+$dokka.location:com.tezro.api.core.service/RetrofitService///PointingToDeclaration/core/com.tezro.api.core.service/-retrofit-service/index.md
+$dokka.location:com.tezro.api.core.service/RetrofitService/RetrofitService/#/PointingToDeclaration/core/com.tezro.api.core.service/-retrofit-service/-retrofit-service.md
+com.tezro.api.core.client.requests
+com.tezro.api.core.client.responses
+com.tezro.api.core.service
+com.tezro.api.core.service.core
+
