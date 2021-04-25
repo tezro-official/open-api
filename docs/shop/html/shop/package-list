@@ -1,0 +1,79 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.tezro.api.shop.model.orders.address////PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/index.html
+$dokka.location:com.tezro.api.shop.model.orders.address/Address///PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/index.html
+$dokka.location:com.tezro.api.shop.model.orders.address/Address/getAddressLine/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/get-address-line.html
+$dokka.location:com.tezro.api.shop.model.orders.address/Address/getCity/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/get-city.html
+$dokka.location:com.tezro.api.shop.model.orders.address/Address/getCountry/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/get-country.html
+$dokka.location:com.tezro.api.shop.model.orders.address/Address/getId/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/get-id.html
+$dokka.location:com.tezro.api.shop.model.orders.address/Address/getLocation/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/get-location.html
+$dokka.location:com.tezro.api.shop.model.orders.address/Address/getPostalCode/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/get-postal-code.html
+$dokka.location:com.tezro.api.shop.model.orders.address/Address/getRegion/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/get-region.html
+$dokka.location:com.tezro.api.shop.model.orders.address/Location///PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-location/index.html
+$dokka.location:com.tezro.api.shop.model.orders.address/Location/getLatitude/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-location/get-latitude.html
+$dokka.location:com.tezro.api.shop.model.orders.address/Location/getLongitude/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-location/get-longitude.html
+$dokka.location:com.tezro.api.shop.model.orders////PointingToDeclaration/shop/com.tezro.api.shop.model.orders/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Currency.BTC///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-currency/-b-t-c/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Currency.CNHT///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-currency/-c-n-h-t/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Currency.CNY///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-currency/-c-n-y/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Currency.ETH///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-currency/-e-t-h/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Currency.EUR///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-currency/-e-u-r/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Currency.EURT///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-currency/-e-u-r-t/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Currency.USD///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-currency/-u-s-d/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Currency.USDT///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-currency/-u-s-d-t/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Currency.XAUT///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-currency/-x-a-u-t/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Currency///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-currency/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Currency/getName/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-currency/get-name.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Currency/getOrdinal/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-currency/get-ordinal.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Status.ADDRESS_CONFIRMED///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-status/-a-d-d-r-e-s-s_-c-o-n-f-i-r-m-e-d/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Status.CONFIRMED///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-status/-c-o-n-f-i-r-m-e-d/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Status.CREATED///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-status/-c-r-e-a-t-e-d/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Status.DELIVERED///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-status/-d-e-l-i-v-e-r-e-d/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Status.DISPUTED///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-status/-d-i-s-p-u-t-e-d/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Status.EXPIRED///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-status/-e-x-p-i-r-e-d/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Status.RECEIVED///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-status/-r-e-c-e-i-v-e-d/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Status///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-status/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Status/getName/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-status/get-name.html
+$dokka.location:com.tezro.api.shop.model.orders/Order.Status/getOrdinal/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/-status/get-ordinal.html
+$dokka.location:com.tezro.api.shop.model.orders/Order///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/index.html
+$dokka.location:com.tezro.api.shop.model.orders/Order/getAddress/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/get-address.html
+$dokka.location:com.tezro.api.shop.model.orders/Order/getAmount/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/get-amount.html
+$dokka.location:com.tezro.api.shop.model.orders/Order/getAmountConfirmationUrl/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/get-amount-confirmation-url.html
+$dokka.location:com.tezro.api.shop.model.orders/Order/getCurrency/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/get-currency.html
+$dokka.location:com.tezro.api.shop.model.orders/Order/getCustomerFullName/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/get-customer-full-name.html
+$dokka.location:com.tezro.api.shop.model.orders/Order/getCustomerPhoneNumber/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/get-customer-phone-number.html
+$dokka.location:com.tezro.api.shop.model.orders/Order/getEosName/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/get-eos-name.html
+$dokka.location:com.tezro.api.shop.model.orders/Order/getExpiryDate/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/get-expiry-date.html
+$dokka.location:com.tezro.api.shop.model.orders/Order/getId/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/get-id.html
+$dokka.location:com.tezro.api.shop.model.orders/Order/getPaymentLink/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/get-payment-link.html
+$dokka.location:com.tezro.api.shop.model.orders/Order/getShippingAmount/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/get-shipping-amount.html
+$dokka.location:com.tezro.api.shop.model.orders/Order/getStatus/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/get-status.html
+$dokka.location:com.tezro.api.shop.model.orders/Order/getTotalAmount/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/get-total-amount.html
+$dokka.location:com.tezro.api.shop.model.orders/Order/getTransactionId/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/get-transaction-id.html
+$dokka.location:com.tezro.api.shop.model.orders/OrdersPage///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-orders-page/index.html
+$dokka.location:com.tezro.api.shop.model.orders/OrdersPage/OrdersPage/#com.tezro.api.shop.model.Pagination#kotlin.collections.List[com.tezro.api.shop.model.orders.Order]/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-orders-page/-orders-page.html
+$dokka.location:com.tezro.api.shop.model.orders/OrdersPage/getOrdersList/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-orders-page/get-orders-list.html
+$dokka.location:com.tezro.api.shop.model.orders/OrdersPage/getPagination/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-orders-page/get-pagination.html
+$dokka.location:com.tezro.api.shop.model////PointingToDeclaration/shop/com.tezro.api.shop.model/index.html
+$dokka.location:com.tezro.api.shop.model/Pagination.Direction.ASCENDING///PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/-direction/-a-s-c-e-n-d-i-n-g/index.html
+$dokka.location:com.tezro.api.shop.model/Pagination.Direction.DESCENDING///PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/-direction/-d-e-s-c-e-n-d-i-n-g/index.html
+$dokka.location:com.tezro.api.shop.model/Pagination.Direction///PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/-direction/index.html
+$dokka.location:com.tezro.api.shop.model/Pagination.Direction/getName/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/-direction/get-name.html
+$dokka.location:com.tezro.api.shop.model/Pagination.Direction/getOrdinal/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/-direction/get-ordinal.html
+$dokka.location:com.tezro.api.shop.model/Pagination///PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/index.html
+$dokka.location:com.tezro.api.shop.model/Pagination/getCount/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/get-count.html
+$dokka.location:com.tezro.api.shop.model/Pagination/getHasNext/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/get-has-next.html
+$dokka.location:com.tezro.api.shop.model/Pagination/getHasPrevious/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/get-has-previous.html
+$dokka.location:com.tezro.api.shop.model/Pagination/getOffset/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/get-offset.html
+$dokka.location:com.tezro.api.shop.model/Pagination/getTotal/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/get-total.html
+$dokka.location:com.tezro.api.shop.service////PointingToDeclaration/shop/com.tezro.api.shop.service/index.html
+$dokka.location:com.tezro.api.shop.service/IShopService///PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/index.html
+$dokka.location:com.tezro.api.shop.service/IShopService/confirmDelivery/#kotlin.String#kotlin.String?/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/confirm-delivery.html
+$dokka.location:com.tezro.api.shop.service/IShopService/getOrder/#kotlin.String#kotlin.String/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/get-order.html
+$dokka.location:com.tezro.api.shop.service/IShopService/getOrders/#kotlin.Long?#kotlin.Long?#com.tezro.api.shop.model.Pagination.Direction?#com.tezro.api.shop.model.orders.Order.Status?/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/get-orders.html
+$dokka.location:com.tezro.api.shop.service/IShopService/sendMessage/#kotlin.String#kotlin.String/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/send-message.html
+com.tezro.api.shop.model
+com.tezro.api.shop.model.orders
+com.tezro.api.shop.model.orders.address
+com.tezro.api.shop.service
+
