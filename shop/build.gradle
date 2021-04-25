@@ -14,8 +14,3 @@ dependencies {
 
     api project(":core")
 }
-
-dokkaHtml {
-    def outputDir = new File(projectDir.parent + "/docs/shop/html")
-    outputDirectory.set(outputDir)
-}
