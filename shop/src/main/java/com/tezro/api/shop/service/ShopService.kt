@@ -9,7 +9,7 @@ import com.tezro.api.shop.model.Pagination
 import com.tezro.api.shop.model.orders.Order
 import com.tezro.api.shop.model.orders.OrdersPage
 
-internal class ShopService (
+internal class ShopService constructor(
     private val shopHttpClient: IShopHttpClient
 ) : RetrofitService(), IShopService {
 
