@@ -10,7 +10,7 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
     implementation 'com.google.code.gson:gson:2.8.6'
 
-    dokkaHtmlPlugin 'org.jetbrains.dokka:kotlin-as-java-plugin:1.4.30'
+    dokkaHtmlPlugin 'org.jetbrains.dokka:dokka-gradle-plugin:1.4.32'
 
     api project(":core")
 }

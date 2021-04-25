@@ -16,13 +16,13 @@ object TezroShop {
         keyId: String,
         secret: String,
         eosAccount: String,
-        isTest: Boolean
+        isTestMode: Boolean
     ) {
-        TezroShop.appId = appId
-        TezroShop.keyId = keyId
-        TezroShop.secret = secret
-        TezroShop.eosAccount = eosAccount
-        isTestMode = isTest
+        this.appId = appId
+        this.keyId = keyId
+        this.secret = secret
+        this.eosAccount = eosAccount
+        this.isTestMode = isTestMode
     }
 
     fun createShopService(): IShopService
