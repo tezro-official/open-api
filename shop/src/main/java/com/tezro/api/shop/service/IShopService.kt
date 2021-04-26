@@ -26,7 +26,7 @@ interface IShopService : IService {
      *
      * @return nothing special, just void
      *
-     * @sample ShopServiceSamples.sendMessageToCustomer
+     * @sample com.tezro.api.shop.service.samples.ShopServiceSamples.sendMessageToCustomer
      *
      * @see SimpleResponse
      */
