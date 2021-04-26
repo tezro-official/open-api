@@ -1,13 +1,24 @@
-package com.tezro.api.shop.service.samples
+package com.tezro.api.shop
 
 import com.tezro.api.shop.model.Pagination
 import com.tezro.api.shop.model.orders.Order
+import com.tezro.api.shop.providers.TezroShop
 import com.tezro.api.shop.service.IShopService
+import org.junit.Test
 import java.util.*
 
 
-internal class ShopServiceSamples(private val shopService: IShopService) {
+internal class ShopServiceSamples {
 
+    private val shopService: IShopService = TezroShop.initShopService(
+        "",
+        "",
+        "",
+        "",
+        true
+    )
+
+    @Test
     fun getOrdersPage() {
         //How many elements to query
         val pageSize = 50L
@@ -41,6 +52,7 @@ internal class ShopServiceSamples(private val shopService: IShopService) {
     }
 
 
+    @Test
     fun initOrder() {
         //The id of the order to be created
         val orderId = UUID.randomUUID().toString()
@@ -102,6 +114,8 @@ internal class ShopServiceSamples(private val shopService: IShopService) {
         }.enqueue()
     }
 
+
+    @Test
     fun getOrder() {
         //The id of the order to be queried
         val orderId = "#@#KDsdkwo1231-asdklasdlqw"
@@ -139,6 +153,7 @@ internal class ShopServiceSamples(private val shopService: IShopService) {
     }
 
 
+    @Test
     fun sendMessageToCustomer() {
         //The id of the order to which this message will be attached
         val orderId = "#@#KDsdkwo1231-asdklasdlqw"
@@ -160,6 +175,7 @@ internal class ShopServiceSamples(private val shopService: IShopService) {
     }
 
 
+    @Test
     fun confirmOrderDelivery() {
         //The id of the order that was shipped
         val orderId = "#@#KDsdkwo1231-asdklasdlqw"

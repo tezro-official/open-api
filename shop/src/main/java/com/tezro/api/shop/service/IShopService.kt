@@ -1,12 +1,9 @@
 package com.tezro.api.shop.service
 
 import com.tezro.api.core.client.requests.IRequest
-import com.tezro.api.core.client.responses.SimpleResponse
-import com.tezro.api.core.service.core.IService
 import com.tezro.api.shop.model.Pagination
 import com.tezro.api.shop.model.orders.Order
 import com.tezro.api.shop.model.orders.OrdersPage
-import com.tezro.api.shop.service.samples.ShopServiceSamples
 import java.util.*
 
 
@@ -15,7 +12,7 @@ import java.util.*
  * information about a shop and orders.
  *
  */
-interface IShopService : IService {
+interface IShopService {
 
 
     /**
@@ -25,11 +22,7 @@ interface IShopService : IService {
      * @param orderId Order's id to which messages should be sent
      * @param message Message body
      *
-     * @return nothing special, just void
-     *
-     * @sample ShopServiceSamples.sendMessageToCustomer
-     *
-     * @see SimpleResponse
+     * @return Nothing special, just void;)
      */
     fun sendMessage(
         orderId: String,
@@ -46,11 +39,7 @@ interface IShopService : IService {
      * displayed in the payment unlocking request (optional). Length must be in range of 1-4096
      * symbols inclusively
      *
-     * @return nothing special, just void
-     *
-     * @sample ShopServiceSamples.confirmOrderDelivery
-     *
-     * @see SimpleResponse
+     * @return Nothing special, just void;)
      */
     fun confirmDelivery(
         orderId: String,
@@ -73,8 +62,6 @@ interface IShopService : IService {
      * a date, it will be by default `1 hour` since creation
      *
      * @return Detailed information about the created order
-     *
-     * @sample ShopServiceSamples.initOrder
      *
      * @see Order.Status
      * @see Order.Currency
@@ -99,8 +86,6 @@ interface IShopService : IService {
      *
      * @return A collection of orders paged and filtered by the given parameters
      *
-     * @sample ShopServiceSamples.getOrdersPage
-     *
      * @see Order.Status
      * @see OrdersPage
      * @see Pagination.Direction
@@ -118,9 +103,7 @@ interface IShopService : IService {
      *
      * @param orderId Order's id which should be returned
      *
-     * @return the requested order
-     *
-     * @sample ShopServiceSamples.getOrder
+     * @return The requested order
      *
      * @see Order
      */

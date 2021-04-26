@@ -4,22 +4,16 @@ import com.tezro.api.core.client.requests.IRequest
 import com.tezro.api.core.client.requests.IRequestDelegate
 import com.tezro.api.core.client.requests.Request
 import com.tezro.api.core.client.responses.Error
-import com.tezro.api.core.service.core.Service
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-abstract class RetrofitService : Service() {
+abstract class RetrofitService  {
 
     protected open fun <T, R> Call<T>.toServiceRequest(converter: (T) -> R): IRequest<R> {
         val request = Request<R>()
 
-        addCancelBlock(this::cancel)
-
-        return request.setCancelBlock {
-            cancelBlocks.remove(this::cancel)
-            this.cancel()
-        }.setEnqueueBlock {
+        return request.setCancelBlock(this::cancel).setEnqueueBlock {
             val callback = createCallback(request, converter)
             enqueue(callback)
         }
