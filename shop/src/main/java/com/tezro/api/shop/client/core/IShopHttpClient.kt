@@ -1,6 +1,7 @@
 package com.tezro.api.shop.client.core
 
 import com.tezro.api.shop.client.data.requests.ConfirmDeliveryRequestBody
+import com.tezro.api.shop.client.data.requests.InitOrderRequestBody
 import com.tezro.api.shop.client.data.requests.SendMessageRequestBody
 import com.tezro.api.shop.client.data.responses.OrderResponseBody
 import com.tezro.api.shop.client.data.responses.OrdersPageResponseBody
@@ -20,6 +21,11 @@ internal interface IShopHttpClient {
         @Path(ShopHttpData.ID_PATH) orderId: String,
         @Body body: ConfirmDeliveryRequestBody
     ): Call<Void>
+
+    @POST(ShopHttpData.INIT_ORDER_PATH)
+    fun initOrder(
+        @Body body: InitOrderRequestBody
+    ): Call<OrderResponseBody>
 
     @GET(ShopHttpData.ORDERS_PATH)
     fun getOrders(@QueryMap parameters: MutableMap<String, Any>): Call<OrdersPageResponseBody>

@@ -89,6 +89,19 @@ internal object ShopData {
                 else -> throw IllegalArgumentException("unknown order currency: $currency")
             }
 
+    fun convertOrderCurrencyToParameter(currency: Order.Currency): String
+            = when(currency) {
+                Order.Currency.ETH -> ETH_CURRENCY_PARAMETER
+                Order.Currency.BTC -> BTC_CURRENCY_PARAMETER
+                Order.Currency.USDT -> USDT_CURRENCY_PARAMETER
+                Order.Currency.EURT -> EURT_CURRENCY_PARAMETER
+                Order.Currency.CNHT -> CNHT_CURRENCY_PARAMETER
+                Order.Currency.XAUT -> XAUT_CURRENCY_PARAMETER
+                Order.Currency.USD -> USD_CURRENCY_PARAMETER
+                Order.Currency.EUR -> EUR_CURRENCY_PARAMETER
+                Order.Currency.CNY -> CNY_CURRENCY_PARAMETER
+            }
+
     fun convertBodyToOrder(orderResponseBody: OrderResponseBody): Order = orderResponseBody.run {
         val orderStatus = convertParameterToOrderStatus(status)
         val orderCurrency = convertParameterToOrderCurrency(orderResponseBody.currency)

@@ -7,6 +7,7 @@ import com.tezro.api.shop.model.Pagination
 import com.tezro.api.shop.model.orders.Order
 import com.tezro.api.shop.model.orders.OrdersPage
 import com.tezro.api.shop.service.samples.ShopServiceSamples
+import java.util.*
 
 
 /**
@@ -26,7 +27,7 @@ interface IShopService : IService {
      *
      * @return nothing special, just void
      *
-     * @sample com.tezro.api.shop.service.samples.ShopServiceSamples.sendMessageToCustomer
+     * @sample ShopServiceSamples.sendMessageToCustomer
      *
      * @see SimpleResponse
      */
@@ -58,6 +59,37 @@ interface IShopService : IService {
 
 
     /**
+     * Initializes a new order.
+     *
+     * @param orderId The created order will have this value as an identifier. It must be unique
+     * and length must be in a range of 1 to 20 symbols
+     *
+     * @param amount The amount that should be payed by the customer
+     * @param currency The currency that will be accepted for payment
+     * @param confirmAmountUrl Used for confirming order's amount and payment status. This must be
+     * a valid url. Protocol is required (only `http` or `https`)
+     * @param expiryDate The date when this order will be no longer valid. Date must be later
+     * than `current time + 1 min` and earlier than `current time + 24 hours`. If you don't provide
+     * a date, it will be by default `1 hour` since creation
+     *
+     * @return Detailed information about the created order
+     *
+     * @sample ShopServiceSamples.initOrder
+     *
+     * @see Order.Status
+     * @see Order.Currency
+     * @see Order
+     */
+    fun createOrder(
+        orderId: String,
+        amount: String,
+        currency: Order.Currency,
+        confirmAmountUrl: String? = null,
+        expiryDate: Date? = null
+    ): IRequest<Order>
+
+
+    /**
      * Request a list of orders.
      *
      * @param offset Number of elements to skip
@@ -65,7 +97,7 @@ interface IShopService : IService {
      * @param direction Sorting direction of elements
      * @param status Filters the result collection to contain only orders of a specific status
      *
-     * @return a collection of orders paged and filtered by the given parameters
+     * @return A collection of orders paged and filtered by the given parameters
      *
      * @sample ShopServiceSamples.getOrdersPage
      *
@@ -84,7 +116,6 @@ interface IShopService : IService {
     /**
      * Request an order by its id.
      *
-     * @param eosName Shop's eosName, can be retrieved from Tezro App
      * @param orderId Order's id which should be returned
      *
      * @return the requested order
@@ -93,10 +124,7 @@ interface IShopService : IService {
      *
      * @see Order
      */
-    fun getOrder(
-        eosName: String,
-        orderId: String
-    ): IRequest<Order>
+    fun getOrder(orderId: String): IRequest<Order>
 
 
 }
