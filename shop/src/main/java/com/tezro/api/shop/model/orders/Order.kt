@@ -1,6 +1,7 @@
 package com.tezro.api.shop.model.orders
 
 import com.tezro.api.shop.model.orders.address.Address
+import com.tezro.api.shop.model.common.Attribute
 import java.util.*
 
 
@@ -8,6 +9,7 @@ import java.util.*
  * Contains detailed information about order
  *
  * @param id Order's id
+ * @param name Name of the order product or products
  * @param status Current status of the order
  * @param amount Item's amount
  * @param shippingAmount Shipping amount
@@ -22,12 +24,16 @@ import java.util.*
  * @param amountConfirmationUrl Url for confirming delivery address
  * @param customerFullName First and Last name of the customer
  * @param customerPhoneNumber Phone number of the customer
+ * @param photos List of photo urls of ordered products
+ * @param attributes List of attributes about the order
  *
  * @see Address
  * @see Currency
+ * @see Attribute
  */
 data class Order internal constructor(
     val id: String,
+    val name: String,
     val status: Status,
     val amount: String,
     val shippingAmount: String?,
@@ -40,7 +46,9 @@ data class Order internal constructor(
     val transactionId: String?,
     val amountConfirmationUrl: String?,
     val customerFullName: String?,
-    val customerPhoneNumber: String?
+    val customerPhoneNumber: String?,
+    val photos: List<String>?,
+    val attributes: List<Attribute>?
 ) {
 
 

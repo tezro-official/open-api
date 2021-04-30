@@ -3,7 +3,7 @@ package com.tezro.api.shop
 import com.google.gson.Gson
 import com.tezro.api.core.client.responses.Error
 import com.tezro.api.shop.client.core.IShopHttpClient
-import com.tezro.api.shop.client.core.ShopAuthInterceptor
+import com.tezro.api.shop.client.core.interceptor.ShopSecretAuthInterceptor
 import com.tezro.api.shop.client.data.requests.ConfirmDeliveryRequestBody
 import com.tezro.api.shop.client.data.requests.InitOrderRequestBody
 import com.tezro.api.shop.client.data.requests.SendMessageRequestBody
@@ -17,9 +17,9 @@ import java.net.HttpURLConnection
 internal class ShopClientTests {
 
     private val shopClient by lazy {
-        val authenticationInterceptor = ShopAuthInterceptor(
+        val authenticationInterceptor = ServiceProviders.provideAuthInterceptor(
                 "47d5af68-0857-4856-a072-63fa53ea87f2",
-                "fv0p/ss/YA4/SKV4k9JVJClND1uIRYi+lRwqMMbeRxE4f+4K3R0PzRVt0STXMWQWP/KhhzQ=="
+                null
         )
 
         val okHttpClient = OkHttpClient.Builder().addInterceptor(authenticationInterceptor).build()
@@ -43,10 +43,13 @@ internal class ShopClientTests {
     @Test
     fun initOrder() {
         val orderBody = InitOrderRequestBody(
-                "ssss",
+                "ssss3e3e233",
+                "Air Jordans",
                 "12",
                 "USD",
                 "https://www.google.com",
+                null,
+                null,
                 null
         )
 
@@ -62,7 +65,7 @@ internal class ShopClientTests {
         println(errorJson)
         println(error)
 
-        assert(response.code() == HttpURLConnection.HTTP_OK)
+        assert(response.code() == HttpURLConnection.HTTP_CREATED)
     }
 
 
@@ -104,7 +107,7 @@ internal class ShopClientTests {
 
     @Test
     fun sendMessageToCustomer() {
-        val sendMessageBody = SendMessageRequestBody("Hi dear customer!")
+        val sendMessageBody = SendMessageRequestBody("Hi dear customer!", null)
         val response = shopClient.sendMessage(
                 "ss22ss",
                 sendMessageBody

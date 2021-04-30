@@ -11,7 +11,7 @@ import kotlin.properties.Delegates
  *
  * @see IShopService
  */
-object TezroShop {
+object Shop {
 
 
     /**
@@ -29,14 +29,15 @@ object TezroShop {
      * services with different parameters.
      *
      * @param keyId Retrieve from credentials in Tezro app
-     * @param secret Retrieve from credentials in Tezro app
+     * @param secret Retrieve from credentials in Tezro app, not providing secret will disable
+     * some of the requests
      * @param isTestMode Uses test service mode
      *
      * @return Returns a new instance of shop service
      *
      * @see IShopService
      */
-    fun initShopService(keyId: String, secret: String, isTestMode: Boolean): IShopService
+    fun initShopService(keyId: String, secret: String?, isTestMode: Boolean): IShopService
         = ServiceProviders.provideNewShopService(
             keyId,
             secret,

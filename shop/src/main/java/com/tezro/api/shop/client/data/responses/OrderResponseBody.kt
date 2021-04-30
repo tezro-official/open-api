@@ -1,9 +1,11 @@
 package com.tezro.api.shop.client.data.responses
 
 import com.google.gson.annotations.SerializedName
+import com.tezro.api.shop.client.data.common.AttributeBody
 
 internal data class OrderResponseBody(
     @SerializedName("orderId") val orderId: String,
+    @SerializedName("name") val name: String,
     @SerializedName("status") val status: String,
     @SerializedName("amount") val amount: String,
     @SerializedName("shippingAmount") val shippingAmount: String?,
@@ -16,5 +18,7 @@ internal data class OrderResponseBody(
     @SerializedName("transactionId") val transactionId: String?,
     @SerializedName("confirmAmountUrl") val confirmAmountUrl: String,
     @SerializedName("fullName") val fullName: String?,
-    @SerializedName("phone") val phone: String?
+    @SerializedName("phone") val phone: String?,
+    @SerializedName("photos") val photos: List<String>?,
+    @SerializedName("attributes") val attributes: List<AttributeBody>?
 )

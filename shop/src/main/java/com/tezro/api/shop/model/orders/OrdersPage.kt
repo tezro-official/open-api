@@ -1,6 +1,6 @@
 package com.tezro.api.shop.model.orders
 
-import com.tezro.api.shop.model.Pagination
+import com.tezro.api.shop.model.common.Pagination
 
 
 /**

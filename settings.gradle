@@ -1,3 +1,4 @@
+include ':shop-widget'
 include ':core'
 include ':shop'
 include ':sample'

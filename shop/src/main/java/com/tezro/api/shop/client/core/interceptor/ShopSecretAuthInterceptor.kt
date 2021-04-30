@@ -1,10 +1,11 @@
-package com.tezro.api.shop.client.core
+package com.tezro.api.shop.client.core.interceptor
 
 import com.tezro.api.core.cryption.CryptoUtils
+import com.tezro.api.shop.client.core.ShopHttpData
 import okhttp3.Interceptor
 import okhttp3.Response
 
-internal class ShopAuthInterceptor(
+internal class ShopSecretAuthInterceptor(
         private val keyId: String,
         secret: String
 ) : Interceptor{

@@ -1,4 +1,4 @@
-package com.tezro.api.shop.model
+package com.tezro.api.shop.model.common
 
 
 /**

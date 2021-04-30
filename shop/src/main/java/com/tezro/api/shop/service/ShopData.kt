@@ -1,12 +1,16 @@
 package com.tezro.api.shop.service
 
+import com.tezro.api.shop.client.data.common.AttributeBody
+import com.tezro.api.shop.client.data.common.MessageEntityBody
 import com.tezro.api.shop.client.data.responses.*
 import com.tezro.api.shop.client.data.responses.AddressResponseBody
 import com.tezro.api.shop.client.data.responses.GeoResponseBody
 import com.tezro.api.shop.client.data.responses.OrderResponseBody
 import com.tezro.api.shop.client.data.responses.OrdersPageResponseBody
 import com.tezro.api.shop.client.data.responses.PaginationResponseBody
-import com.tezro.api.shop.model.Pagination
+import com.tezro.api.shop.model.common.Pagination
+import com.tezro.api.shop.model.common.Attribute
+import com.tezro.api.shop.model.messages.MessageEntity
 import com.tezro.api.shop.model.orders.Order
 import com.tezro.api.shop.model.orders.OrdersPage
 import com.tezro.api.shop.model.orders.address.Address
@@ -22,28 +26,28 @@ internal object ShopData {
     const val DIRECTION_PARAMETER_NAME = "sort"
     const val STATUS_PARAMETER_NAME = "status"
 
-    const val DIRECTION_ASCENDING_PARAMETER = 1
-    const val DIRECTION_DESCENDING_PARAMETER = -1
-
-    const val ORDER_STATUS_RECEIVED_PARAMETER = "order_received"
-    const val ORDER_STATUS_ADDRESS_CONFIRMED_PARAMETER = "address_confirmed"
-    const val ORDER_STATUS_CONFIRMED_PARAMETER = "order_confirmed"
-    const val ORDER_STATUS_CREATED_PARAMETER = "order_created"
-    const val ORDER_STATUS_DELIVERED_PARAMETER = "order_delivered"
-    const val ORDER_STATUS_DISPUTED_PARAMTER = "order_disputed"
-    const val ORDER_STATUS_EXPIRED_PARAMETER = "order_expired"
-
-    const val ETH_CURRENCY_PARAMETER = "ETH"
-    const val BTC_CURRENCY_PARAMETER = "BTC"
-    const val USDT_CURRENCY_PARAMETER = "USDT"
-    const val EURT_CURRENCY_PARAMETER = "EURT"
-    const val CNHT_CURRENCY_PARAMETER = "CNHT"
-    const val XAUT_CURRENCY_PARAMETER = "XAUT"
-    const val USD_CURRENCY_PARAMETER = "USD"
-    const val EUR_CURRENCY_PARAMETER = "EUR"
-    const val CNY_CURRENCY_PARAMETER = "CNY"
-
     const val DEFAULT_DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+
+    private const val DIRECTION_ASCENDING_PARAMETER = 1
+    private const val DIRECTION_DESCENDING_PARAMETER = -1
+
+    private const val ORDER_STATUS_RECEIVED_PARAMETER = "order_received"
+    private const val ORDER_STATUS_ADDRESS_CONFIRMED_PARAMETER = "address_confirmed"
+    private const val ORDER_STATUS_CONFIRMED_PARAMETER = "order_confirmed"
+    private const val ORDER_STATUS_CREATED_PARAMETER = "order_created"
+    private const val ORDER_STATUS_DELIVERED_PARAMETER = "order_delivered"
+    private const val ORDER_STATUS_DISPUTED_PARAMTER = "order_disputed"
+    private const val ORDER_STATUS_EXPIRED_PARAMETER = "order_expired"
+
+    private const val ETH_CURRENCY_PARAMETER = "ETH"
+    private const val BTC_CURRENCY_PARAMETER = "BTC"
+    private const val USDT_CURRENCY_PARAMETER = "USDT"
+    private const val EURT_CURRENCY_PARAMETER = "EURT"
+    private const val CNHT_CURRENCY_PARAMETER = "CNHT"
+    private const val XAUT_CURRENCY_PARAMETER = "XAUT"
+    private const val USD_CURRENCY_PARAMETER = "USD"
+    private const val EUR_CURRENCY_PARAMETER = "EUR"
+    private const val CNY_CURRENCY_PARAMETER = "CNY"
 
     fun convertOrderStatusToParameter(orderStatus: Order.Status): String
             = when(orderStatus) {
@@ -56,37 +60,11 @@ internal object ShopData {
                 Order.Status.EXPIRED -> ORDER_STATUS_EXPIRED_PARAMETER
             }
 
-    fun convertParameterToOrderStatus(status: String): Order.Status
-            = when(status) {
-                ORDER_STATUS_RECEIVED_PARAMETER -> Order.Status.RECEIVED
-                ORDER_STATUS_ADDRESS_CONFIRMED_PARAMETER -> Order.Status.ADDRESS_CONFIRMED
-                ORDER_STATUS_CONFIRMED_PARAMETER -> Order.Status.CONFIRMED
-                ORDER_STATUS_CREATED_PARAMETER -> Order.Status.CREATED
-                ORDER_STATUS_DELIVERED_PARAMETER -> Order.Status.DELIVERED
-                ORDER_STATUS_DISPUTED_PARAMTER -> Order.Status.DISPUTED
-                ORDER_STATUS_EXPIRED_PARAMETER -> Order.Status.EXPIRED
-                else -> throw IllegalArgumentException("Unknown order status: $status")
-            }
-
     fun convertDirectionToParameter(direction: Pagination.Direction): Int
             = if (direction == Pagination.Direction.ASCENDING) {
                 DIRECTION_ASCENDING_PARAMETER
             } else {
                 DIRECTION_DESCENDING_PARAMETER
-            }
-
-    fun convertParameterToOrderCurrency(currency: String): Order.Currency
-            = when(currency) {
-                ETH_CURRENCY_PARAMETER -> Order.Currency.ETH
-                BTC_CURRENCY_PARAMETER -> Order.Currency.BTC
-                USDT_CURRENCY_PARAMETER -> Order.Currency.USDT
-                EURT_CURRENCY_PARAMETER -> Order.Currency.EURT
-                CNHT_CURRENCY_PARAMETER -> Order.Currency.CNHT
-                XAUT_CURRENCY_PARAMETER -> Order.Currency.XAUT
-                USD_CURRENCY_PARAMETER -> Order.Currency.USD
-                EUR_CURRENCY_PARAMETER -> Order.Currency.EUR
-                CNY_CURRENCY_PARAMETER -> Order.Currency.CNY
-                else -> throw IllegalArgumentException("unknown order currency: $currency")
             }
 
     fun convertOrderCurrencyToParameter(currency: Order.Currency): String
@@ -110,9 +88,11 @@ internal object ShopData {
         val expiryDate = expiryDateFormat.parse(expiresAt)
 
         val shippingAddress = address?.let(::convertBodyToAddress)
+        val orderAttributes = attributes?.map(::convertBodyToAttribute)
 
         return@run Order(
             orderId,
+            name,
             orderStatus,
             amount,
             shippingAmount,
@@ -125,7 +105,9 @@ internal object ShopData {
             transactionId,
             confirmAmountUrl,
             fullName,
-            phone
+            phone,
+            photos,
+            orderAttributes
         )
 
     }
@@ -141,7 +123,45 @@ internal object ShopData {
             )
         }
 
-    fun convertBodyToPagination(paginationResponseBody: PaginationResponseBody): Pagination
+    fun convertAttributeToBody(attribute: Attribute) = attribute.run {
+        AttributeBody(name, value)
+    }
+
+    fun convertMessageEntityToBody(messageEntity: MessageEntity) = messageEntity.run {
+        MessageEntityBody(type, offset, length, url)
+    }
+
+    private fun convertBodyToAttribute(attributeBody: AttributeBody) = attributeBody.run {
+        Attribute(name, value)
+    }
+
+    private fun convertParameterToOrderCurrency(currency: String): Order.Currency
+        = when(currency) {
+            ETH_CURRENCY_PARAMETER -> Order.Currency.ETH
+            BTC_CURRENCY_PARAMETER -> Order.Currency.BTC
+            USDT_CURRENCY_PARAMETER -> Order.Currency.USDT
+            EURT_CURRENCY_PARAMETER -> Order.Currency.EURT
+            CNHT_CURRENCY_PARAMETER -> Order.Currency.CNHT
+            XAUT_CURRENCY_PARAMETER -> Order.Currency.XAUT
+            USD_CURRENCY_PARAMETER -> Order.Currency.USD
+            EUR_CURRENCY_PARAMETER -> Order.Currency.EUR
+            CNY_CURRENCY_PARAMETER -> Order.Currency.CNY
+            else -> throw IllegalArgumentException("unknown order currency: $currency")
+        }
+
+    private fun convertParameterToOrderStatus(status: String): Order.Status
+        = when(status) {
+            ORDER_STATUS_RECEIVED_PARAMETER -> Order.Status.RECEIVED
+            ORDER_STATUS_ADDRESS_CONFIRMED_PARAMETER -> Order.Status.ADDRESS_CONFIRMED
+            ORDER_STATUS_CONFIRMED_PARAMETER -> Order.Status.CONFIRMED
+            ORDER_STATUS_CREATED_PARAMETER -> Order.Status.CREATED
+            ORDER_STATUS_DELIVERED_PARAMETER -> Order.Status.DELIVERED
+            ORDER_STATUS_DISPUTED_PARAMTER -> Order.Status.DISPUTED
+            ORDER_STATUS_EXPIRED_PARAMETER -> Order.Status.EXPIRED
+            else -> throw IllegalArgumentException("Unknown order status: $status")
+        }
+
+    private fun convertBodyToPagination(paginationResponseBody: PaginationResponseBody): Pagination
         = paginationResponseBody.run {
             return@run Pagination(
                 offset,
@@ -152,7 +172,7 @@ internal object ShopData {
             )
         }
 
-    fun convertBodyToAddress(addressResponseBody: AddressResponseBody): Address
+    private fun convertBodyToAddress(addressResponseBody: AddressResponseBody): Address
         = addressResponseBody.run {
             val location = geo?.let(::convertBodyToLocation)
 
@@ -168,7 +188,7 @@ internal object ShopData {
             )
         }
 
-    fun convertBodyToLocation(geoResponseBody: GeoResponseBody): Location
+    private fun convertBodyToLocation(geoResponseBody: GeoResponseBody): Location
         = geoResponseBody.run {
             return@run Location(lat, lon)
         }

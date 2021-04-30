@@ -1,7 +1,9 @@
 package com.tezro.api.shop.service
 
 import com.tezro.api.core.client.requests.IRequest
-import com.tezro.api.shop.model.Pagination
+import com.tezro.api.shop.model.common.Attribute
+import com.tezro.api.shop.model.common.Pagination
+import com.tezro.api.shop.model.messages.MessageEntity
 import com.tezro.api.shop.model.orders.Order
 import com.tezro.api.shop.model.orders.OrdersPage
 import java.util.*
@@ -21,12 +23,14 @@ interface IShopService {
      *
      * @param orderId Order's id to which messages should be sent
      * @param message Message body
+     * @param entities Used for making part of text as clickable url link
      *
      * @return Nothing special, just void;)
      */
     fun sendMessage(
         orderId: String,
-        message: String
+        message: String,
+        entities: List<MessageEntity>?
     ): IRequest<Void>
 
 
@@ -53,13 +57,18 @@ interface IShopService {
      * @param orderId The created order will have this value as an identifier. It must be unique
      * and length must be in a range of 1 to 20 symbols
      *
+     * @param name Name of the order product or products
      * @param amount The amount that should be payed by the customer
      * @param currency The currency that will be accepted for payment
      * @param confirmAmountUrl Used for confirming order's amount and payment status. This must be
      * a valid url. Protocol is required (only `http` or `https`)
+     *
      * @param expiryDate The date when this order will be no longer valid. Date must be later
      * than `current time + 1 min` and earlier than `current time + 24 hours`. If you don't provide
      * a date, it will be by default `1 hour` since creation
+     *
+     * @param photos List of photo urls of ordered products
+     * @param attributes List of attributes about the order
      *
      * @return Detailed information about the created order
      *
@@ -69,10 +78,13 @@ interface IShopService {
      */
     fun createOrder(
         orderId: String,
+        name: String,
         amount: String,
         currency: Order.Currency,
         confirmAmountUrl: String,
-        expiryDate: Date? = null
+        expiryDate: Date,
+        photos: List<String>?,
+        attributes: List<Attribute>?
     ): IRequest<Order>
 
 

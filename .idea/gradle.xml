@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/sample" />
             <option value="$PROJECT_DIR$/shop" />
+            <option value="$PROJECT_DIR$/shop-widget" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
