@@ -7,6 +7,5 @@ internal data class InitOrderRequestBody(
     @SerializedName("amount") val amount: String,
     @SerializedName("currency") val currency: String,
     @SerializedName("confirmAmountUrl") val confirmAmountUrl: String?,
-    @SerializedName("eosName") val eosName: String,
     @SerializedName("expiresAt") val expiresAt: String?
 )

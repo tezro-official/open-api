@@ -23,17 +23,12 @@ internal interface IShopHttpClient {
     ): Call<Void>
 
     @POST(ShopHttpData.INIT_ORDER_PATH)
-    fun initOrder(
-        @Body body: InitOrderRequestBody
-    ): Call<OrderResponseBody>
+    fun initOrder(@Body body: InitOrderRequestBody): Call<OrderResponseBody>
 
     @GET(ShopHttpData.ORDERS_PATH)
     fun getOrders(@QueryMap parameters: MutableMap<String, Any>): Call<OrdersPageResponseBody>
 
     @GET(ShopHttpData.ORDER_PATH)
-    fun getOrder(
-        @Path(ShopHttpData.EOS_NAME_PATH) eosName: String,
-        @Path(ShopHttpData.ID_PATH) orderId: String
-    ): Call<OrderResponseBody>
+    fun getOrder(@Path(ShopHttpData.ID_PATH) orderId: String): Call<OrderResponseBody>
 
 }

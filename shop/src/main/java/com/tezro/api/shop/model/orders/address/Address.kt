@@ -11,6 +11,7 @@ package com.tezro.api.shop.model.orders.address
  * @param country Name of the country
  * @param postalCode Zip or postal code of the address line
  * @param location Geo location of the address line
+ * @param comment Customer's comment about address
  *
  * @see Location
  */
@@ -21,5 +22,6 @@ data class Address internal constructor(
     val region: String,
     val country: String,
     val postalCode: String,
-    val location: Location?
+    val location: Location?,
+    val comment: String?
 )

@@ -1,5 +1,6 @@
 package com.tezro.api.core.service
 
+import com.google.gson.Gson
 import com.tezro.api.core.client.requests.IRequest
 import com.tezro.api.core.client.requests.IRequestDelegate
 import com.tezro.api.core.client.requests.Request
@@ -27,8 +28,12 @@ abstract class RetrofitService  {
             if (responseBody == null) {
                 val errorBody = response.errorBody()
 
-                val error = if (errorBody != null) Error(errorBody.string(), response.code())
-                else Error(DEFAULT_ERROR_MESSAGE, response.code())
+                val error = if (errorBody != null) {
+                    val errorJson = errorBody.string()
+                    Gson().fromJson(errorJson, Error::class.java)
+                } else {
+                    Error(response.message(), DEFAULT_ERROR_MESSAGE,response.code())
+                }
 
                 requestDelegate.notifyError(error)
                 return
@@ -39,7 +44,7 @@ abstract class RetrofitService  {
         }
 
         override fun onFailure(call: Call<T>, t: Throwable) {
-            val error = Error(t.message ?: DEFAULT_ERROR_MESSAGE, DEFAULT_ERROR_CODE)
+            val error = Error(t.message ?: t.localizedMessage, DEFAULT_ERROR_MESSAGE, DEFAULT_ERROR_CODE)
             requestDelegate.notifyError(error)
         }
 

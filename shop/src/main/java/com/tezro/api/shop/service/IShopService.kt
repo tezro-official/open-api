@@ -71,7 +71,7 @@ interface IShopService {
         orderId: String,
         amount: String,
         currency: Order.Currency,
-        confirmAmountUrl: String? = null,
+        confirmAmountUrl: String,
         expiryDate: Date? = null
     ): IRequest<Order>
 

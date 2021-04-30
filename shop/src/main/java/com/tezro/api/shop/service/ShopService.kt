@@ -15,8 +15,7 @@ import java.util.*
 import kotlin.collections.HashMap
 
 internal class ShopService constructor(
-    private val shopHttpClient: IShopHttpClient,
-    private val eosName: String
+    private val shopHttpClient: IShopHttpClient
 ) : RetrofitService(), IShopService {
 
     override fun sendMessage(orderId: String, message: String): IRequest<Void> {
@@ -35,7 +34,7 @@ internal class ShopService constructor(
         orderId: String,
         amount: String,
         currency: Order.Currency,
-        confirmAmountUrl: String?,
+        confirmAmountUrl: String,
         expiryDate: Date?
     ): IRequest<Order> {
         val orderCurrency = ShopData.convertOrderCurrencyToParameter(currency)
@@ -50,7 +49,6 @@ internal class ShopService constructor(
             amount,
             orderCurrency,
             confirmAmountUrl,
-            eosName,
             expiryDateFormatted
         )
 
@@ -89,7 +87,7 @@ internal class ShopService constructor(
     }
 
     override fun getOrder(orderId: String): IRequest<Order> {
-        val call = shopHttpClient.getOrder(eosName, orderId)
+        val call = shopHttpClient.getOrder(orderId)
         return call.toServiceRequest(ShopData::convertBodyToOrder)
     }
 

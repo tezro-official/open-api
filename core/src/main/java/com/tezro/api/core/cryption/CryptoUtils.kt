@@ -1,34 +1,56 @@
 package com.tezro.api.core.cryption
 
-import java.security.NoSuchAlgorithmException
-import java.security.SignatureException
+import java.lang.StringBuilder
 import java.util.*
 import javax.crypto.Mac
 import javax.crypto.spec.SecretKeySpec
 
 object CryptoUtils {
 
-    private const val HMAC_SHA512 = "HmacSHA512"
+    private val HMAC_ALGORITHM_NAME = "Hmac"
 
-    private fun toHexString(bytes: ByteArray): String? {
+    fun ByteArray.toHexString(): String {
         val formatter = Formatter()
-        for (b in bytes) {
-            formatter.format("%02x", b)
-        }
+        for (b in this) formatter.format("%02x", b)
         return formatter.toString()
     }
 
-    fun calculateHMAC(data: String, key: String): String? {
-        val secretKeySpec = SecretKeySpec(key.toByteArray(), HMAC_SHA512)
-        val mac: Mac = Mac.getInstance(HMAC_SHA512)
+    fun createHMACInstance(
+            key: String,
+            algorithm: String
+    ): Mac {
+        val algorithmName = algorithm.toUpperCase(Locale.ROOT)
+        val algorithmFullName = StringBuilder().append(HMAC_ALGORITHM_NAME, algorithmName).toString()
+
+        val keyBytes = key.toByteArray()
+        val secretKeySpec = SecretKeySpec(keyBytes, algorithmFullName)
+        val mac = Mac.getInstance(algorithmFullName)
         mac.init(secretKeySpec)
-        return toHexString(mac.doFinal(data.toByteArray()))
+        return mac
     }
 
-    @Throws(Exception::class)
-    @JvmStatic
-    fun main(args: Array<String>) {
-        val hmac = calculateHMAC("data", "key")
-        println(hmac)
+    fun calculateHexHMAC(
+            data: String,
+            key: String,
+            algorithm: String,
+    ): String {
+        val mac = createHMACInstance(key, algorithm)
+        val dataBytes = data.toByteArray()
+        val encryptedData = mac.doFinal(dataBytes)
+        return encryptedData.toHexString()
     }
+
+
+
+    fun calculateHexHMAC(
+            data: String,
+            mac: Mac,
+    ): String {
+        mac.reset()
+
+        val dataBytes = data.toByteArray()
+        val encryptedData = mac.doFinal(dataBytes)
+        return encryptedData.toHexString()
+    }
+
 }

@@ -9,5 +9,6 @@ internal data class AddressResponseBody(
     @SerializedName("region") val region: String,
     @SerializedName("country") val country: String,
     @SerializedName("postal") val postal: String,
-    @SerializedName("geo") val geo: GeoResponseBody?
+    @SerializedName("geo") val geo: GeoResponseBody?,
+    @SerializedName("comment") val comment: String?
 )

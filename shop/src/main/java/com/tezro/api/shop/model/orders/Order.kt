@@ -38,8 +38,8 @@ data class Order internal constructor(
     val paymentLink: String,
     val address: Address?,
     val transactionId: String?,
-    val amountConfirmationUrl: String,
-    val customerFullName: String,
+    val amountConfirmationUrl: String?,
+    val customerFullName: String?,
     val customerPhoneNumber: String?
 ) {
 

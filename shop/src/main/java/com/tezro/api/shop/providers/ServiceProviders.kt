@@ -12,21 +12,18 @@ import retrofit2.converter.gson.GsonConverterFactory
 internal object ServiceProviders {
 
     internal fun provideNewShopService(
-        appId: String,
         keyId: String,
         secret: String,
-        eosAccount: String,
         isTestMode: Boolean
     ): IShopService {
-        val authenticationInterceptor = ShopAuthInterceptor(appId, keyId, secret)
+        val authenticationInterceptor = ShopAuthInterceptor(keyId, secret)
         val okHttpClient = OkHttpClient.Builder().addInterceptor(authenticationInterceptor).build()
 
         val retrofit = provideNewRetrofit(isTestMode, okHttpClient)
 
         val shopHttpClient = retrofit.create(IShopHttpClient::class.java)
-        return ShopService(shopHttpClient, eosAccount)
+        return ShopService(shopHttpClient)
     }
-
 
     internal fun provideNewRetrofit(
         isTestMode: Boolean,

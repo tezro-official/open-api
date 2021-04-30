@@ -43,7 +43,7 @@ internal object ShopData {
     const val EUR_CURRENCY_PARAMETER = "EUR"
     const val CNY_CURRENCY_PARAMETER = "CNY"
 
-    const val DEFAULT_DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss'Z'"
+    const val DEFAULT_DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
 
     fun convertOrderStatusToParameter(orderStatus: Order.Status): String
             = when(orderStatus) {
@@ -130,42 +130,47 @@ internal object ShopData {
 
     }
 
-    fun convertBodyToOrdersPage(ordersPageResponseBody: OrdersPageResponseBody): OrdersPage = ordersPageResponseBody.run {
-        val paginationDetails = convertBodyToPagination(pagination)
-        val ordersList = orders.map(::convertBodyToOrder)
+    fun convertBodyToOrdersPage(ordersPageResponseBody: OrdersPageResponseBody): OrdersPage
+        = ordersPageResponseBody.run {
+            val paginationDetails = convertBodyToPagination(pagination)
+            val ordersList = orders.map(::convertBodyToOrder)
 
-        return@run OrdersPage(
-            paginationDetails,
-            ordersList
-        )
-    }
+            return@run OrdersPage(
+                paginationDetails,
+                ordersList
+            )
+        }
 
-    fun convertBodyToPagination(paginationResponseBody: PaginationResponseBody): Pagination = paginationResponseBody.run {
-        return@run Pagination(
-            offset,
-            count,
-            total,
-            prev,
-            next
-        )
-    }
+    fun convertBodyToPagination(paginationResponseBody: PaginationResponseBody): Pagination
+        = paginationResponseBody.run {
+            return@run Pagination(
+                offset,
+                count,
+                total,
+                prev,
+                next
+            )
+        }
 
-    fun convertBodyToAddress(addressResponseBody: AddressResponseBody): Address = addressResponseBody.run {
-        val location = geo?.let(::convertBodyToLocation)
+    fun convertBodyToAddress(addressResponseBody: AddressResponseBody): Address
+        = addressResponseBody.run {
+            val location = geo?.let(::convertBodyToLocation)
 
-        return@run Address(
-            id,
-            address,
-            city,
-            region,
-            country,
-            postal,
-            location
-        )
-    }
+            return@run Address(
+                id,
+                address,
+                city,
+                region,
+                country,
+                postal,
+                location,
+                comment
+            )
+        }
 
-    fun convertBodyToLocation(geoResponseBody: GeoResponseBody): Location = geoResponseBody.run {
-        return@run Location(lat, lon)
-    }
+    fun convertBodyToLocation(geoResponseBody: GeoResponseBody): Location
+        = geoResponseBody.run {
+            return@run Location(lat, lon)
+        }
 
 }

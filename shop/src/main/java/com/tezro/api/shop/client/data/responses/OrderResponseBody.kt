@@ -15,6 +15,6 @@ internal data class OrderResponseBody(
     @SerializedName("address") val address: AddressResponseBody?,
     @SerializedName("transactionId") val transactionId: String?,
     @SerializedName("confirmAmountUrl") val confirmAmountUrl: String,
-    @SerializedName("fullName") val fullName: String,
+    @SerializedName("fullName") val fullName: String?,
     @SerializedName("phone") val phone: String?
 )
