@@ -2,19 +2,15 @@ plugins {
     id 'java-library'
     id 'kotlin'
     id 'kotlin-kapt'
-    id 'org.jetbrains.dokka' version '1.4.32'
+    id 'org.jetbrains.dokka'
+    id 'com.vanniktech.maven.publish'
 }
 
 dependencies {
-    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.7.1'
     implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
     implementation 'com.google.code.gson:gson:2.8.6'
     api project(":core")
 
     testImplementation 'junit:junit:4.13.2'
-}
-
-dokkaGfm {
-    def outputDir = new File(projectDir.parent + "/docs/shop")
-    outputDirectory.set(outputDir)
 }

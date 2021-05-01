@@ -1,11 +1,11 @@
 plugins {
     id 'java-library'
     id 'kotlin'
-    id 'org.jetbrains.dokka' version '1.4.32'
+    id 'org.jetbrains.dokka'
 }
 
 dependencies {
-    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.7.1'
     implementation 'com.google.code.gson:gson:2.8.6'
 }
 
