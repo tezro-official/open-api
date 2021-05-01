@@ -5,7 +5,7 @@
 # customerFullName  
 [jvm]  
 Content  
-val [customerFullName](customer-full-name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
+val [customerFullName](customer-full-name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?  
 More info  
 
 

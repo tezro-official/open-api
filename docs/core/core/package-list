@@ -23,19 +23,16 @@ $dokka.location:com.tezro.api.core.client.requests/Request/setErrorListener/#kot
 $dokka.location:com.tezro.api.core.client.requests/Request/setSuccessListener/#kotlin.Function1[TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]?/PointingToDeclaration/core/com.tezro.api.core.client.requests/-request/set-success-listener.md
 $dokka.location:com.tezro.api.core.client.responses////PointingToDeclaration/core/com.tezro.api.core.client.responses/index.md
 $dokka.location:com.tezro.api.core.client.responses/Error///PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/index.md
-$dokka.location:com.tezro.api.core.client.responses/Error/Error/#kotlin.String#kotlin.Int/PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/-error.md
+$dokka.location:com.tezro.api.core.client.responses/Error/Error/#kotlin.String#kotlin.String#kotlin.Int/PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/-error.md
+$dokka.location:com.tezro.api.core.client.responses/Error/error/#/PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/error.md
 $dokka.location:com.tezro.api.core.client.responses/Error/message/#/PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/message.md
 $dokka.location:com.tezro.api.core.client.responses/Error/statusCode/#/PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/status-code.md
-$dokka.location:com.tezro.api.core.client.responses/SimpleResponse///PointingToDeclaration/core/com.tezro.api.core.client.responses/-simple-response/index.md
-$dokka.location:com.tezro.api.core.client.responses/SimpleResponse/SimpleResponse/#kotlin.Int#kotlin.String/PointingToDeclaration/core/com.tezro.api.core.client.responses/-simple-response/-simple-response.md
-$dokka.location:com.tezro.api.core.client.responses/SimpleResponse/message/#/PointingToDeclaration/core/com.tezro.api.core.client.responses/-simple-response/message.md
-$dokka.location:com.tezro.api.core.client.responses/SimpleResponse/statusCode/#/PointingToDeclaration/core/com.tezro.api.core.client.responses/-simple-response/status-code.md
-$dokka.location:com.tezro.api.core.service.core////PointingToDeclaration/core/com.tezro.api.core.service.core/index.md
-$dokka.location:com.tezro.api.core.service.core/IService///PointingToDeclaration/core/com.tezro.api.core.service.core/-i-service/index.md
-$dokka.location:com.tezro.api.core.service.core/IService/cancelAllRequests/#/PointingToDeclaration/core/com.tezro.api.core.service.core/-i-service/cancel-all-requests.md
-$dokka.location:com.tezro.api.core.service.core/Service///PointingToDeclaration/core/com.tezro.api.core.service.core/-service/index.md
-$dokka.location:com.tezro.api.core.service.core/Service/Service/#/PointingToDeclaration/core/com.tezro.api.core.service.core/-service/-service.md
-$dokka.location:com.tezro.api.core.service.core/Service/cancelAllRequests/#/PointingToDeclaration/core/com.tezro.api.core.service.core/-service/cancel-all-requests.md
+$dokka.location:com.tezro.api.core.cryption////PointingToDeclaration/core/com.tezro.api.core.cryption/index.md
+$dokka.location:com.tezro.api.core.cryption/CryptoUtils///PointingToDeclaration/core/com.tezro.api.core.cryption/-crypto-utils/index.md
+$dokka.location:com.tezro.api.core.cryption/CryptoUtils/calculateHexHMAC/#kotlin.String#javax.crypto.Mac/PointingToDeclaration/core/com.tezro.api.core.cryption/-crypto-utils/calculate-hex-h-m-a-c.md
+$dokka.location:com.tezro.api.core.cryption/CryptoUtils/calculateHexHMAC/#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/core/com.tezro.api.core.cryption/-crypto-utils/calculate-hex-h-m-a-c.md
+$dokka.location:com.tezro.api.core.cryption/CryptoUtils/createHMACInstance/#kotlin.String#kotlin.String/PointingToDeclaration/core/com.tezro.api.core.cryption/-crypto-utils/create-h-m-a-c-instance.md
+$dokka.location:com.tezro.api.core.cryption/CryptoUtils/toHexString/kotlin.ByteArray#/PointingToDeclaration/core/com.tezro.api.core.cryption/-crypto-utils/to-hex-string.md
 $dokka.location:com.tezro.api.core.service////PointingToDeclaration/core/com.tezro.api.core.service/index.md
 $dokka.location:com.tezro.api.core.service/RetrofitService.Companion///PointingToDeclaration/core/com.tezro.api.core.service/-retrofit-service/-companion/index.md
 $dokka.location:com.tezro.api.core.service/RetrofitService.Companion/DEFAULT_ERROR_CODE/#/PointingToDeclaration/core/com.tezro.api.core.service/-retrofit-service/-companion/-d-e-f-a-u-l-t_-e-r-r-o-r_-c-o-d-e.md
@@ -44,6 +41,6 @@ $dokka.location:com.tezro.api.core.service/RetrofitService///PointingToDeclarati
 $dokka.location:com.tezro.api.core.service/RetrofitService/RetrofitService/#/PointingToDeclaration/core/com.tezro.api.core.service/-retrofit-service/-retrofit-service.md
 com.tezro.api.core.client.requests
 com.tezro.api.core.client.responses
+com.tezro.api.core.cryption
 com.tezro.api.core.service
-com.tezro.api.core.service.core
 

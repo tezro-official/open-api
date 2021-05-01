@@ -5,7 +5,7 @@
 # amountConfirmationUrl  
 [jvm]  
 Content  
-val [amountConfirmationUrl](amount-confirmation-url.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
+val [amountConfirmationUrl](amount-confirmation-url.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?  
 More info  
 
 

@@ -3,7 +3,7 @@
 
 
 # Error  
- [jvm] class [Error](index.md)(**message**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), **statusCode**: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)) : [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)
+ [jvm] data class [Error](index.md)(**message**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), **error**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), **statusCode**: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)) : [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)
 
 Contains details about a response error. This error can be thrown as an exception.
 
@@ -35,7 +35,7 @@ jvm
   
 | | |
 |---|---|
-| <a name="com.tezro.api.core.client.responses/Error/Error/#kotlin.String#kotlin.Int/PointingToDeclaration/"></a>[Error](-error.md)| <a name="com.tezro.api.core.client.responses/Error/Error/#kotlin.String#kotlin.Int/PointingToDeclaration/"></a> [jvm] fun [Error](-error.md)(message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), statusCode: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html))Error message returned by the server   <br>|
+| <a name="com.tezro.api.core.client.responses/Error/Error/#kotlin.String#kotlin.String#kotlin.Int/PointingToDeclaration/"></a>[Error](-error.md)| <a name="com.tezro.api.core.client.responses/Error/Error/#kotlin.String#kotlin.String#kotlin.Int/PointingToDeclaration/"></a> [jvm] fun [Error](-error.md)(message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), error: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), statusCode: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html))Error message returned by the server   <br>|
 
 
 ## Functions  
@@ -57,6 +57,7 @@ jvm
 |  Name |  Summary | 
 |---|---|
 | <a name="com.tezro.api.core.client.responses/Error/cause/#/PointingToDeclaration/"></a>[cause](index.md#-1836236043%2FProperties%2F971615585)| <a name="com.tezro.api.core.client.responses/Error/cause/#/PointingToDeclaration/"></a> [jvm] open val [cause](index.md#-1836236043%2FProperties%2F971615585): [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)?   <br>|
+| <a name="com.tezro.api.core.client.responses/Error/error/#/PointingToDeclaration/"></a>[error](error.md)| <a name="com.tezro.api.core.client.responses/Error/error/#/PointingToDeclaration/"></a> [jvm] val [error](error.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
 | <a name="com.tezro.api.core.client.responses/Error/message/#/PointingToDeclaration/"></a>[message](message.md)| <a name="com.tezro.api.core.client.responses/Error/message/#/PointingToDeclaration/"></a> [jvm] open override val [message](message.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)Error message returned by the server   <br>|
 | <a name="com.tezro.api.core.client.responses/Error/statusCode/#/PointingToDeclaration/"></a>[statusCode](status-code.md)| <a name="com.tezro.api.core.client.responses/Error/statusCode/#/PointingToDeclaration/"></a> [jvm] val [statusCode](status-code.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)Status code of the response   <br>|
 

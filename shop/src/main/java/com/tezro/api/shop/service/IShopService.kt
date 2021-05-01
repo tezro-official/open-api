@@ -74,6 +74,7 @@ interface IShopService {
      *
      * @see Order.Status
      * @see Order.Currency
+     * @see Attribute
      * @see Order
      */
     fun createOrder(

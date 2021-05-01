@@ -16,22 +16,8 @@ Updates order's current status to delivered and sends a request to the customer 
 #### Return  
 
 
-nothing special, just void
+Nothing special, just void;)
 
-
-
-## Samples  
- [jvm] ShopServiceSamples.confirmOrderDelivery   
-
-
-## See also  
-  
-jvm  
-  
-| | |
-|---|---|
-| <a name="com.tezro.api.shop.service/IShopService/confirmDelivery/#kotlin.String#kotlin.String?/PointingToDeclaration/"></a>com.tezro.api.core.client.responses.SimpleResponse| <a name="com.tezro.api.shop.service/IShopService/confirmDelivery/#kotlin.String#kotlin.String?/PointingToDeclaration/"></a>|
-  
 
 
 ## Parameters  

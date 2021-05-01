@@ -5,7 +5,7 @@
 # pagination  
 [jvm]  
 Content  
-val [pagination](pagination.md): [Pagination](../../com.tezro.api.shop.model/-pagination/index.md)  
+val [pagination](pagination.md): [Pagination](../../com.tezro.api.shop.model.common/-pagination/index.md)  
 More info  
 
 

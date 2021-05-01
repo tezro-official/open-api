@@ -9,5 +9,5 @@
   
 |  Name |  Summary | 
 |---|---|
-| <a name="com.tezro.api.shop.providers/TezroShop///PointingToDeclaration/"></a>[TezroShop](-tezro-shop/index.md)| <a name="com.tezro.api.shop.providers/TezroShop///PointingToDeclaration/"></a>[jvm]  <br>Content  <br>object [TezroShop](-tezro-shop/index.md)  <br><br><br>|
+| <a name="com.tezro.api.shop.providers/Shop///PointingToDeclaration/"></a>[Shop](-shop/index.md)| <a name="com.tezro.api.shop.providers/Shop///PointingToDeclaration/"></a>[jvm]  <br>Content  <br>object [Shop](-shop/index.md)  <br>More info  <br>Tezro shop main class.  <br><br><br>|
 

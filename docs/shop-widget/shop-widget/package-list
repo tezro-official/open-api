@@ -1,0 +1,21 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:com.tezro.api.shop.widget.core////PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/index.md
+$dokka.location:com.tezro.api.shop.widget.core/OrderUpdateReceiver.Companion///PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-order-update-receiver/-companion/index.md
+$dokka.location:com.tezro.api.shop.widget.core/OrderUpdateReceiver.Companion/ORDER_ID_KEY/#/PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-order-update-receiver/-companion/-o-r-d-e-r_-i-d_-k-e-y.md
+$dokka.location:com.tezro.api.shop.widget.core/OrderUpdateReceiver.Companion/TEZRO_ORDER_UPDATED_ACTION/#/PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-order-update-receiver/-companion/-t-e-z-r-o_-o-r-d-e-r_-u-p-d-a-t-e-d_-a-c-t-i-o-n.md
+$dokka.location:com.tezro.api.shop.widget.core/OrderUpdateReceiver.Companion/registerOrderUpdateReceiver/#android.content.Context#kotlin.Function1[com.tezro.api.shop.model.orders.Order,kotlin.Unit]/PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-order-update-receiver/-companion/register-order-update-receiver.md
+$dokka.location:com.tezro.api.shop.widget.core/OrderUpdateReceiver.Companion/unregisterOrderUpdateReceiver/#android.content.Context#com.tezro.api.shop.widget.core.OrderUpdateReceiver/PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-order-update-receiver/-companion/unregister-order-update-receiver.md
+$dokka.location:com.tezro.api.shop.widget.core/OrderUpdateReceiver///PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-order-update-receiver/index.md
+$dokka.location:com.tezro.api.shop.widget.core/OrderUpdateReceiver/OrderUpdateReceiver/#/PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-order-update-receiver/-order-update-receiver.md
+$dokka.location:com.tezro.api.shop.widget.core/OrderUpdateReceiver/onOrderStatusUpdated/#com.tezro.api.shop.model.orders.Order/PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-order-update-receiver/on-order-status-updated.md
+$dokka.location:com.tezro.api.shop.widget.core/OrderUpdateReceiver/onReceive/#android.content.Context#android.content.Intent/PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-order-update-receiver/on-receive.md
+$dokka.location:com.tezro.api.shop.widget.core/PaymentHelper///PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-payment-helper/index.md
+$dokka.location:com.tezro.api.shop.widget.core/PaymentHelper/requestPaymentByLink/#android.content.Context#kotlin.String/PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-payment-helper/request-payment-by-link.md
+$dokka.location:com.tezro.api.shop.widget.core/PaymentHelper/requestPaymentByOrder/#android.content.Context#com.tezro.api.shop.model.orders.Order/PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-payment-helper/request-payment-by-order.md
+$dokka.location:com.tezro.api.shop.widget.core/ShopWidget///PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-shop-widget/index.md
+$dokka.location:com.tezro.api.shop.widget.core/ShopWidget/createOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-shop-widget/create-order.md
+$dokka.location:com.tezro.api.shop.widget.core/ShopWidget/getOrder/#kotlin.String/PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-shop-widget/get-order.md
+$dokka.location:com.tezro.api.shop.widget.core/ShopWidget/init/#kotlin.String#kotlin.Boolean/PointingToDeclaration/shop-widget/com.tezro.api.shop.widget.core/-shop-widget/init.md
+com.tezro.api.shop.widget.core
+

@@ -5,7 +5,7 @@
 # OrdersPage  
 [jvm]  
 Content  
-fun [OrdersPage](-orders-page.md)(pagination: [Pagination](../../com.tezro.api.shop.model/-pagination/index.md), ordersList: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[Order](../-order/index.md)>)  
+fun [OrdersPage](-orders-page.md)(pagination: [Pagination](../../com.tezro.api.shop.model.common/-pagination/index.md), ordersList: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[Order](../-order/index.md)>)  
 More info  
 
 
@@ -15,8 +15,8 @@ jvm
   
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/OrdersPage/OrdersPage/#com.tezro.api.shop.model.Pagination#kotlin.collections.List[com.tezro.api.shop.model.orders.Order]/PointingToDeclaration/"></a>pagination| <a name="com.tezro.api.shop.model.orders/OrdersPage/OrdersPage/#com.tezro.api.shop.model.Pagination#kotlin.collections.List[com.tezro.api.shop.model.orders.Order]/PointingToDeclaration/"></a><br><br>Contains detailed information about the page<br><br>|
-| <a name="com.tezro.api.shop.model.orders/OrdersPage/OrdersPage/#com.tezro.api.shop.model.Pagination#kotlin.collections.List[com.tezro.api.shop.model.orders.Order]/PointingToDeclaration/"></a>ordersList| <a name="com.tezro.api.shop.model.orders/OrdersPage/OrdersPage/#com.tezro.api.shop.model.Pagination#kotlin.collections.List[com.tezro.api.shop.model.orders.Order]/PointingToDeclaration/"></a><br><br>Contains orders<br><br>|
+| <a name="com.tezro.api.shop.model.orders/OrdersPage/OrdersPage/#com.tezro.api.shop.model.common.Pagination#kotlin.collections.List[com.tezro.api.shop.model.orders.Order]/PointingToDeclaration/"></a>pagination| <a name="com.tezro.api.shop.model.orders/OrdersPage/OrdersPage/#com.tezro.api.shop.model.common.Pagination#kotlin.collections.List[com.tezro.api.shop.model.orders.Order]/PointingToDeclaration/"></a><br><br>Contains detailed information about the page<br><br>|
+| <a name="com.tezro.api.shop.model.orders/OrdersPage/OrdersPage/#com.tezro.api.shop.model.common.Pagination#kotlin.collections.List[com.tezro.api.shop.model.orders.Order]/PointingToDeclaration/"></a>ordersList| <a name="com.tezro.api.shop.model.orders/OrdersPage/OrdersPage/#com.tezro.api.shop.model.common.Pagination#kotlin.collections.List[com.tezro.api.shop.model.orders.Order]/PointingToDeclaration/"></a><br><br>Contains orders<br><br>|
   
   
 

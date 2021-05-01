@@ -1,9 +1,35 @@
 $dokka.format:gfm-v1
 $dokka.linkExtension:md
+$dokka.location:com.tezro.api.shop.model.common////PointingToDeclaration/shop/com.tezro.api.shop.model.common/index.md
+$dokka.location:com.tezro.api.shop.model.common/Attribute///PointingToDeclaration/shop/com.tezro.api.shop.model.common/-attribute/index.md
+$dokka.location:com.tezro.api.shop.model.common/Attribute/Attribute/#kotlin.String#kotlin.String/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-attribute/-attribute.md
+$dokka.location:com.tezro.api.shop.model.common/Attribute/name/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-attribute/name.md
+$dokka.location:com.tezro.api.shop.model.common/Attribute/value/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-attribute/value.md
+$dokka.location:com.tezro.api.shop.model.common/Pagination.Direction.ASCENDING///PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/-direction/-a-s-c-e-n-d-i-n-g/index.md
+$dokka.location:com.tezro.api.shop.model.common/Pagination.Direction.ASCENDING/name/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/-direction/-a-s-c-e-n-d-i-n-g/name.md
+$dokka.location:com.tezro.api.shop.model.common/Pagination.Direction.ASCENDING/ordinal/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/-direction/-a-s-c-e-n-d-i-n-g/ordinal.md
+$dokka.location:com.tezro.api.shop.model.common/Pagination.Direction.DESCENDING///PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/-direction/-d-e-s-c-e-n-d-i-n-g/index.md
+$dokka.location:com.tezro.api.shop.model.common/Pagination.Direction.DESCENDING/name/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/-direction/-d-e-s-c-e-n-d-i-n-g/name.md
+$dokka.location:com.tezro.api.shop.model.common/Pagination.Direction.DESCENDING/ordinal/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/-direction/-d-e-s-c-e-n-d-i-n-g/ordinal.md
+$dokka.location:com.tezro.api.shop.model.common/Pagination.Direction///PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/-direction/index.md
+$dokka.location:com.tezro.api.shop.model.common/Pagination///PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/index.md
+$dokka.location:com.tezro.api.shop.model.common/Pagination/count/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/count.md
+$dokka.location:com.tezro.api.shop.model.common/Pagination/hasNext/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/has-next.md
+$dokka.location:com.tezro.api.shop.model.common/Pagination/hasPrevious/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/has-previous.md
+$dokka.location:com.tezro.api.shop.model.common/Pagination/offset/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/offset.md
+$dokka.location:com.tezro.api.shop.model.common/Pagination/total/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/total.md
+$dokka.location:com.tezro.api.shop.model.messages////PointingToDeclaration/shop/com.tezro.api.shop.model.messages/index.md
+$dokka.location:com.tezro.api.shop.model.messages/MessageEntity///PointingToDeclaration/shop/com.tezro.api.shop.model.messages/-message-entity/index.md
+$dokka.location:com.tezro.api.shop.model.messages/MessageEntity/MessageEntity/#kotlin.String#kotlin.Int#kotlin.Int#kotlin.String/PointingToDeclaration/shop/com.tezro.api.shop.model.messages/-message-entity/-message-entity.md
+$dokka.location:com.tezro.api.shop.model.messages/MessageEntity/length/#/PointingToDeclaration/shop/com.tezro.api.shop.model.messages/-message-entity/length.md
+$dokka.location:com.tezro.api.shop.model.messages/MessageEntity/offset/#/PointingToDeclaration/shop/com.tezro.api.shop.model.messages/-message-entity/offset.md
+$dokka.location:com.tezro.api.shop.model.messages/MessageEntity/type/#/PointingToDeclaration/shop/com.tezro.api.shop.model.messages/-message-entity/type.md
+$dokka.location:com.tezro.api.shop.model.messages/MessageEntity/url/#/PointingToDeclaration/shop/com.tezro.api.shop.model.messages/-message-entity/url.md
 $dokka.location:com.tezro.api.shop.model.orders.address////PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/index.md
 $dokka.location:com.tezro.api.shop.model.orders.address/Address///PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/index.md
 $dokka.location:com.tezro.api.shop.model.orders.address/Address/addressLine/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/address-line.md
 $dokka.location:com.tezro.api.shop.model.orders.address/Address/city/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/city.md
+$dokka.location:com.tezro.api.shop.model.orders.address/Address/comment/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/comment.md
 $dokka.location:com.tezro.api.shop.model.orders.address/Address/country/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/country.md
 $dokka.location:com.tezro.api.shop.model.orders.address/Address/id/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/id.md
 $dokka.location:com.tezro.api.shop.model.orders.address/Address/location/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders.address/-address/location.md
@@ -67,46 +93,36 @@ $dokka.location:com.tezro.api.shop.model.orders/Order///PointingToDeclaration/s
 $dokka.location:com.tezro.api.shop.model.orders/Order/address/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/address.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/amount/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/amount.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/amountConfirmationUrl/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/amount-confirmation-url.md
+$dokka.location:com.tezro.api.shop.model.orders/Order/attributes/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/attributes.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/currency/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/currency.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/customerFullName/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/customer-full-name.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/customerPhoneNumber/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/customer-phone-number.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/eosName/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/eos-name.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/expiryDate/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/expiry-date.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/id/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/id.md
+$dokka.location:com.tezro.api.shop.model.orders/Order/name/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/name.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/paymentLink/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/payment-link.md
+$dokka.location:com.tezro.api.shop.model.orders/Order/photos/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/photos.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/shippingAmount/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/shipping-amount.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/status/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/status.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/totalAmount/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/total-amount.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/transactionId/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/transaction-id.md
 $dokka.location:com.tezro.api.shop.model.orders/OrdersPage///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-orders-page/index.md
-$dokka.location:com.tezro.api.shop.model.orders/OrdersPage/OrdersPage/#com.tezro.api.shop.model.Pagination#kotlin.collections.List[com.tezro.api.shop.model.orders.Order]/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-orders-page/-orders-page.md
+$dokka.location:com.tezro.api.shop.model.orders/OrdersPage/OrdersPage/#com.tezro.api.shop.model.common.Pagination#kotlin.collections.List[com.tezro.api.shop.model.orders.Order]/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-orders-page/-orders-page.md
 $dokka.location:com.tezro.api.shop.model.orders/OrdersPage/ordersList/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-orders-page/orders-list.md
 $dokka.location:com.tezro.api.shop.model.orders/OrdersPage/pagination/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-orders-page/pagination.md
-$dokka.location:com.tezro.api.shop.model////PointingToDeclaration/shop/com.tezro.api.shop.model/index.md
-$dokka.location:com.tezro.api.shop.model/Pagination.Direction.ASCENDING///PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/-direction/-a-s-c-e-n-d-i-n-g/index.md
-$dokka.location:com.tezro.api.shop.model/Pagination.Direction.ASCENDING/name/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/-direction/-a-s-c-e-n-d-i-n-g/name.md
-$dokka.location:com.tezro.api.shop.model/Pagination.Direction.ASCENDING/ordinal/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/-direction/-a-s-c-e-n-d-i-n-g/ordinal.md
-$dokka.location:com.tezro.api.shop.model/Pagination.Direction.DESCENDING///PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/-direction/-d-e-s-c-e-n-d-i-n-g/index.md
-$dokka.location:com.tezro.api.shop.model/Pagination.Direction.DESCENDING/name/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/-direction/-d-e-s-c-e-n-d-i-n-g/name.md
-$dokka.location:com.tezro.api.shop.model/Pagination.Direction.DESCENDING/ordinal/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/-direction/-d-e-s-c-e-n-d-i-n-g/ordinal.md
-$dokka.location:com.tezro.api.shop.model/Pagination.Direction///PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/-direction/index.md
-$dokka.location:com.tezro.api.shop.model/Pagination///PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/index.md
-$dokka.location:com.tezro.api.shop.model/Pagination/count/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/count.md
-$dokka.location:com.tezro.api.shop.model/Pagination/hasNext/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/has-next.md
-$dokka.location:com.tezro.api.shop.model/Pagination/hasPrevious/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/has-previous.md
-$dokka.location:com.tezro.api.shop.model/Pagination/offset/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/offset.md
-$dokka.location:com.tezro.api.shop.model/Pagination/total/#/PointingToDeclaration/shop/com.tezro.api.shop.model/-pagination/total.md
 $dokka.location:com.tezro.api.shop.providers////PointingToDeclaration/shop/com.tezro.api.shop.providers/index.md
-$dokka.location:com.tezro.api.shop.providers/TezroShop///PointingToDeclaration/shop/com.tezro.api.shop.providers/-tezro-shop/index.md
-$dokka.location:com.tezro.api.shop.providers/TezroShop/createShopService/#/PointingToDeclaration/shop/com.tezro.api.shop.providers/-tezro-shop/create-shop-service.md
-$dokka.location:com.tezro.api.shop.providers/TezroShop/init/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.Boolean/PointingToDeclaration/shop/com.tezro.api.shop.providers/-tezro-shop/init.md
+$dokka.location:com.tezro.api.shop.providers/Shop///PointingToDeclaration/shop/com.tezro.api.shop.providers/-shop/index.md
+$dokka.location:com.tezro.api.shop.providers/Shop/initShopService/#kotlin.String#kotlin.String?#kotlin.Boolean/PointingToDeclaration/shop/com.tezro.api.shop.providers/-shop/init-shop-service.md
 $dokka.location:com.tezro.api.shop.service////PointingToDeclaration/shop/com.tezro.api.shop.service/index.md
 $dokka.location:com.tezro.api.shop.service/IShopService///PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/index.md
 $dokka.location:com.tezro.api.shop.service/IShopService/confirmDelivery/#kotlin.String#kotlin.String?/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/confirm-delivery.md
-$dokka.location:com.tezro.api.shop.service/IShopService/getOrder/#kotlin.String#kotlin.String/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/get-order.md
-$dokka.location:com.tezro.api.shop.service/IShopService/getOrders/#kotlin.Long?#kotlin.Long?#com.tezro.api.shop.model.Pagination.Direction?#com.tezro.api.shop.model.orders.Order.Status?/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/get-orders.md
-$dokka.location:com.tezro.api.shop.service/IShopService/sendMessage/#kotlin.String#kotlin.String/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/send-message.md
-com.tezro.api.shop.model
+$dokka.location:com.tezro.api.shop.service/IShopService/createOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/create-order.md
+$dokka.location:com.tezro.api.shop.service/IShopService/getOrder/#kotlin.String/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/get-order.md
+$dokka.location:com.tezro.api.shop.service/IShopService/getOrders/#kotlin.Long?#kotlin.Long?#com.tezro.api.shop.model.common.Pagination.Direction?#com.tezro.api.shop.model.orders.Order.Status?/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/get-orders.md
+$dokka.location:com.tezro.api.shop.service/IShopService/sendMessage/#kotlin.String#kotlin.String#kotlin.collections.List[com.tezro.api.shop.model.messages.MessageEntity]?/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/send-message.md
+com.tezro.api.shop.model.common
+com.tezro.api.shop.model.messages
 com.tezro.api.shop.model.orders
 com.tezro.api.shop.model.orders.address
 com.tezro.api.shop.providers
