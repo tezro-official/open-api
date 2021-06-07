@@ -1,4 +1,4 @@
-include ':shop-widget'
+include ':shop-android-widget'
 include ':core'
 include ':shop'
 include ':sample'

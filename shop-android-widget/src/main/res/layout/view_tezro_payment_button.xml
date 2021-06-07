@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/rootQRCode"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:background="@drawable/background_payment_qr"
+        android:layout_marginVertical="@dimen/tezro_widget_default_spacing_medium"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtPaymentLabel"
+            android:gravity="center"
+            android:text="@string/tezro_widget_scan_qr_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/tezro_widget_default_spacing_large"
+            style="@style/Tezro.Text.Dark" />
+
+        <ImageView
+            android:id="@+id/imgPaymentQR"
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_margin="@dimen/tezro_widget_default_spacing_huge"
+            tools:src="@drawable/ic_payment_qr"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rootPayButton"
+        style="@style/Tezro.PayButton"
+        android:paddingVertical="@dimen/tezro_widget_default_spacing"
+        android:paddingHorizontal="@dimen/tezro_widget_default_spacing_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgBtnQR"
+            android:background="@drawable/background_payment_qr_round"
+            android:padding="@dimen/tezro_widget_default_spacing_medium"
+            android:src="@drawable/ic_payment_qr"
+            android:layout_centerVertical="true"
+            tools:ignore="ContentDescription"
+            style="@style/Tezro.ProgressBar" />
+
+        <TextView
+            android:id="@+id/txtBtnLabel"
+            android:layout_toStartOf="@id/imgBtnPay"
+            android:layout_toEndOf="@id/imgBtnQR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingHorizontal="@dimen/tezro_widget_default_spacing_large"
+            tools:text="2222.69 Руб"
+            style="@style/Tezro.Text.Light" />
+
+        <ProgressBar
+            android:id="@+id/pbBtnLoading"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            style="@style/Tezro.ProgressBar"/>
+
+        <ImageView
+            android:id="@+id/imgBtnPay"
+            android:src="@drawable/ic_pay"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            tools:ignore="ContentDescription"
+            style="@style/Tezro.ProgressBar" />
+
+    </RelativeLayout>
+
+</LinearLayout>

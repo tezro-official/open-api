@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Tezro.ProgressBar" parent="Tezro">
+        <item name="android:indeterminateTint">@color/tezro_widget_color_accent</item>
+        <item name="android:layout_width">@dimen/tezro_widget_progress_bar_size</item>
+        <item name="android:layout_height">@dimen/tezro_widget_progress_bar_size</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/tezro_widget_default_corner_radius"/>
+            <gradient
+                android:angle="45"
+                android:endColor="@color/tezro_widget_color_accent_light"
+                android:startColor="@color/tezro_widget_color_accent"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="true" android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/tezro_widget_default_corner_radius"/>
+            <solid android:color="@color/tezro_widget_color_accent_lighter"/>
+        </shape>
+    </item>
+
+    <item android:state_enabled="false" android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/tezro_widget_default_corner_radius"/>
+            <gradient
+                android:angle="45"
+                android:endColor="@color/tezro_widget_color_gray"
+                android:startColor="@color/tezro_widget_color_gray_light"/>
+        </shape>
+    </item>
+</selector>

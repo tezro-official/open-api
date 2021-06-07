@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tezro_widget_text_size">18sp</dimen>
+    <dimen name="tezro_widget_progress_bar_size">48dp</dimen>
+    <dimen name="tezro_widget_default_spacing">8dp</dimen>
+    <dimen name="tezro_widget_default_spacing_medium">12dp</dimen>
+    <dimen name="tezro_widget_default_spacing_large">16dp</dimen>
+    <dimen name="tezro_widget_default_spacing_huge">24dp</dimen>
+    <dimen name="tezro_widget_default_corner_radius">32dp</dimen>
+</resources>

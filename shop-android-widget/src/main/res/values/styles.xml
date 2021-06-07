@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Tezro"/>
+
+    <style name="Tezro.Text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/tezro_widget_text_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Tezro.Text.Light">
+        <item name="android:textColor">@color/tezro_widget_text_color_light</item>
+    </style>
+
+    <style name="Tezro.Text.Dark">
+        <item name="android:textColor">@color/tezro_widget_text_color_dark</item>
+    </style>
+
+    <style name="Tezro.PayButton" parent="Tezro.Text.Light">
+        <item name="android:background">@drawable/background_pay_button</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Tezro.ProgressBar" parent="Tezro">
+        <item name="android:layout_width">@dimen/tezro_widget_progress_bar_size</item>
+        <item name="android:layout_height">@dimen/tezro_widget_progress_bar_size</item>
+    </style>
+
+</resources>

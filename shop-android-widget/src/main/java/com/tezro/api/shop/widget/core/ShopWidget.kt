@@ -57,11 +57,12 @@ object ShopWidget {
      *
      * @param orderId The id of the order that must be requested
      * @return Returns the request order
+     *
+     * @throws IllegalStateException if the init method was not called
      */
     @JvmStatic
-    fun getOrder(orderId: String): IRequest<Order> {
-        return shopService.getOrder(orderId)
-    }
+    fun getOrder(orderId: String): IRequest<Order>
+        = shopService.getOrder(orderId)
 
 
     /**
@@ -89,6 +90,8 @@ object ShopWidget {
      * @see Order.Currency
      * @see Attribute
      * @see Order
+     *
+     * @throws IllegalStateException if the init method was not called
      */
     @JvmStatic
     fun createOrder(
@@ -100,18 +103,16 @@ object ShopWidget {
         expiryDate: Date,
         photos: List<String>? = null,
         attributes: List<Attribute>? = null
-    ): IRequest<Order> {
-        return shopService.createOrder(
-                orderId,
-                name,
-                amount,
-                currency,
-                confirmAmountUrl,
-                expiryDate,
-                photos,
-                attributes
-        )
-    }
+    ): IRequest<Order> = shopService.createOrder(
+        orderId,
+        name,
+        amount,
+        currency,
+        confirmAmountUrl,
+        expiryDate,
+        photos,
+        attributes
+    )
 
 
     /**

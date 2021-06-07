@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tezro_widget_scan_qr_label">Click or scan QR to pay without registration!</string>
+</resources>
