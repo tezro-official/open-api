@@ -3,6 +3,7 @@ package com.tezro.api.shop.service
 import com.tezro.api.core.client.requests.IRequest
 import com.tezro.api.core.service.RetrofitService
 import com.tezro.api.shop.client.core.IShopHttpClient
+import com.tezro.api.shop.client.data.requests.AddTrackingNumberRequestBody
 import com.tezro.api.shop.client.data.requests.ConfirmDeliveryRequestBody
 import com.tezro.api.shop.client.data.requests.InitOrderRequestBody
 import com.tezro.api.shop.client.data.requests.SendMessageRequestBody
@@ -100,6 +101,17 @@ internal class ShopService constructor(
     override fun getOrder(orderId: String): IRequest<Order> {
         val call = shopHttpClient.getOrder(orderId)
         return call.toServiceRequest(ShopData::convertBodyToOrder)
+    }
+
+    override fun addOrderTrackingNumber(
+        orderId: String,
+        trackingNumber: String,
+        trackingUrl: String?
+    ): IRequest<Void> {
+        val addTrackingNumberBody = AddTrackingNumberRequestBody(trackingNumber, trackingUrl)
+        val call = shopHttpClient.addOrderTrackingNumber(orderId, addTrackingNumberBody)
+
+        return call.toServiceRequest { it }
     }
 
 }

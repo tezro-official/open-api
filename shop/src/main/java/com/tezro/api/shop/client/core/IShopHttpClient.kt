@@ -1,5 +1,6 @@
 package com.tezro.api.shop.client.core
 
+import com.tezro.api.shop.client.data.requests.AddTrackingNumberRequestBody
 import com.tezro.api.shop.client.data.requests.ConfirmDeliveryRequestBody
 import com.tezro.api.shop.client.data.requests.InitOrderRequestBody
 import com.tezro.api.shop.client.data.requests.SendMessageRequestBody
@@ -30,5 +31,11 @@ internal interface IShopHttpClient {
 
     @GET(ShopHttpData.ORDER_PATH)
     fun getOrder(@Path(ShopHttpData.ID_PATH) orderId: String): Call<OrderResponseBody>
+
+    @POST(ShopHttpData.ADD_TRACKING_NUMBER_PATH)
+    fun addOrderTrackingNumber(
+        @Path(ShopHttpData.ID_PATH) orderId: String,
+        @Body body: AddTrackingNumberRequestBody
+    ): Call<Void>
 
 }

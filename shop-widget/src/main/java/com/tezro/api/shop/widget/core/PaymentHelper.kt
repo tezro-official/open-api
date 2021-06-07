@@ -22,6 +22,7 @@ object PaymentHelper {
      * @param context Activity or application from where Tezro app will be opened
      * @param paymentLink Payment URL from the order to be payed
      */
+    @JvmStatic
     fun requestPaymentByLink(context: Context, paymentLink: String) {
         context.openLink(paymentLink)
     }
@@ -34,6 +35,7 @@ object PaymentHelper {
      * @param context Activity or application from where Tezro app will be opened
      * @param order The order that should be payed
      */
+    @JvmStatic
     fun requestPaymentByOrder(context: Context, order: Order) {
         context.openLink(order.paymentLink)
     }
@@ -43,6 +45,7 @@ object PaymentHelper {
      * Opens applications and searches fro apps with payment scheme.
      * @param link The link to be opened
      */
+    @JvmStatic
     private fun Context.openLink(link: String) {
         val linkIntent = Intent(Intent.ACTION_VIEW, Uri.parse(link))
         startActivity(linkIntent)

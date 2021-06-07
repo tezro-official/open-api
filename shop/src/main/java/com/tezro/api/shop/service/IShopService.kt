@@ -123,4 +123,21 @@ interface IShopService {
     fun getOrder(orderId: String): IRequest<Order>
 
 
+    /**
+     * Adds a new tracking number and url to the order. This number will be used by the customer
+     * to track the location of the product during shipment.
+     *
+     * @param orderId Order's id which should be edited
+     * @param trackingNumber The number that will be used to track the goods
+     * @param trackingUrl The url of the website where goods can be tracked
+     *
+     * @return Nothing special, just void;)
+     */
+    fun addOrderTrackingNumber(
+        orderId: String,
+        trackingNumber: String,
+        trackingUrl: String? = null
+    ): IRequest<Void>
+
+
 }

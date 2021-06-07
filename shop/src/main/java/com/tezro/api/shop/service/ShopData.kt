@@ -107,7 +107,8 @@ internal object ShopData {
             fullName,
             phone,
             photos,
-            orderAttributes
+            orderAttributes,
+            trackingNumber
         )
 
     }

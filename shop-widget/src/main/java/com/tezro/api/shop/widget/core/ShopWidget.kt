@@ -45,6 +45,7 @@ object ShopWidget {
      * @param keyId Shop's Key ID, must be retrieved from Tezro app
      * @param isTestMode Indicates where to use test or production API
      */
+    @JvmStatic
     fun init(keyId: String, isTestMode: Boolean) {
         ShopWidget.keyId = keyId
         ShopWidget.isTestMode = isTestMode
@@ -57,6 +58,7 @@ object ShopWidget {
      * @param orderId The id of the order that must be requested
      * @return Returns the request order
      */
+    @JvmStatic
     fun getOrder(orderId: String): IRequest<Order> {
         return shopService.getOrder(orderId)
     }
@@ -88,6 +90,7 @@ object ShopWidget {
      * @see Attribute
      * @see Order
      */
+    @JvmStatic
     fun createOrder(
         orderId: String,
         name: String,
@@ -121,7 +124,7 @@ object ShopWidget {
         throw IllegalStateException(
             """
             You must call ShopWidget.init(...) method before using any functionality provided by
-            this class.
+            this class. One call to the method is enough during the lifetime of the app.
             """.trimIndent()
         )
     }

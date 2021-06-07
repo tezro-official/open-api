@@ -26,6 +26,8 @@ import java.util.*
  * @param customerPhoneNumber Phone number of the customer
  * @param photos List of photo urls of ordered products
  * @param attributes List of attributes about the order
+ * @param trackingNumber The number that was provided by the seller which is used to track the
+ * location of the product during shipment
  *
  * @see Address
  * @see Currency
@@ -48,7 +50,8 @@ data class Order internal constructor(
     val customerFullName: String?,
     val customerPhoneNumber: String?,
     val photos: List<String>?,
-    val attributes: List<Attribute>?
+    val attributes: List<Attribute>?,
+    val trackingNumber: String?
 ) {
 
 

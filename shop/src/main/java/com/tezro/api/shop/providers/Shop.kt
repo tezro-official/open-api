@@ -37,6 +37,7 @@ object Shop {
      *
      * @see IShopService
      */
+    @JvmStatic
     fun initShopService(keyId: String, secret: String?, isTestMode: Boolean): IShopService
         = ServiceProviders.provideNewShopService(
             keyId,

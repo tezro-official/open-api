@@ -20,8 +20,8 @@ internal object ShopHttpData {
     const val ORDER_MESSAGES_PATH = "$API_PATH/messages/{$ID_PATH}"
     const val ORDERS_PATH = "$API_PATH/orders"
     const val INIT_ORDER_PATH = "$ORDERS_PATH/init"
-    const val CONFIRM_DELIVERY_PATH = "$ORDERS_PATH/{$ID_PATH}/confirmDelivery"
     const val ORDER_PATH = "$ORDERS_PATH/{$ID_PATH}"
-
+    const val CONFIRM_DELIVERY_PATH = "$ORDER_PATH/confirmDelivery"
+    const val ADD_TRACKING_NUMBER_PATH = "$ORDER_PATH/addTrackingNumber"
 
 }

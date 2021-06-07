@@ -20,5 +20,6 @@ internal data class OrderResponseBody(
     @SerializedName("fullName") val fullName: String?,
     @SerializedName("phone") val phone: String?,
     @SerializedName("photos") val photos: List<String>?,
-    @SerializedName("attributes") val attributes: List<AttributeBody>?
+    @SerializedName("attributes") val attributes: List<AttributeBody>?,
+    @SerializedName("trackingNumber") val trackingNumber: String?
 )

@@ -13,7 +13,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 internal object ServiceProviders {
 
-    internal fun provideNewShopService(
+    fun provideNewShopService(
         keyId: String,
         secret: String?,
         isTestMode: Boolean
@@ -28,7 +28,7 @@ internal object ServiceProviders {
         return ShopService(shopHttpClient)
     }
 
-    internal fun provideNewRetrofit(isTestMode: Boolean, client: OkHttpClient): Retrofit {
+    fun provideNewRetrofit(isTestMode: Boolean, client: OkHttpClient): Retrofit {
         val baseUrl = if (isTestMode) ShopHttpData.TEST_URL
         else ShopHttpData.PRODUCTION_URL
 
@@ -39,7 +39,7 @@ internal object ServiceProviders {
             .build()
     }
 
-    internal fun provideAuthInterceptor(keyId: String, secret: String?): Interceptor
+    fun provideAuthInterceptor(keyId: String, secret: String?): Interceptor
         = if (!secret.isNullOrBlank()) ShopSecretAuthInterceptor(keyId, secret)
         else ShopAuthInterceptor(keyId)
 
