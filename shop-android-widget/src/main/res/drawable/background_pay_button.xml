@@ -4,7 +4,6 @@
         <shape android:shape="rectangle">
             <corners android:radius="@dimen/tezro_widget_default_corner_radius"/>
             <gradient
-                android:angle="45"
                 android:endColor="@color/tezro_widget_color_accent_light"
                 android:startColor="@color/tezro_widget_color_accent"/>
         </shape>
@@ -21,7 +20,6 @@
         <shape android:shape="rectangle">
             <corners android:radius="@dimen/tezro_widget_default_corner_radius"/>
             <gradient
-                android:angle="45"
                 android:endColor="@color/tezro_widget_color_gray"
                 android:startColor="@color/tezro_widget_color_gray_light"/>
         </shape>

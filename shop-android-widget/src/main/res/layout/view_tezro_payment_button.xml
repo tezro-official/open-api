@@ -5,6 +5,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
     xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout
@@ -19,19 +20,21 @@
 
         <TextView
             android:id="@+id/txtPaymentLabel"
+            android:layout_marginTop="@dimen/tezro_widget_default_spacing_large"
+            android:paddingHorizontal="@dimen/tezro_widget_default_spacing_large"
             android:gravity="center"
             android:text="@string/tezro_widget_scan_qr_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/tezro_widget_default_spacing_large"
             style="@style/Tezro.Text.Dark" />
 
         <ImageView
             android:id="@+id/imgPaymentQR"
-            android:background="@android:color/white"
+            android:background="@drawable/background_qr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
+            android:padding="@dimen/tezro_widget_default_spacing_medium"
             android:layout_margin="@dimen/tezro_widget_default_spacing_huge"
             tools:src="@drawable/ic_payment_qr"
             tools:ignore="ContentDescription" />

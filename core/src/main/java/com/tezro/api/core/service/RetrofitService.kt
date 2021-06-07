@@ -20,8 +20,10 @@ abstract class RetrofitService  {
         }
     }
 
-    protected open fun <T, R> createCallback(requestDelegate: IRequestDelegate<R>, converter: (T) -> R): Callback<T> = object :
-        Callback<T> {
+    protected open fun <T, R> createCallback(
+        requestDelegate: IRequestDelegate<R>,
+        converter: (T) -> R
+    ): Callback<T> = object : Callback<T> {
         override fun onResponse(call: Call<T>, response: Response<T>) {
             val responseBody = response.body()
 
@@ -32,7 +34,7 @@ abstract class RetrofitService  {
                     val errorJson = errorBody.string()
                     Gson().fromJson(errorJson, Error::class.java)
                 } else {
-                    Error(response.message(), DEFAULT_ERROR_MESSAGE,response.code())
+                    Error(DEFAULT_ERROR_MESSAGE, response.code(), DEFAULT_ERROR_MESSAGE)
                 }
 
                 requestDelegate.notifyError(error)
@@ -44,10 +46,9 @@ abstract class RetrofitService  {
         }
 
         override fun onFailure(call: Call<T>, t: Throwable) {
-            val error = Error(t.message ?: t.localizedMessage, DEFAULT_ERROR_MESSAGE, DEFAULT_ERROR_CODE)
+            val error = Error(DEFAULT_ERROR_MESSAGE, DEFAULT_ERROR_CODE, DEFAULT_ERROR_MESSAGE)
             requestDelegate.notifyError(error)
         }
-
     }
 
     companion object {

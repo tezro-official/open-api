@@ -10,7 +10,7 @@ package com.tezro.api.core.client.responses
  * @see Throwable
  */
 data class Error(
-    override val message: String,
     val error: String,
-    val statusCode: Int
-) : Throwable()
+    val statusCode: Int,
+    val message: Any
+)

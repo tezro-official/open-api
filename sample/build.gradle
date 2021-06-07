@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.tezro.api"
-        minSdkVersion 16
+        minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -32,9 +32,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
     implementation 'androidx.core:core-ktx:1.5.0'
-    implementation project(":shop")
+    implementation project(":shop-android-widget")
 }

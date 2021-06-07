@@ -3,9 +3,7 @@
     <item>
         <shape android:shape="rectangle">
             <corners android:radius="@dimen/tezro_widget_default_corner_radius"/>
-            <gradient
-                android:endColor="@color/tezro_widget_color_background"
-                android:startColor="@color/tezro_widget_color_background_light"/>
+            <solid android:color="@android:color/white"/>
         </shape>
     </item>
 </layer-list>

@@ -3,7 +3,6 @@
     <item>
         <shape android:shape="oval">
             <gradient
-                android:angle="45"
                 android:endColor="@color/tezro_widget_color_background"
                 android:startColor="@color/tezro_widget_color_background_light"/>
         </shape>
