@@ -264,11 +264,13 @@ open class TezroPayButton constructor(
      */
     open fun updateOrder() {
         val orderExternalId = order?.externalId ?: return
+        val orderPaymentLink = order?.paymentLink ?: return
 
         if (!isSilentUpdate) this.onLoadingStart()
-        ShopWidget.getOrder(orderExternalId).setSuccessListener { newOrder ->
-            if (order != newOrder) {
-                order = newOrder
+        ShopWidget.getOrder(orderExternalId).setSuccessListener { order ->
+            val newOrder = order.copy(paymentLink = orderPaymentLink)
+            if (this.order != newOrder) {
+                this.order = newOrder
                 delegate?.onNewOrderDataLoaded(newOrder)
             }
 

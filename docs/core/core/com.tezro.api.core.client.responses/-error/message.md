@@ -5,7 +5,7 @@
 # message  
 [jvm]  
 Content  
-open override val [message](message.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
+val [message](message.md): [Any](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)  
 More info  
 
 

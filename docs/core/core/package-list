@@ -23,7 +23,7 @@ $dokka.location:com.tezro.api.core.client.requests/Request/setErrorListener/#kot
 $dokka.location:com.tezro.api.core.client.requests/Request/setSuccessListener/#kotlin.Function1[TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]?/PointingToDeclaration/core/com.tezro.api.core.client.requests/-request/set-success-listener.md
 $dokka.location:com.tezro.api.core.client.responses////PointingToDeclaration/core/com.tezro.api.core.client.responses/index.md
 $dokka.location:com.tezro.api.core.client.responses/Error///PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/index.md
-$dokka.location:com.tezro.api.core.client.responses/Error/Error/#kotlin.String#kotlin.String#kotlin.Int/PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/-error.md
+$dokka.location:com.tezro.api.core.client.responses/Error/Error/#kotlin.String#kotlin.Int#kotlin.Any/PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/-error.md
 $dokka.location:com.tezro.api.core.client.responses/Error/error/#/PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/error.md
 $dokka.location:com.tezro.api.core.client.responses/Error/message/#/PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/message.md
 $dokka.location:com.tezro.api.core.client.responses/Error/statusCode/#/PointingToDeclaration/core/com.tezro.api.core.client.responses/-error/status-code.md
