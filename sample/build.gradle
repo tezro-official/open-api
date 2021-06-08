@@ -39,6 +39,11 @@ android {
 
 dependencies {
     implementation 'androidx.core:core-ktx:1.5.0'
+
+    //TODO: uncomment to use public modules
+    //implementation 'com.tezro.api:shop-android-widget:1.0.1'
+    //implementation 'com.tezro.api:shop:1.0.1'
+
     implementation project(":shop-android-widget")
     implementation project(":shop")
 }
