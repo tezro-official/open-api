@@ -2,6 +2,7 @@ package com.tezro.api.shop.service
 
 import com.tezro.api.core.client.requests.IRequest
 import com.tezro.api.shop.model.common.Attribute
+import com.tezro.api.shop.model.common.Error
 import com.tezro.api.shop.model.common.Pagination
 import com.tezro.api.shop.model.messages.MessageEntity
 import com.tezro.api.shop.model.orders.Order
@@ -34,7 +35,7 @@ interface IShopService {
         externalOrderId: String,
         message: String,
         entities: List<MessageEntity>?
-    ): IRequest<Void>
+    ): IRequest<Void, Error>
 
 
     /**
@@ -54,7 +55,7 @@ interface IShopService {
     fun confirmDelivery(
         orderExternalId: String,
         comment: String? = null
-    ): IRequest<Void>
+    ): IRequest<Void, Error>
 
 
     /**
@@ -92,7 +93,7 @@ interface IShopService {
         expiryDate: Date,
         photos: List<String>?,
         attributes: List<Attribute>?
-    ): IRequest<Order>
+    ): IRequest<Order, Error>
 
 
     /**
@@ -114,7 +115,7 @@ interface IShopService {
         limit: Long? = null,
         direction: Pagination.Direction? = null,
         status: Order.Status? = null
-    ): IRequest<OrdersPage>
+    ): IRequest<OrdersPage, Error>
 
 
     /**
@@ -128,7 +129,7 @@ interface IShopService {
      * @see Order
      * @see Order.externalId
      */
-    fun getOrder(orderExternalId: String): IRequest<Order>
+    fun getOrder(orderExternalId: String): IRequest<Order, Error>
 
 
     /**
@@ -148,7 +149,7 @@ interface IShopService {
         orderExternalId: String,
         trackingNumber: String,
         trackingUrl: String? = null
-    ): IRequest<Void>
+    ): IRequest<Void, Error>
 
 
 }

@@ -17,6 +17,7 @@ import com.tezro.api.shop.model.orders.address.Address
 import com.tezro.api.shop.model.orders.address.Location
 import java.lang.IllegalArgumentException
 import java.text.SimpleDateFormat
+import com.tezro.api.shop.model.common.Error
 import java.util.*
 
 internal object ShopData {
@@ -131,6 +132,15 @@ internal object ShopData {
 
     fun convertMessageEntityToBody(messageEntity: MessageEntity) = messageEntity.run {
         MessageEntityBody(type, offset, length, url)
+    }
+
+    fun convertBodyToError(errorResponseBody: ErrorResponseBody): Error
+            = errorResponseBody.run {
+        Error(
+            error,
+            statusCode,
+            message.toString()
+        )
     }
 
     private fun convertBodyToAttribute(attributeBody: AttributeBody) = attributeBody.run {

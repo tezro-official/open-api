@@ -2,6 +2,7 @@ package com.tezro.api.shop.widget.core
 
 import com.tezro.api.core.client.requests.IRequest
 import com.tezro.api.shop.model.common.Attribute
+import com.tezro.api.shop.model.common.Error
 import com.tezro.api.shop.model.orders.Order
 import com.tezro.api.shop.providers.Shop
 import com.tezro.api.shop.service.IShopService
@@ -61,7 +62,7 @@ object ShopWidget {
      * @throws IllegalStateException if the init method was not called
      */
     @JvmStatic
-    fun getOrder(orderId: String): IRequest<Order>
+    fun getOrder(orderId: String): IRequest<Order, Error>
         = shopService.getOrder(orderId)
 
 
@@ -103,7 +104,7 @@ object ShopWidget {
         expiryDate: Date,
         photos: List<String>? = null,
         attributes: List<Attribute>? = null
-    ): IRequest<Order> = shopService.createOrder(
+    ): IRequest<Order, Error> = shopService.createOrder(
         orderId,
         name,
         amount,
