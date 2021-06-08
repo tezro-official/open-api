@@ -47,6 +47,6 @@ dependencies {
 }
 
 dokkaGfm {
-    def outputDir = new File(projectDir.parent + "/docs/shop-widget")
+    def outputDir = new File(projectDir.parent + "/docs/shop-android-widget")
     outputDirectory.set(outputDir)
 }
