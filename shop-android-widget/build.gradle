@@ -47,7 +47,7 @@ android {
 }
 
 dependencies {
-    api project(":shop")
+    implementation project(":shop")
     implementation 'com.journeyapps:zxing-android-embedded:4.2.0'
 
     testImplementation 'junit:junit:4.13.2'

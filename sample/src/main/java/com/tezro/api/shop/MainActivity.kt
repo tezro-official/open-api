@@ -5,10 +5,10 @@ import android.os.Bundle
 import android.widget.Switch
 import android.widget.Toast
 import com.tezro.api.R
-import com.tezro.api.shop.widget.views.TezroPayButton
-import com.tezro.api.core.client.responses.Error
 import com.tezro.api.shop.model.common.Attribute
+import com.tezro.api.shop.model.common.Error
 import com.tezro.api.shop.model.orders.Order
+import com.tezro.api.shop.widget.views.TezroPayButton
 import java.util.*
 
 class MainActivity : Activity(), TezroPayButton.TezroPayButtonDelegate {

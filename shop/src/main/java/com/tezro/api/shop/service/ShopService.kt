@@ -1,7 +1,7 @@
 package com.tezro.api.shop.service
 
 import com.tezro.api.core.client.requests.IRequest
-import com.tezro.api.core.service.RetrofitService
+import com.tezro.api.shop.client.core.service.RetrofitService
 import com.tezro.api.shop.client.core.IShopHttpClient
 import com.tezro.api.shop.client.data.requests.AddTrackingNumberRequestBody
 import com.tezro.api.shop.client.data.requests.ConfirmDeliveryRequestBody
@@ -9,6 +9,7 @@ import com.tezro.api.shop.client.data.requests.InitOrderRequestBody
 import com.tezro.api.shop.client.data.requests.SendMessageRequestBody
 import com.tezro.api.shop.model.common.Pagination
 import com.tezro.api.shop.model.common.Attribute
+import com.tezro.api.shop.model.common.Error
 import com.tezro.api.shop.model.messages.MessageEntity
 import com.tezro.api.shop.model.orders.Order
 import com.tezro.api.shop.model.orders.OrdersPage
@@ -24,14 +25,14 @@ internal class ShopService constructor(
         externalOrderId: String,
         message: String,
         entities: List<MessageEntity>?
-    ): IRequest<Void> {
+    ): IRequest<Void, Error> {
         val messageEntities = entities?.map(ShopData::convertMessageEntityToBody)
         val sendMessageBody = SendMessageRequestBody(message, messageEntities)
         val call = shopHttpClient.sendMessage(externalOrderId, sendMessageBody)
         return call.toServiceRequest { it }
     }
 
-    override fun confirmDelivery(orderExternalId: String, comment: String?): IRequest<Void> {
+    override fun confirmDelivery(orderExternalId: String, comment: String?): IRequest<Void, Error> {
         val confirmDeliveryBody = ConfirmDeliveryRequestBody(comment)
         val call = shopHttpClient.confirmDelivery(orderExternalId, confirmDeliveryBody)
         return call.toServiceRequest { it }
@@ -46,7 +47,7 @@ internal class ShopService constructor(
         expiryDate: Date,
         photos: List<String>?,
         attributes: List<Attribute>?
-    ): IRequest<Order> {
+    ): IRequest<Order, Error> {
         val orderCurrency = ShopData.convertOrderCurrencyToParameter(currency)
         val orderAttributes = attributes?.map(ShopData::convertAttributeToBody)
 
@@ -73,7 +74,7 @@ internal class ShopService constructor(
             limit: Long?,
             direction: Pagination.Direction?,
             status: Order.Status?
-    ): IRequest<OrdersPage> {
+    ): IRequest<OrdersPage, Error> {
         val parametersMap = HashMap<String, Any>()
 
         if (offset != null) {
@@ -98,7 +99,7 @@ internal class ShopService constructor(
         return call.toServiceRequest(ShopData::convertBodyToOrdersPage)
     }
 
-    override fun getOrder(orderExternalId: String): IRequest<Order> {
+    override fun getOrder(orderExternalId: String): IRequest<Order, Error> {
         val call = shopHttpClient.getOrder(orderExternalId)
         return call.toServiceRequest(ShopData::convertBodyToOrder)
     }
@@ -107,7 +108,7 @@ internal class ShopService constructor(
         orderExternalId: String,
         trackingNumber: String,
         trackingUrl: String?
-    ): IRequest<Void> {
+    ): IRequest<Void, Error> {
         val addTrackingNumberBody = AddTrackingNumberRequestBody(trackingNumber, trackingUrl)
         val call = shopHttpClient.addOrderTrackingNumber(orderExternalId, addTrackingNumberBody)
 

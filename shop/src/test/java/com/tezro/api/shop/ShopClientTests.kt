@@ -1,9 +1,7 @@
 package com.tezro.api.shop
 
 import com.google.gson.Gson
-import com.tezro.api.core.client.responses.Error
 import com.tezro.api.shop.client.core.IShopHttpClient
-import com.tezro.api.shop.client.core.interceptor.ShopSecretAuthInterceptor
 import com.tezro.api.shop.client.data.requests.ConfirmDeliveryRequestBody
 import com.tezro.api.shop.client.data.requests.InitOrderRequestBody
 import com.tezro.api.shop.client.data.requests.SendMessageRequestBody

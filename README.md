@@ -3,7 +3,6 @@
 **Docs**
 * [Shop](https://gitlab.i-link.pro/tezro/tezro-android-open-api/-/blob/master/docs/shop/index.md)
 * [Shop-Android-Widget](https://gitlab.i-link.pro/tezro/tezro-android-open-api/-/blob/master/docs/shop-android-widget/index.md)
-* [Core](https://gitlab.i-link.pro/tezro/tezro-android-open-api/-/blob/master/docs/core/index.md)
 
 
 **How to publish artifacts to maven**
@@ -11,3 +10,6 @@
 
 **Issue link in Sonatype Jira**
 * https://issues.sonatype.org/browse/OSSRH-68312
+
+**MavenCenter artifcats link**
+* https://repo1.maven.org/maven2/com/tezro/api/

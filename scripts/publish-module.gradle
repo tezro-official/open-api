@@ -29,16 +29,16 @@ artifacts {
     archives javadocJar
 }
 
-group = PUBLISH_GROUP_ID
-version = PUBLISH_VERSION
+group = "com.tezro.api"
+version = "1.0.1"
 
 afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                groupId PUBLISH_GROUP_ID
+                groupId group
                 artifactId PUBLISH_ARTIFACT_ID
-                version PUBLISH_VERSION
+                version version
                 if (project.plugins.findPlugin("com.android.library")) {
                     from components.release
                 } else {

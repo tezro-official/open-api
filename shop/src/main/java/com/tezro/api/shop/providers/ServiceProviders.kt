@@ -1,9 +1,9 @@
 package com.tezro.api.shop.providers
 
 import com.tezro.api.shop.client.core.IShopHttpClient
-import com.tezro.api.shop.client.core.interceptor.ShopSecretAuthInterceptor
+import com.tezro.api.shop.client.core.client.interceptor.ShopSecretAuthInterceptor
 import com.tezro.api.shop.client.core.ShopHttpData
-import com.tezro.api.shop.client.core.interceptor.ShopAuthInterceptor
+import com.tezro.api.shop.client.core.client.interceptor.ShopAuthInterceptor
 import com.tezro.api.shop.service.IShopService
 import com.tezro.api.shop.service.ShopService
 import okhttp3.Interceptor

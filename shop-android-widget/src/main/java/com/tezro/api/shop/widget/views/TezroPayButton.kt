@@ -4,8 +4,8 @@ import android.content.Context
 import android.util.AttributeSet
 import android.widget.*
 import androidx.annotation.CallSuper
-import com.tezro.api.core.client.responses.Error
 import com.tezro.api.shop.model.common.Attribute
+import com.tezro.api.shop.model.common.Error
 import com.tezro.api.shop.model.orders.Order
 import com.tezro.api.shop.widget.R
 import com.tezro.api.shop.widget.core.PaymentHelper
