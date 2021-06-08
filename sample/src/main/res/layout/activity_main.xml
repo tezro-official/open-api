@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<ScrollView
     android:background="@android:color/white"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".shop.MainActivity">
+    android:layout_height="match_parent">
 
-    <com.tezro.api.shop.widget.views.TezroPayButton
-        android:layout_marginHorizontal="60dp"
-        android:id="@+id/btnTezroPay"
-        android:layout_gravity="center"
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingHorizontal="36dp"
+        android:background="@android:color/white"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content">
 
-</FrameLayout>
+        <Switch
+            android:id="@+id/switchAutoRedirectEnabled"
+            android:text="Auto redirect enabled"
+            android:paddingVertical="12dp"
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Switch
+            android:id="@+id/switchQREnabled"
+            android:text="QR code enabled"
+            android:paddingVertical="12dp"
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Switch
+            android:id="@+id/switchSilentUpdates"
+            android:text="Silent updates"
+            android:paddingVertical="12dp"
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.tezro.api.shop.widget.views.TezroPayButton
+            android:id="@+id/btnTezroPay"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

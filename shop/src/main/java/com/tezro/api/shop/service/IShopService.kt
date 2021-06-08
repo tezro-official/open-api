@@ -21,14 +21,17 @@ interface IShopService {
      * Sends message to customer that created a specific order.
      * Should be used when order's status is one of: confirmed, delivered, disputed.
      *
-     * @param orderId Order's id to which messages should be sent
+     * @param externalOrderId Order's id to which messages should be sent. Make sure to use
+     * order's external id rather than internal
      * @param message Message body
      * @param entities Used for making part of text as clickable url link
      *
      * @return Nothing special, just void;)
+     *
+     * @see Order.externalId
      */
     fun sendMessage(
-        orderId: String,
+        externalOrderId: String,
         message: String,
         entities: List<MessageEntity>?
     ): IRequest<Void>
@@ -38,15 +41,18 @@ interface IShopService {
      * Updates order's current status to delivered and sends a request to the customer to
      * unlock payment.
      *
-     * @param orderId Order's id which should be updated
+     * @param orderExternalId Order's id which should be updated. Make sure to use
+     * order's external id rather than internal
      * @param comment A comment that will be added to the order with the new status and will be
      * displayed in the payment unlocking request (optional). Length must be in range of 1-4096
      * symbols inclusively
      *
      * @return Nothing special, just void;)
+     *
+     * @see Order.externalId
      */
     fun confirmDelivery(
-        orderId: String,
+        orderExternalId: String,
         comment: String? = null
     ): IRequest<Void>
 
@@ -54,7 +60,7 @@ interface IShopService {
     /**
      * Initializes a new order.
      *
-     * @param orderId The created order will have this value as an identifier. It must be unique
+     * @param orderId The created order will have this value as an internalId. It must be unique
      * and length must be in a range of 1 to 20 symbols
      *
      * @param name Name of the order product or products
@@ -114,27 +120,32 @@ interface IShopService {
     /**
      * Request an order by its id.
      *
-     * @param orderId Order's id which should be returned
+     * @param orderExternalId Order's id which should be returned. Make sure to use
+     * order's external id rather than internal
      *
      * @return The requested order
      *
      * @see Order
+     * @see Order.externalId
      */
-    fun getOrder(orderId: String): IRequest<Order>
+    fun getOrder(orderExternalId: String): IRequest<Order>
 
 
     /**
      * Adds a new tracking number and url to the order. This number will be used by the customer
      * to track the location of the product during shipment.
      *
-     * @param orderId Order's id which should be edited
+     * @param orderExternalId Order's id which should be edited. Make sure to use
+     * order's external id rather than internal
      * @param trackingNumber The number that will be used to track the goods
      * @param trackingUrl The url of the website where goods can be tracked
      *
      * @return Nothing special, just void;)
+     *
+     * @see Order.externalId
      */
     fun addOrderTrackingNumber(
-        orderId: String,
+        orderExternalId: String,
         trackingNumber: String,
         trackingUrl: String? = null
     ): IRequest<Void>

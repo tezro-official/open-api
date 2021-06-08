@@ -21,19 +21,19 @@ internal class ShopService constructor(
 ) : RetrofitService(), IShopService {
 
     override fun sendMessage(
-        orderId: String,
+        externalOrderId: String,
         message: String,
         entities: List<MessageEntity>?
     ): IRequest<Void> {
         val messageEntities = entities?.map(ShopData::convertMessageEntityToBody)
         val sendMessageBody = SendMessageRequestBody(message, messageEntities)
-        val call = shopHttpClient.sendMessage(orderId, sendMessageBody)
+        val call = shopHttpClient.sendMessage(externalOrderId, sendMessageBody)
         return call.toServiceRequest { it }
     }
 
-    override fun confirmDelivery(orderId: String, comment: String?): IRequest<Void> {
+    override fun confirmDelivery(orderExternalId: String, comment: String?): IRequest<Void> {
         val confirmDeliveryBody = ConfirmDeliveryRequestBody(comment)
-        val call = shopHttpClient.confirmDelivery(orderId, confirmDeliveryBody)
+        val call = shopHttpClient.confirmDelivery(orderExternalId, confirmDeliveryBody)
         return call.toServiceRequest { it }
     }
 
@@ -98,18 +98,18 @@ internal class ShopService constructor(
         return call.toServiceRequest(ShopData::convertBodyToOrdersPage)
     }
 
-    override fun getOrder(orderId: String): IRequest<Order> {
-        val call = shopHttpClient.getOrder(orderId)
+    override fun getOrder(orderExternalId: String): IRequest<Order> {
+        val call = shopHttpClient.getOrder(orderExternalId)
         return call.toServiceRequest(ShopData::convertBodyToOrder)
     }
 
     override fun addOrderTrackingNumber(
-        orderId: String,
+        orderExternalId: String,
         trackingNumber: String,
         trackingUrl: String?
     ): IRequest<Void> {
         val addTrackingNumberBody = AddTrackingNumberRequestBody(trackingNumber, trackingUrl)
-        val call = shopHttpClient.addOrderTrackingNumber(orderId, addTrackingNumberBody)
+        val call = shopHttpClient.addOrderTrackingNumber(orderExternalId, addTrackingNumberBody)
 
         return call.toServiceRequest { it }
     }

@@ -2,6 +2,7 @@ package com.tezro.api.shop
 
 import android.app.Activity
 import android.os.Bundle
+import android.widget.Switch
 import android.widget.Toast
 import com.tezro.api.R
 import com.tezro.api.shop.widget.views.TezroPayButton
@@ -20,6 +21,25 @@ class MainActivity : Activity(), TezroPayButton.TezroPayButtonDelegate {
         tezroPayButton = findViewById(R.id.btnTezroPay)
         tezroPayButton.delegate = this
         tezroPayButton.buttonLabel = "1 USD"
+
+
+        val redirectEnabled: Switch = findViewById(R.id.switchAutoRedirectEnabled)
+        tezroPayButton.isAutomaticRedirectEnabled = redirectEnabled.isChecked
+        redirectEnabled.setOnCheckedChangeListener { _, isChecked ->
+            tezroPayButton.isAutomaticRedirectEnabled = isChecked
+        }
+
+        val qrEnabled: Switch = findViewById(R.id.switchQREnabled)
+        tezroPayButton.isQRCodeEnabled = qrEnabled.isChecked
+        qrEnabled.setOnCheckedChangeListener { _, isChecked ->
+            tezroPayButton.isQRCodeEnabled = isChecked
+        }
+
+        val silentUpdates: Switch = findViewById(R.id.switchSilentUpdates)
+        tezroPayButton.isSilentUpdate = silentUpdates.isChecked
+        silentUpdates.setOnCheckedChangeListener { _, isChecked ->
+            tezroPayButton.isSilentUpdate = isChecked
+        }
     }
 
     override fun onResume() {
@@ -41,13 +61,8 @@ class MainActivity : Activity(), TezroPayButton.TezroPayButtonDelegate {
         )
     }
 
-    override fun onLoadingOrderStart() {
-        Toast.makeText(this, "loading order", Toast.LENGTH_SHORT).show()
-    }
-
-    override fun onLoadingOrderEnd(order: Order) {
-        Toast.makeText(this, "order loading finish with status: ${order.status}", Toast.LENGTH_SHORT).show()
-
+    override fun onNewOrderDataLoaded(order: Order) {
+        Toast.makeText(this, "status: ${order.status}", Toast.LENGTH_SHORT).show()
     }
 
     override fun onLoadingOrderError(error: Error) {

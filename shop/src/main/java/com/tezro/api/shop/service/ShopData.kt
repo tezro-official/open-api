@@ -91,6 +91,7 @@ internal object ShopData {
         val orderAttributes = attributes?.map(::convertBodyToAttribute)
 
         return@run Order(
+            id,
             orderId,
             name,
             orderStatus,
