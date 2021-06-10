@@ -19,8 +19,8 @@ androidJvm
   
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.core.client.responses.Error/PointingToDeclaration/"></a>[com.tezro.api.shop.widget.views.TezroPayButton](../update-order.md)| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.core.client.responses.Error/PointingToDeclaration/"></a>|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.core.client.responses.Error/PointingToDeclaration/"></a>com.tezro.api.core.client.responses.Error| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.core.client.responses.Error/PointingToDeclaration/"></a>|
+| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.shop.model.common.Error/PointingToDeclaration/"></a>[com.tezro.api.shop.widget.views.TezroPayButton](../update-order.md)| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.shop.model.common.Error/PointingToDeclaration/"></a>|
+| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.shop.model.common.Error/PointingToDeclaration/"></a>com.tezro.api.shop.model.common.Error| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.shop.model.common.Error/PointingToDeclaration/"></a>|
   
 
 
@@ -30,7 +30,7 @@ androidJvm
   
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.core.client.responses.Error/PointingToDeclaration/"></a>error| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.core.client.responses.Error/PointingToDeclaration/"></a><br><br>This object contains detailed information about the problem.<br><br>|
+| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.shop.model.common.Error/PointingToDeclaration/"></a>error| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.shop.model.common.Error/PointingToDeclaration/"></a><br><br>This object contains detailed information about the problem.<br><br>|
   
   
 
