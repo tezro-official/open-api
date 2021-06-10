@@ -7,7 +7,7 @@
 Content  
 @[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  
   
-fun [getOrder](get-order.md)(orderId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): IRequest<Order>  
+fun [getOrder](get-order.md)(orderId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): IRequest<Order, Error>  
 More info  
 
 
