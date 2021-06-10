@@ -140,12 +140,40 @@ class CustomTezroButton(
 
 + `TezroPayButton` uses XML resources for styles, colors and size. You can override these resources to customize your button within your resources.
 
+### JVM (Desktop/Backend)
+1. Before using this library you have to initialize it using your **KeyId**, and **Secret** if you want to call private methods.
+```kotlin
+val shopService = Shop.initShopService(
+    keyId = "your-key-id-goes-here",
+    secret = "your_secret_goes_here",
+    isTestMode = true
+)
+```
 
+`isTestMode` indicates whether to use development or production API.
+`initShopService` will always give you a new instance of `IShopService`. It is your responsibility to handle implement singleton pattern.
 
-
-
-
-
+2. After that, your service is ready to handle your calls, here's an example of creating an order:
+```kotlin
+val request = shopService.createOrder(
+    orderId = UUID.randomUUID().toString(),
+    name = "Test order ${Random().nextInt()}",
+    amount = "1",
+    currency = Order.Currency.USD,
+    confirmAmountUrl = "https://www.google.com",
+    expiryDate = Date(System.currentTimeMillis() + 100000),
+    photos = listOf("https://prod-buydo.oss-accelerate.aliyuncs.com/9a537dfd2e9a493f8fef4d35d119a43b.jpg"),
+    attributes = listOf(Attribute("Color", "Red"))
+)
+        
+request.setSuccessListener { order ->  
+    //Handle your new order
+}.setErrorListener { error ->  
+    //Handle errors
+}.enqueue()
+```
+The request will run on a background thread, so no need to worry about blocking the current thread.
+Follow this **[Link](https://gitlab.i-link.pro/tezro/tezro-android-open-api/-/blob/master/docs/shop/shop/com.tezro.api.shop.service/-i-shop-service/index.md#functions)** to check all methods that you can call through this service.
 
 ### Documentations
 * [**Shop**](https://gitlab.i-link.pro/tezro/tezro-android-open-api/-/blob/master/docs/shop/index.md)
