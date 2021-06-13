@@ -1,3 +1,6 @@
+---
+title: com.tezro.api.shop.model.messages -
+---
 //[shop](../../index.md)/[com.tezro.api.shop.model.messages](index.md)
 
 

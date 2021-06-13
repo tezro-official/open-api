@@ -1,3 +1,6 @@
+---
+title: isQRCodeEnabled -
+---
 //[shop-android-widget](../../../index.md)/[com.tezro.api.shop.widget.views](../index.md)/[TezroPayButton](index.md)/[isQRCodeEnabled](is-q-r-code-enabled.md)
 
 

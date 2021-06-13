@@ -1,3 +1,6 @@
+---
+title: paymentQRLabel -
+---
 //[shop-android-widget](../../../index.md)/[com.tezro.api.shop.widget.views](../index.md)/[TezroPayButton](index.md)/[paymentQRLabel](payment-q-r-label.md)
 
 

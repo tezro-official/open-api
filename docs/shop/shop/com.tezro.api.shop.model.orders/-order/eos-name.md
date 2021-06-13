@@ -1,3 +1,6 @@
+---
+title: eosName -
+---
 //[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[Order](index.md)/[eosName](eos-name.md)
 
 

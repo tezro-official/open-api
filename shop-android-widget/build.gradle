@@ -55,7 +55,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 }
 
-dokkaGfm {
+dokkaJekyll {
     def outputDir = new File(projectDir.parent + "/docs/shop-android-widget")
     outputDirectory.set(outputDir)
 }

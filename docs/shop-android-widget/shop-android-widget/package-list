@@ -1,4 +1,4 @@
-$dokka.format:gfm-v1
+$dokka.format:jekyll-v1
 $dokka.linkExtension:md
 $dokka.location:com.tezro.api.shop.widget.core////PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/index.md
 $dokka.location:com.tezro.api.shop.widget.core/PaymentHelper///PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-payment-helper/index.md

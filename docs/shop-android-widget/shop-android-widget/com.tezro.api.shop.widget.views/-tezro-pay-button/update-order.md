@@ -1,3 +1,6 @@
+---
+title: updateOrder -
+---
 //[shop-android-widget](../../../index.md)/[com.tezro.api.shop.widget.views](../index.md)/[TezroPayButton](index.md)/[updateOrder](update-order.md)
 
 

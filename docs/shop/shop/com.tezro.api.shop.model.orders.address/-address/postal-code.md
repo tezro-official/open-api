@@ -1,3 +1,6 @@
+---
+title: postalCode -
+---
 //[shop](../../../index.md)/[com.tezro.api.shop.model.orders.address](../index.md)/[Address](index.md)/[postalCode](postal-code.md)
 
 

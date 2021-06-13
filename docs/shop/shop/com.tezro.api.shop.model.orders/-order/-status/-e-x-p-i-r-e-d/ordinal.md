@@ -1,3 +1,6 @@
+---
+title: ordinal -
+---
 //[shop](../../../../../index.md)/[com.tezro.api.shop.model.orders](../../../index.md)/[Order](../../index.md)/[Status](../index.md)/[EXPIRED](index.md)/[ordinal](ordinal.md)
 
 

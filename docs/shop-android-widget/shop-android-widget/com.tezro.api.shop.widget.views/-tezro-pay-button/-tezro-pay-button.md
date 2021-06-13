@@ -1,3 +1,6 @@
+---
+title: TezroPayButton -
+---
 //[shop-android-widget](../../../index.md)/[com.tezro.api.shop.widget.views](../index.md)/[TezroPayButton](index.md)/[TezroPayButton](-tezro-pay-button.md)
 
 

@@ -1,3 +1,6 @@
+---
+title: Status -
+---
 //[shop](../../../../index.md)/[com.tezro.api.shop.model.orders](../../index.md)/[Order](../index.md)/[Status](index.md)
 
 
@@ -27,6 +30,6 @@ Indicates the current status of an order.
   
 |  Name |  Summary | 
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order.Status/name/#/PointingToDeclaration/"></a>[name](index.md#1226967339%2FProperties%2F823390186)| <a name="com.tezro.api.shop.model.orders/Order.Status/name/#/PointingToDeclaration/"></a> [jvm] val [name](index.md#1226967339%2FProperties%2F823390186): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Status/ordinal/#/PointingToDeclaration/"></a>[ordinal](index.md#1886636595%2FProperties%2F823390186)| <a name="com.tezro.api.shop.model.orders/Order.Status/ordinal/#/PointingToDeclaration/"></a> [jvm] val [ordinal](index.md#1886636595%2FProperties%2F823390186): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
+| <a name="com.tezro.api.shop.model.orders/Order.Status/name/#/PointingToDeclaration/"></a>[name](index.md#1226967339%2FProperties%2F-880856229)| <a name="com.tezro.api.shop.model.orders/Order.Status/name/#/PointingToDeclaration/"></a> [jvm] val [name](index.md#1226967339%2FProperties%2F-880856229): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
+| <a name="com.tezro.api.shop.model.orders/Order.Status/ordinal/#/PointingToDeclaration/"></a>[ordinal](index.md#1886636595%2FProperties%2F-880856229)| <a name="com.tezro.api.shop.model.orders/Order.Status/ordinal/#/PointingToDeclaration/"></a> [jvm] val [ordinal](index.md#1886636595%2FProperties%2F-880856229): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
 

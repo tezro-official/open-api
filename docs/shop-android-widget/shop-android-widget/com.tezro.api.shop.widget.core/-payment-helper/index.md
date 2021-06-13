@@ -1,3 +1,6 @@
+---
+title: PaymentHelper -
+---
 //[shop-android-widget](../../../index.md)/[com.tezro.api.shop.widget.core](../index.md)/[PaymentHelper](index.md)
 
 

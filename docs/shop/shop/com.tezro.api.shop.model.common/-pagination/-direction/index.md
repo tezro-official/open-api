@@ -1,3 +1,6 @@
+---
+title: Direction -
+---
 //[shop](../../../../index.md)/[com.tezro.api.shop.model.common](../../index.md)/[Pagination](../index.md)/[Direction](index.md)
 
 
@@ -22,6 +25,6 @@ Controls sorting direction in collections.
   
 |  Name |  Summary | 
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Pagination.Direction/name/#/PointingToDeclaration/"></a>[name](index.md#1631263742%2FProperties%2F823390186)| <a name="com.tezro.api.shop.model.common/Pagination.Direction/name/#/PointingToDeclaration/"></a> [jvm] val [name](index.md#1631263742%2FProperties%2F823390186): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="com.tezro.api.shop.model.common/Pagination.Direction/ordinal/#/PointingToDeclaration/"></a>[ordinal](index.md#-1102486912%2FProperties%2F823390186)| <a name="com.tezro.api.shop.model.common/Pagination.Direction/ordinal/#/PointingToDeclaration/"></a> [jvm] val [ordinal](index.md#-1102486912%2FProperties%2F823390186): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
+| <a name="com.tezro.api.shop.model.common/Pagination.Direction/name/#/PointingToDeclaration/"></a>[name](index.md#1631263742%2FProperties%2F-880856229)| <a name="com.tezro.api.shop.model.common/Pagination.Direction/name/#/PointingToDeclaration/"></a> [jvm] val [name](index.md#1631263742%2FProperties%2F-880856229): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
+| <a name="com.tezro.api.shop.model.common/Pagination.Direction/ordinal/#/PointingToDeclaration/"></a>[ordinal](index.md#-1102486912%2FProperties%2F-880856229)| <a name="com.tezro.api.shop.model.common/Pagination.Direction/ordinal/#/PointingToDeclaration/"></a> [jvm] val [ordinal](index.md#-1102486912%2FProperties%2F-880856229): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
 

@@ -1,3 +1,6 @@
+---
+title: isSilentUpdate -
+---
 //[shop-android-widget](../../../index.md)/[com.tezro.api.shop.widget.views](../index.md)/[TezroPayButton](index.md)/[isSilentUpdate](is-silent-update.md)
 
 

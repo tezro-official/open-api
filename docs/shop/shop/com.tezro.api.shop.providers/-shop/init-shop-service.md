@@ -1,3 +1,6 @@
+---
+title: initShopService -
+---
 //[shop](../../../index.md)/[com.tezro.api.shop.providers](../index.md)/[Shop](index.md)/[initShopService](init-shop-service.md)
 
 
@@ -5,6 +8,8 @@
 # initShopService  
 [jvm]  
 Content  
+@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  
+  
 fun [initShopService](init-shop-service.md)(keyId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), secret: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, isTestMode: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)): [IShopService](../../com.tezro.api.shop.service/-i-shop-service/index.md)  
 More info  
 

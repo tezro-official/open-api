@@ -1,3 +1,6 @@
+---
+title: XAUT -
+---
 //[shop](../../../../../index.md)/[com.tezro.api.shop.model.orders](../../../index.md)/[Order](../../index.md)/[Currency](../index.md)/[XAUT](index.md)
 
 

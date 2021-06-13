@@ -1,3 +1,6 @@
+---
+title: Currency -
+---
 //[shop](../../../../index.md)/[com.tezro.api.shop.model.orders](../../index.md)/[Order](../index.md)/[Currency](index.md)
 
 
@@ -29,6 +32,6 @@ Indicates the currency of an order.
   
 |  Name |  Summary | 
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency/name/#/PointingToDeclaration/"></a>[name](index.md#944538506%2FProperties%2F823390186)| <a name="com.tezro.api.shop.model.orders/Order.Currency/name/#/PointingToDeclaration/"></a> [jvm] val [name](index.md#944538506%2FProperties%2F823390186): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency/ordinal/#/PointingToDeclaration/"></a>[ordinal](index.md#1890205556%2FProperties%2F823390186)| <a name="com.tezro.api.shop.model.orders/Order.Currency/ordinal/#/PointingToDeclaration/"></a> [jvm] val [ordinal](index.md#1890205556%2FProperties%2F823390186): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
+| <a name="com.tezro.api.shop.model.orders/Order.Currency/name/#/PointingToDeclaration/"></a>[name](index.md#944538506%2FProperties%2F-880856229)| <a name="com.tezro.api.shop.model.orders/Order.Currency/name/#/PointingToDeclaration/"></a> [jvm] val [name](index.md#944538506%2FProperties%2F-880856229): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
+| <a name="com.tezro.api.shop.model.orders/Order.Currency/ordinal/#/PointingToDeclaration/"></a>[ordinal](index.md#1890205556%2FProperties%2F-880856229)| <a name="com.tezro.api.shop.model.orders/Order.Currency/ordinal/#/PointingToDeclaration/"></a> [jvm] val [ordinal](index.md#1890205556%2FProperties%2F-880856229): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
 

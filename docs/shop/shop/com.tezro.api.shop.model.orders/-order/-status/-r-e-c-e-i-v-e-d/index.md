@@ -1,3 +1,6 @@
+---
+title: RECEIVED -
+---
 //[shop](../../../../../index.md)/[com.tezro.api.shop.model.orders](../../../index.md)/[Order](../../index.md)/[Status](../index.md)/[RECEIVED](index.md)
 
 

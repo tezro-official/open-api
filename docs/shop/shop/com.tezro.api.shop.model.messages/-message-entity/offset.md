@@ -1,3 +1,6 @@
+---
+title: offset -
+---
 //[shop](../../../index.md)/[com.tezro.api.shop.model.messages](../index.md)/[MessageEntity](index.md)/[offset](offset.md)
 
 

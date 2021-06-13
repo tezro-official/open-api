@@ -1,3 +1,6 @@
+---
+title: init -
+---
 //[shop-android-widget](../../../index.md)/[com.tezro.api.shop.widget.core](../index.md)/[ShopWidget](index.md)/[init](init.md)
 
 

@@ -1,10 +1,48 @@
-$dokka.format:gfm-v1
+$dokka.format:jekyll-v1
 $dokka.linkExtension:md
+$dokka.location:com.tezro.api.core.client.requests////PointingToDeclaration/shop/com.tezro.api.core.client.requests/index.md
+$dokka.location:com.tezro.api.core.client.requests/IRequest///PointingToDeclaration/shop/com.tezro.api.core.client.requests/-i-request/index.md
+$dokka.location:com.tezro.api.core.client.requests/IRequest/cancel/#/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-i-request/cancel.md
+$dokka.location:com.tezro.api.core.client.requests/IRequest/enqueue/#/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-i-request/enqueue.md
+$dokka.location:com.tezro.api.core.client.requests/IRequest/setErrorListener/#kotlin.Function1[TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]?/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-i-request/set-error-listener.md
+$dokka.location:com.tezro.api.core.client.requests/IRequest/setSuccessListener/#kotlin.Function1[TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]?/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-i-request/set-success-listener.md
+$dokka.location:com.tezro.api.core.client.requests/IRequestDelegate///PointingToDeclaration/shop/com.tezro.api.core.client.requests/-i-request-delegate/index.md
+$dokka.location:com.tezro.api.core.client.requests/IRequestDelegate/notifyError/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-i-request-delegate/notify-error.md
+$dokka.location:com.tezro.api.core.client.requests/IRequestDelegate/notifySuccess/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-i-request-delegate/notify-success.md
+$dokka.location:com.tezro.api.core.client.requests/IRequestDelegate/setCancelBlock/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-i-request-delegate/set-cancel-block.md
+$dokka.location:com.tezro.api.core.client.requests/IRequestDelegate/setEnqueueBlock/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-i-request-delegate/set-enqueue-block.md
+$dokka.location:com.tezro.api.core.client.requests/Request///PointingToDeclaration/shop/com.tezro.api.core.client.requests/-request/index.md
+$dokka.location:com.tezro.api.core.client.requests/Request/Request/#/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-request/-request.md
+$dokka.location:com.tezro.api.core.client.requests/Request/cancel/#/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-request/cancel.md
+$dokka.location:com.tezro.api.core.client.requests/Request/enqueue/#/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-request/enqueue.md
+$dokka.location:com.tezro.api.core.client.requests/Request/notifyError/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-request/notify-error.md
+$dokka.location:com.tezro.api.core.client.requests/Request/notifySuccess/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-request/notify-success.md
+$dokka.location:com.tezro.api.core.client.requests/Request/setCancelBlock/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-request/set-cancel-block.md
+$dokka.location:com.tezro.api.core.client.requests/Request/setEnqueueBlock/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-request/set-enqueue-block.md
+$dokka.location:com.tezro.api.core.client.requests/Request/setErrorListener/#kotlin.Function1[TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]?/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-request/set-error-listener.md
+$dokka.location:com.tezro.api.core.client.requests/Request/setSuccessListener/#kotlin.Function1[TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]?/PointingToDeclaration/shop/com.tezro.api.core.client.requests/-request/set-success-listener.md
+$dokka.location:com.tezro.api.shop.client.core.cryption////PointingToDeclaration/shop/com.tezro.api.shop.client.core.cryption/index.md
+$dokka.location:com.tezro.api.shop.client.core.cryption/CryptoUtils///PointingToDeclaration/shop/com.tezro.api.shop.client.core.cryption/-crypto-utils/index.md
+$dokka.location:com.tezro.api.shop.client.core.cryption/CryptoUtils/calculateHexHMAC/#kotlin.String#javax.crypto.Mac/PointingToDeclaration/shop/com.tezro.api.shop.client.core.cryption/-crypto-utils/calculate-hex-h-m-a-c.md
+$dokka.location:com.tezro.api.shop.client.core.cryption/CryptoUtils/calculateHexHMAC/#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/shop/com.tezro.api.shop.client.core.cryption/-crypto-utils/calculate-hex-h-m-a-c.md
+$dokka.location:com.tezro.api.shop.client.core.cryption/CryptoUtils/createHMACInstance/#kotlin.String#kotlin.String/PointingToDeclaration/shop/com.tezro.api.shop.client.core.cryption/-crypto-utils/create-h-m-a-c-instance.md
+$dokka.location:com.tezro.api.shop.client.core.cryption/CryptoUtils/toHexString/kotlin.ByteArray#/PointingToDeclaration/shop/com.tezro.api.shop.client.core.cryption/-crypto-utils/to-hex-string.md
+$dokka.location:com.tezro.api.shop.client.core.service////PointingToDeclaration/shop/com.tezro.api.shop.client.core.service/index.md
+$dokka.location:com.tezro.api.shop.client.core.service/RetrofitService.Companion///PointingToDeclaration/shop/com.tezro.api.shop.client.core.service/-retrofit-service/-companion/index.md
+$dokka.location:com.tezro.api.shop.client.core.service/RetrofitService.Companion/DEFAULT_ERROR_CODE/#/PointingToDeclaration/shop/com.tezro.api.shop.client.core.service/-retrofit-service/-companion/-d-e-f-a-u-l-t_-e-r-r-o-r_-c-o-d-e.md
+$dokka.location:com.tezro.api.shop.client.core.service/RetrofitService.Companion/DEFAULT_ERROR_MESSAGE/#/PointingToDeclaration/shop/com.tezro.api.shop.client.core.service/-retrofit-service/-companion/-d-e-f-a-u-l-t_-e-r-r-o-r_-m-e-s-s-a-g-e.md
+$dokka.location:com.tezro.api.shop.client.core.service/RetrofitService///PointingToDeclaration/shop/com.tezro.api.shop.client.core.service/-retrofit-service/index.md
+$dokka.location:com.tezro.api.shop.client.core.service/RetrofitService/RetrofitService/#/PointingToDeclaration/shop/com.tezro.api.shop.client.core.service/-retrofit-service/-retrofit-service.md
 $dokka.location:com.tezro.api.shop.model.common////PointingToDeclaration/shop/com.tezro.api.shop.model.common/index.md
 $dokka.location:com.tezro.api.shop.model.common/Attribute///PointingToDeclaration/shop/com.tezro.api.shop.model.common/-attribute/index.md
 $dokka.location:com.tezro.api.shop.model.common/Attribute/Attribute/#kotlin.String#kotlin.String/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-attribute/-attribute.md
 $dokka.location:com.tezro.api.shop.model.common/Attribute/name/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-attribute/name.md
 $dokka.location:com.tezro.api.shop.model.common/Attribute/value/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-attribute/value.md
+$dokka.location:com.tezro.api.shop.model.common/Error///PointingToDeclaration/shop/com.tezro.api.shop.model.common/-error/index.md
+$dokka.location:com.tezro.api.shop.model.common/Error/Error/#kotlin.String#kotlin.Int#kotlin.Any/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-error/-error.md
+$dokka.location:com.tezro.api.shop.model.common/Error/error/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-error/error.md
+$dokka.location:com.tezro.api.shop.model.common/Error/message/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-error/message.md
+$dokka.location:com.tezro.api.shop.model.common/Error/statusCode/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-error/status-code.md
 $dokka.location:com.tezro.api.shop.model.common/Pagination.Direction.ASCENDING///PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/-direction/-a-s-c-e-n-d-i-n-g/index.md
 $dokka.location:com.tezro.api.shop.model.common/Pagination.Direction.ASCENDING/name/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/-direction/-a-s-c-e-n-d-i-n-g/name.md
 $dokka.location:com.tezro.api.shop.model.common/Pagination.Direction.ASCENDING/ordinal/#/PointingToDeclaration/shop/com.tezro.api.shop.model.common/-pagination/-direction/-a-s-c-e-n-d-i-n-g/ordinal.md
@@ -99,13 +137,15 @@ $dokka.location:com.tezro.api.shop.model.orders/Order/customerFullName/#/Pointin
 $dokka.location:com.tezro.api.shop.model.orders/Order/customerPhoneNumber/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/customer-phone-number.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/eosName/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/eos-name.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/expiryDate/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/expiry-date.md
-$dokka.location:com.tezro.api.shop.model.orders/Order/id/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/id.md
+$dokka.location:com.tezro.api.shop.model.orders/Order/externalId/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/external-id.md
+$dokka.location:com.tezro.api.shop.model.orders/Order/internalId/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/internal-id.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/name/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/name.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/paymentLink/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/payment-link.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/photos/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/photos.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/shippingAmount/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/shipping-amount.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/status/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/status.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/totalAmount/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/total-amount.md
+$dokka.location:com.tezro.api.shop.model.orders/Order/trackingNumber/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/tracking-number.md
 $dokka.location:com.tezro.api.shop.model.orders/Order/transactionId/#/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-order/transaction-id.md
 $dokka.location:com.tezro.api.shop.model.orders/OrdersPage///PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-orders-page/index.md
 $dokka.location:com.tezro.api.shop.model.orders/OrdersPage/OrdersPage/#com.tezro.api.shop.model.common.Pagination#kotlin.collections.List[com.tezro.api.shop.model.orders.Order]/PointingToDeclaration/shop/com.tezro.api.shop.model.orders/-orders-page/-orders-page.md
@@ -116,11 +156,15 @@ $dokka.location:com.tezro.api.shop.providers/Shop///PointingToDeclaration/shop/
 $dokka.location:com.tezro.api.shop.providers/Shop/initShopService/#kotlin.String#kotlin.String?#kotlin.Boolean/PointingToDeclaration/shop/com.tezro.api.shop.providers/-shop/init-shop-service.md
 $dokka.location:com.tezro.api.shop.service////PointingToDeclaration/shop/com.tezro.api.shop.service/index.md
 $dokka.location:com.tezro.api.shop.service/IShopService///PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/index.md
+$dokka.location:com.tezro.api.shop.service/IShopService/addOrderTrackingNumber/#kotlin.String#kotlin.String#kotlin.String?/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/add-order-tracking-number.md
 $dokka.location:com.tezro.api.shop.service/IShopService/confirmDelivery/#kotlin.String#kotlin.String?/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/confirm-delivery.md
 $dokka.location:com.tezro.api.shop.service/IShopService/createOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/create-order.md
 $dokka.location:com.tezro.api.shop.service/IShopService/getOrder/#kotlin.String/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/get-order.md
 $dokka.location:com.tezro.api.shop.service/IShopService/getOrders/#kotlin.Long?#kotlin.Long?#com.tezro.api.shop.model.common.Pagination.Direction?#com.tezro.api.shop.model.orders.Order.Status?/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/get-orders.md
 $dokka.location:com.tezro.api.shop.service/IShopService/sendMessage/#kotlin.String#kotlin.String#kotlin.collections.List[com.tezro.api.shop.model.messages.MessageEntity]?/PointingToDeclaration/shop/com.tezro.api.shop.service/-i-shop-service/send-message.md
+com.tezro.api.core.client.requests
+com.tezro.api.shop.client.core.cryption
+com.tezro.api.shop.client.core.service
 com.tezro.api.shop.model.common
 com.tezro.api.shop.model.messages
 com.tezro.api.shop.model.orders

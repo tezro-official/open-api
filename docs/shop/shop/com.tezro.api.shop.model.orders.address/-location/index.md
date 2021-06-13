@@ -1,3 +1,6 @@
+---
+title: Location -
+---
 //[shop](../../../index.md)/[com.tezro.api.shop.model.orders.address](../index.md)/[Location](index.md)
 
 

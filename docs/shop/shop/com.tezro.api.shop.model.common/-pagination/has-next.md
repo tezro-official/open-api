@@ -1,3 +1,6 @@
+---
+title: hasNext -
+---
 //[shop](../../../index.md)/[com.tezro.api.shop.model.common](../index.md)/[Pagination](index.md)/[hasNext](has-next.md)
 
 

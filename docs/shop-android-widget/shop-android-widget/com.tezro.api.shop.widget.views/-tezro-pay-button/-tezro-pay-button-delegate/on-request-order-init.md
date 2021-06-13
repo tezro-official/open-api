@@ -1,3 +1,6 @@
+---
+title: onRequestOrderInit -
+---
 //[shop-android-widget](../../../../index.md)/[com.tezro.api.shop.widget.views](../../index.md)/[TezroPayButton](../index.md)/[TezroPayButtonDelegate](index.md)/[onRequestOrderInit](on-request-order-init.md)
 
 

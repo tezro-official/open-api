@@ -1,3 +1,6 @@
+---
+title: getOrders -
+---
 //[shop](../../../index.md)/[com.tezro.api.shop.service](../index.md)/[IShopService](index.md)/[getOrders](get-orders.md)
 
 
@@ -5,7 +8,7 @@
 # getOrders  
 [jvm]  
 Content  
-abstract fun [getOrders](get-orders.md)(offset: [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)? = null, limit: [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)? = null, direction: [Pagination.Direction](../../com.tezro.api.shop.model.common/-pagination/-direction/index.md)? = null, status: [Order.Status](../../com.tezro.api.shop.model.orders/-order/-status/index.md)? = null): IRequest<[OrdersPage](../../com.tezro.api.shop.model.orders/-orders-page/index.md)>  
+abstract fun [getOrders](get-orders.md)(offset: [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)? = null, limit: [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)? = null, direction: [Pagination.Direction](../../com.tezro.api.shop.model.common/-pagination/-direction/index.md)? = null, status: [Order.Status](../../com.tezro.api.shop.model.orders/-order/-status/index.md)? = null): [IRequest](../../com.tezro.api.core.client.requests/-i-request/index.md)<[OrdersPage](../../com.tezro.api.shop.model.orders/-orders-page/index.md), [Error](../../com.tezro.api.shop.model.common/-error/index.md)>  
 More info  
 
 

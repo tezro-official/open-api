@@ -1,3 +1,6 @@
+---
+title: com.tezro.api.shop.service -
+---
 //[shop](../../index.md)/[com.tezro.api.shop.service](index.md)
 
 

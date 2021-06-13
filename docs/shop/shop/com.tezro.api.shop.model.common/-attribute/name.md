@@ -1,3 +1,6 @@
+---
+title: name -
+---
 //[shop](../../../index.md)/[com.tezro.api.shop.model.common](../index.md)/[Attribute](index.md)/[name](name.md)
 
 

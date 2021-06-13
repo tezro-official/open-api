@@ -1,3 +1,6 @@
+---
+title: ASCENDING -
+---
 //[shop](../../../../../index.md)/[com.tezro.api.shop.model.common](../../../index.md)/[Pagination](../../index.md)/[Direction](../index.md)/[ASCENDING](index.md)
 
 

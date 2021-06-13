@@ -1,3 +1,6 @@
+---
+title: isAutomaticRedirectEnabled -
+---
 //[shop-android-widget](../../../index.md)/[com.tezro.api.shop.widget.views](../index.md)/[TezroPayButton](index.md)/[isAutomaticRedirectEnabled](is-automatic-redirect-enabled.md)
 
 

@@ -1,3 +1,6 @@
+---
+title: total -
+---
 //[shop](../../../index.md)/[com.tezro.api.shop.model.common](../index.md)/[Pagination](index.md)/[total](total.md)
 
 

@@ -1,3 +1,6 @@
+---
+title: Shop -
+---
 //[shop](../../../index.md)/[com.tezro.api.shop.providers](../index.md)/[Shop](index.md)
 
 
@@ -24,5 +27,5 @@ jvm
   
 |  Name |  Summary | 
 |---|---|
-| <a name="com.tezro.api.shop.providers/Shop/initShopService/#kotlin.String#kotlin.String?#kotlin.Boolean/PointingToDeclaration/"></a>[initShopService](init-shop-service.md)| <a name="com.tezro.api.shop.providers/Shop/initShopService/#kotlin.String#kotlin.String?#kotlin.Boolean/PointingToDeclaration/"></a>[jvm]  <br>Content  <br>fun [initShopService](init-shop-service.md)(keyId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), secret: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, isTestMode: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)): [IShopService](../../com.tezro.api.shop.service/-i-shop-service/index.md)  <br>More info  <br>Creates a new instance of shop service.  <br><br><br>|
+| <a name="com.tezro.api.shop.providers/Shop/initShopService/#kotlin.String#kotlin.String?#kotlin.Boolean/PointingToDeclaration/"></a>[initShopService](init-shop-service.md)| <a name="com.tezro.api.shop.providers/Shop/initShopService/#kotlin.String#kotlin.String?#kotlin.Boolean/PointingToDeclaration/"></a>[jvm]  <br>Content  <br>@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  <br>  <br>fun [initShopService](init-shop-service.md)(keyId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), secret: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, isTestMode: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)): [IShopService](../../com.tezro.api.shop.service/-i-shop-service/index.md)  <br>More info  <br>Creates a new instance of shop service.  <br><br><br>|
 

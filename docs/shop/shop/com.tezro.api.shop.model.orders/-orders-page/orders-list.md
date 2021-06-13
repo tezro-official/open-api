@@ -1,3 +1,6 @@
+---
+title: ordersList -
+---
 //[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[OrdersPage](index.md)/[ordersList](orders-list.md)
 
 

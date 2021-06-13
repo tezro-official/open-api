@@ -1,3 +1,6 @@
+---
+title: requestPaymentByLink -
+---
 //[shop-android-widget](../../../index.md)/[com.tezro.api.shop.widget.core](../index.md)/[PaymentHelper](index.md)/[requestPaymentByLink](request-payment-by-link.md)
 
 

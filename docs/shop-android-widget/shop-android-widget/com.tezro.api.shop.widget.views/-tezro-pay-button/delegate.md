@@ -1,3 +1,6 @@
+---
+title: delegate -
+---
 //[shop-android-widget](../../../index.md)/[com.tezro.api.shop.widget.views](../index.md)/[TezroPayButton](index.md)/[delegate](delegate.md)
 
 

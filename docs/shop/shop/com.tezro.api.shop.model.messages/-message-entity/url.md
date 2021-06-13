@@ -1,3 +1,6 @@
+---
+title: url -
+---
 //[shop](../../../index.md)/[com.tezro.api.shop.model.messages](../index.md)/[MessageEntity](index.md)/[url](url.md)
 
 

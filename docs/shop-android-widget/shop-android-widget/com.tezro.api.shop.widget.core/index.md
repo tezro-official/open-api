@@ -1,3 +1,6 @@
+---
+title: com.tezro.api.shop.widget.core -
+---
 //[shop-android-widget](../../index.md)/[com.tezro.api.shop.widget.core](index.md)
 
 

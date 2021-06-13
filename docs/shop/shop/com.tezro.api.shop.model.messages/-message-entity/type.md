@@ -1,3 +1,6 @@
+---
+title: type -
+---
 //[shop](../../../index.md)/[com.tezro.api.shop.model.messages](../index.md)/[MessageEntity](index.md)/[type](type.md)
 
 
