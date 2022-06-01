@@ -1,17 +1,19 @@
 ---
-title: com.tezro.api.shop.widget.core -
+title: com.tezro.api.shop.widget.core
 ---
-//[shop-android-widget](../../index.md)/[com.tezro.api.shop.widget.core](index.md)
+//[shop-android-widget](../../index.html)/[com.tezro.api.shop.widget.core](index.html)
 
 
 
-# Package com.tezro.api.shop.widget.core  
+# Package com.tezro.api.shop.widget.core
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+## Types
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.widget.core/PaymentHelper///PointingToDeclaration/"></a>[PaymentHelper](-payment-helper/index.md)| <a name="com.tezro.api.shop.widget.core/PaymentHelper///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [PaymentHelper](-payment-helper/index.md)  <br>More info  <br>A helper that's used to proceed the user to order payment.  <br><br><br>|
-| <a name="com.tezro.api.shop.widget.core/ShopWidget///PointingToDeclaration/"></a>[ShopWidget](-shop-widget/index.md)| <a name="com.tezro.api.shop.widget.core/ShopWidget///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [ShopWidget](-shop-widget/index.md)  <br>More info  <br>A helper that's used to manage orders.  <br><br><br>|
+| [PaymentHelper](-payment-helper/index.html) | [androidJvm]<br>object [PaymentHelper](-payment-helper/index.html)<br>A helper that's used to proceed the user to order payment. |
+| [ShopWidget](-shop-widget/index.html) | [androidJvm]<br>object [ShopWidget](-shop-widget/index.html)<br>A helper that's used to manage orders. |
 

@@ -1,40 +1,46 @@
 ---
-title: Attribute -
+title: Attribute
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.common](../index.md)/[Attribute](index.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.common](../index.html)/[Attribute](index.html)
 
 
 
-# Attribute  
- [jvm] data class [Attribute](index.md)(**name**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), **value**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))
+# Attribute
+
+
+
+[jvm]\
+data class [Attribute](index.html)(val name: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val value: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))
 
 Contains information about some order attributes. Can be used to indicate product color, size or quantity.
 
-   
 
 
-## Parameters  
-  
-jvm  
-  
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Attribute///PointingToDeclaration/"></a>name| <a name="com.tezro.api.shop.model.common/Attribute///PointingToDeclaration/"></a><br><br>The name of the attribute<br><br>|
-| <a name="com.tezro.api.shop.model.common/Attribute///PointingToDeclaration/"></a>value| <a name="com.tezro.api.shop.model.common/Attribute///PointingToDeclaration/"></a><br><br>The value of the attribute<br><br>|
-  
+| name | The name of the attribute |
+| value | The value of the attribute |
 
 
-## Constructors  
-  
+
+## Constructors
+
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Attribute/Attribute/#kotlin.String#kotlin.String/PointingToDeclaration/"></a>[Attribute](-attribute.md)| <a name="com.tezro.api.shop.model.common/Attribute/Attribute/#kotlin.String#kotlin.String/PointingToDeclaration/"></a> [jvm] fun [Attribute](-attribute.md)(name: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), value: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))The name of the attribute   <br>|
+| [Attribute](-attribute.html) | [jvm]<br>fun [Attribute](-attribute.html)(name: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), value: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) |
 
 
-## Properties  
-  
-|  Name |  Summary | 
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Attribute/name/#/PointingToDeclaration/"></a>[name](name.md)| <a name="com.tezro.api.shop.model.common/Attribute/name/#/PointingToDeclaration/"></a> [jvm] val [name](name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)The name of the attribute   <br>|
-| <a name="com.tezro.api.shop.model.common/Attribute/value/#/PointingToDeclaration/"></a>[value](value.md)| <a name="com.tezro.api.shop.model.common/Attribute/value/#/PointingToDeclaration/"></a> [jvm] val [value](value.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)The value of the attribute   <br>|
+| [name](name.html) | [jvm]<br>val [name](name.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [value](value.html) | [jvm]<br>val [value](value.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 

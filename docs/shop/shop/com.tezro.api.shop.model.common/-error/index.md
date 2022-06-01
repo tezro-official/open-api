@@ -1,51 +1,58 @@
 ---
-title: Error -
+title: Error
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.common](../index.md)/[Error](index.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.common](../index.html)/[Error](index.html)
 
 
 
-# Error  
- [jvm] data class [Error](index.md)(**error**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), **statusCode**: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html), **message**: [Any](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html))
+# Error
+
+
+
+[jvm]\
+data class [Error](index.html)(val error: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val statusCode: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html), val message: [Any](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html))
 
 Contains details about a response error. This error can be thrown as an exception.
 
-   
 
 
-## See also  
-  
-jvm  
-  
+## See also
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Error///PointingToDeclaration/"></a>[kotlin.Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)| <a name="com.tezro.api.shop.model.common/Error///PointingToDeclaration/"></a>|
-  
+| [kotlin.Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html) |  |
 
 
-## Parameters  
-  
-jvm  
-  
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Error///PointingToDeclaration/"></a>message| <a name="com.tezro.api.shop.model.common/Error///PointingToDeclaration/"></a><br><br>Error message returned by the server<br><br>|
-| <a name="com.tezro.api.shop.model.common/Error///PointingToDeclaration/"></a>statusCode| <a name="com.tezro.api.shop.model.common/Error///PointingToDeclaration/"></a><br><br>Status code of the response<br><br>|
-  
+| message | Error message returned by the server |
+| statusCode | Status code of the response |
 
 
-## Constructors  
-  
+
+## Constructors
+
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Error/Error/#kotlin.String#kotlin.Int#kotlin.Any/PointingToDeclaration/"></a>[Error](-error.md)| <a name="com.tezro.api.shop.model.common/Error/Error/#kotlin.String#kotlin.Int#kotlin.Any/PointingToDeclaration/"></a> [jvm] fun [Error](-error.md)(error: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), statusCode: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html), message: [Any](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html))Error message returned by the server   <br>|
+| [Error](-error.html) | [jvm]<br>fun [Error](-error.html)(error: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), statusCode: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html), message: [Any](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)) |
 
 
-## Properties  
-  
-|  Name |  Summary | 
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Error/error/#/PointingToDeclaration/"></a>[error](error.md)| <a name="com.tezro.api.shop.model.common/Error/error/#/PointingToDeclaration/"></a> [jvm] val [error](error.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="com.tezro.api.shop.model.common/Error/message/#/PointingToDeclaration/"></a>[message](message.md)| <a name="com.tezro.api.shop.model.common/Error/message/#/PointingToDeclaration/"></a> [jvm] val [message](message.md): [Any](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)Error message returned by the server   <br>|
-| <a name="com.tezro.api.shop.model.common/Error/statusCode/#/PointingToDeclaration/"></a>[statusCode](status-code.md)| <a name="com.tezro.api.shop.model.common/Error/statusCode/#/PointingToDeclaration/"></a> [jvm] val [statusCode](status-code.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)Status code of the response   <br>|
+| [error](error.html) | [jvm]<br>val [error](error.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [message](message.html) | [jvm]<br>val [message](message.html): [Any](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html) |
+| [statusCode](status-code.html) | [jvm]<br>val [statusCode](status-code.html): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 

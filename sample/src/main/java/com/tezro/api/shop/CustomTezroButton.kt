@@ -9,5 +9,5 @@ class CustomTezroButton(
     context: Context,
     attributeSet: AttributeSet
 ) : TezroPayButton(context, attributeSet) {
-
+    // Customize the button
 }

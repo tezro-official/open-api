@@ -1,26 +1,28 @@
 ---
-title: value -
+title: value
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.common](../index.md)/[Attribute](index.md)/[value](value.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.common](../index.html)/[Attribute](index.html)/[value](value.html)
 
 
 
-# value  
-[jvm]  
-Content  
-val [value](value.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
-More info  
+# value
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [value](value.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Attribute/value/#/PointingToDeclaration/"></a>value| <a name="com.tezro.api.shop.model.common/Attribute/value/#/PointingToDeclaration/"></a><br><br>The value of the attribute<br><br>|
-  
-  
+| value | The value of the attribute |
+
 
 
 

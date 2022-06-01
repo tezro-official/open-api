@@ -1,4 +1,4 @@
-package com.tezro.api.core.client.requests
+package com.tezro.api.shop.client.core.client.requests
 
 /**
  * Delegate of the a request.

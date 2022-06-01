@@ -1,26 +1,28 @@
 ---
-title: offset -
+title: offset
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.messages](../index.md)/[MessageEntity](index.md)/[offset](offset.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.messages](../index.html)/[MessageEntity](index.html)/[offset](offset.html)
 
 
 
-# offset  
-[jvm]  
-Content  
-val [offset](offset.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)  
-More info  
+# offset
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [offset](offset.html): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.messages/MessageEntity/offset/#/PointingToDeclaration/"></a>offset| <a name="com.tezro.api.shop.model.messages/MessageEntity/offset/#/PointingToDeclaration/"></a><br><br>Start position of clickable text. Must be in range of 0-4090 inclusively<br><br>|
-  
-  
+| offset | Start position of clickable text. Must be in range of 0-4090 inclusively |
+
 
 
 

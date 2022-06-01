@@ -1,30 +1,35 @@
 ---
-title: Direction -
+title: Direction
 ---
-//[shop](../../../../index.md)/[com.tezro.api.shop.model.common](../../index.md)/[Pagination](../index.md)/[Direction](index.md)
+//[shop](../../../../index.html)/[com.tezro.api.shop.model.common](../../index.html)/[Pagination](../index.html)/[Direction](index.html)
 
 
 
-# Direction  
- [jvm] enum [Direction](index.md) : [Enum](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html)<[Pagination.Direction](index.md)> 
+# Direction
+
+
+
+[jvm]\
+enum [Direction](index.html) : [Enum](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html)&lt;[Pagination.Direction](index.html)&gt; 
 
 Controls sorting direction in collections.
 
-   
 
 
-## Entries  
-  
+## Entries
+
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Pagination.Direction.DESCENDING///PointingToDeclaration/"></a>[DESCENDING](-d-e-s-c-e-n-d-i-n-g/index.md)| <a name="com.tezro.api.shop.model.common/Pagination.Direction.DESCENDING///PointingToDeclaration/"></a> [jvm] [DESCENDING](-d-e-s-c-e-n-d-i-n-g/index.md)()  <br>Used to sort in reverse order (z-A or 9-1).   <br>|
-| <a name="com.tezro.api.shop.model.common/Pagination.Direction.ASCENDING///PointingToDeclaration/"></a>[ASCENDING](-a-s-c-e-n-d-i-n-g/index.md)| <a name="com.tezro.api.shop.model.common/Pagination.Direction.ASCENDING///PointingToDeclaration/"></a> [jvm] [ASCENDING](-a-s-c-e-n-d-i-n-g/index.md)()  <br>Used to sort in straight order (A-z or 1-9).   <br>|
+| [DESCENDING](-d-e-s-c-e-n-d-i-n-g/index.html) | [jvm]<br>[DESCENDING](-d-e-s-c-e-n-d-i-n-g/index.html)()<br>Used to sort in reverse order (z-A or 9-1). |
+| [ASCENDING](-a-s-c-e-n-d-i-n-g/index.html) | [jvm]<br>[ASCENDING](-a-s-c-e-n-d-i-n-g/index.html)()<br>Used to sort in straight order (A-z or 1-9). |
 
 
-## Properties  
-  
-|  Name |  Summary | 
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Pagination.Direction/name/#/PointingToDeclaration/"></a>[name](index.md#1631263742%2FProperties%2F-880856229)| <a name="com.tezro.api.shop.model.common/Pagination.Direction/name/#/PointingToDeclaration/"></a> [jvm] val [name](index.md#1631263742%2FProperties%2F-880856229): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="com.tezro.api.shop.model.common/Pagination.Direction/ordinal/#/PointingToDeclaration/"></a>[ordinal](index.md#-1102486912%2FProperties%2F-880856229)| <a name="com.tezro.api.shop.model.common/Pagination.Direction/ordinal/#/PointingToDeclaration/"></a> [jvm] val [ordinal](index.md#-1102486912%2FProperties%2F-880856229): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
+| [name](../../../com.tezro.api.shop.model.orders/-order/-currency/-e-t-h/index.html#-372974862%2FProperties%2F-880856229) | [jvm]<br>val [name](../../../com.tezro.api.shop.model.orders/-order/-currency/-e-t-h/index.html#-372974862%2FProperties%2F-880856229): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [ordinal](../../../com.tezro.api.shop.model.orders/-order/-currency/-e-t-h/index.html#-739389684%2FProperties%2F-880856229) | [jvm]<br>val [ordinal](../../../com.tezro.api.shop.model.orders/-order/-currency/-e-t-h/index.html#-739389684%2FProperties%2F-880856229): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 

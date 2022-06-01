@@ -1,16 +1,18 @@
 ---
-title: com.tezro.api.shop.model.messages -
+title: com.tezro.api.shop.model.messages
 ---
-//[shop](../../index.md)/[com.tezro.api.shop.model.messages](index.md)
+//[shop](../../index.html)/[com.tezro.api.shop.model.messages](index.html)
 
 
 
-# Package com.tezro.api.shop.model.messages  
+# Package com.tezro.api.shop.model.messages
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+## Types
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.model.messages/MessageEntity///PointingToDeclaration/"></a>[MessageEntity](-message-entity/index.md)| <a name="com.tezro.api.shop.model.messages/MessageEntity///PointingToDeclaration/"></a>[jvm]  <br>Content  <br>data class [MessageEntity](-message-entity/index.md)(**type**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), **offset**: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html), **length**: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html), **url**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))  <br>More info  <br>Used for making part of text as clickable url link.  <br><br><br>|
+| [MessageEntity](-message-entity/index.html) | [jvm]<br>data class [MessageEntity](-message-entity/index.html)(val type: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val offset: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html), val length: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html), val url: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))<br>Used for making part of text as clickable url link. |
 

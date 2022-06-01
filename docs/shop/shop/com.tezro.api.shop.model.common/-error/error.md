@@ -1,14 +1,17 @@
 ---
-title: error -
+title: error
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.common](../index.md)/[Error](index.md)/[error](error.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.common](../index.html)/[Error](index.html)/[error](error.html)
 
 
 
-# error  
-[jvm]  
-Content  
-val [error](error.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
+# error
+
+
+
+[jvm]\
+val [error](error.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
 
 
 

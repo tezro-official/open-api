@@ -1,64 +1,69 @@
 ---
-title: initOrder -
+title: initOrder
 ---
-//[shop-android-widget](../../../index.md)/[com.tezro.api.shop.widget.views](../index.md)/[TezroPayButton](index.md)/[initOrder](init-order.md)
+//[shop-android-widget](../../../index.html)/[com.tezro.api.shop.widget.views](../index.html)/[TezroPayButton](index.html)/[initOrder](init-order.html)
 
 
 
-# initOrder  
-[androidJvm]  
-Content  
-open fun [initOrder](init-order.md)(orderId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), name: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), amount: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), currency: Order.Currency, confirmAmountUrl: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), expiryDate: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html) = Date(), photos: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)>? = null, attributes: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<Attribute>? = null)  
-More info  
+# initOrder
+
+
+
+[androidJvm]\
+open fun [initOrder](init-order.html)(orderId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), name: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), amount: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), currency: Order.Currency, confirmAmountUrl: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), expiryDate: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html) = Date(), photos: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)&gt;? = null, attributes: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;Attribute&gt;? = null)
+
 
 
 Creates a new order with the provided data and proceeds the user to Tezro for payment.
 
 
 
-#### Return  
+#### Return
+
 
 
 Detailed information about the created order
 
 
 
-## See also  
-  
-androidJvm  
-  
+## See also
+
+
+androidJvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>com.tezro.api.shop.model.orders.Order.Status| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>com.tezro.api.shop.model.orders.Order.Currency| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>com.tezro.api.shop.model.common.Attribute| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>com.tezro.api.shop.model.orders.Order| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>|
-  
+| com.tezro.api.shop.model.orders.Order.Status |  |
+| com.tezro.api.shop.model.orders.Order.Currency |  |
+| com.tezro.api.shop.model.common.Attribute |  |
+| com.tezro.api.shop.model.orders.Order |  |
 
 
-## Parameters  
-  
-androidJvm  
-  
+
+## Parameters
+
+
+androidJvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>orderId| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a><br><br>The created order will have this value as internalId. It must be unique and length must be in a range of 1 to 20 symbols<br><br>|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>name| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a><br><br>Name of the order product or products<br><br>|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>amount| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a><br><br>The amount that should be payed by the customer<br><br>|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>currency| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a><br><br>The currency that will be accepted for payment<br><br>|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>confirmAmountUrl| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a><br><br>Used for confirming order's amount and payment status. This must be a valid url. Protocol is required (only http or https)<br><br>|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>expiryDate| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a><br><br>The date when this order will be no longer valid. Date must be later than current time + 1 min and earlier than current time + 24 hours. If you don't provide a date, it will be by default 1 hour since creation<br><br>|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>photos| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a><br><br>List of photo urls of ordered products<br><br>|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>attributes| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a><br><br>List of attributes about the order<br><br>|
-  
+| orderId | The created order will have this value as internalId. It must be unique and length must be in a range of 1 to 20 symbols |
+| name | Name of the order product or products |
+| amount | The amount that should be payed by the customer |
+| currency | The currency that will be accepted for payment |
+| confirmAmountUrl | Used for confirming order's amount and payment status. This must be a valid url. Protocol is required (only http or https) |
+| expiryDate | The date when this order will be no longer valid. Date must be later than current time + 1 min and earlier than current time + 24 hours. If you don't provide a date, it will be by default 1 hour since creation |
+| photos | List of photo urls of ordered products |
+| attributes | List of attributes about the order |
 
 
-#### Throws  
-  
+
+## Throws
+
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a>[kotlin.IllegalStateException](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-illegal-state-exception/index.html)| <a name="com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/"></a><br><br>if the init method was not called<br><br>|
-  
+| [kotlin.IllegalStateException](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-illegal-state-exception/index.html) | if the init method was not called |
 
 
 

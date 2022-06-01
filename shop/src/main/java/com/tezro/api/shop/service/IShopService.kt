@@ -1,6 +1,6 @@
 package com.tezro.api.shop.service
 
-import com.tezro.api.core.client.requests.IRequest
+import com.tezro.api.shop.client.core.client.requests.IRequest
 import com.tezro.api.shop.model.common.Attribute
 import com.tezro.api.shop.model.common.Error
 import com.tezro.api.shop.model.common.Pagination
@@ -47,14 +47,16 @@ interface IShopService {
      * @param comment A comment that will be added to the order with the new status and will be
      * displayed in the payment unlocking request (optional). Length must be in range of 1-4096
      * symbols inclusively
+     * @param attributes List of attributes about the order
      *
      * @return Nothing special, just void;)
      *
      * @see Order.externalId
      */
-    fun confirmDelivery(
+    fun setOrderStatusDelivered(
         orderExternalId: String,
-        comment: String? = null
+        attributes: List<Attribute>?,
+        comment: String?
     ): IRequest<Void, Error>
 
 
@@ -133,23 +135,48 @@ interface IShopService {
 
 
     /**
+     * Updates order status to delivering.
      * Adds a new tracking number and url to the order. This number will be used by the customer
      * to track the location of the product during shipment.
      *
      * @param orderExternalId Order's id which should be edited. Make sure to use
      * order's external id rather than internal
+     * @param attributes List of attributes about the order
      * @param trackingNumber The number that will be used to track the goods
      * @param trackingUrl The url of the website where goods can be tracked
+     * @param comment A comment that will be added to the order with the new status and will be
+     * displayed in the payment unlocking request (optional). Length must be in range of 1-4096
+     * symbols inclusively
      *
      * @return Nothing special, just void;)
      *
      * @see Order.externalId
      */
-    fun addOrderTrackingNumber(
+    fun setOrderStatusDelivering(
         orderExternalId: String,
+        attributes: List<Attribute>?,
         trackingNumber: String,
-        trackingUrl: String? = null
+        trackingUrl: String?,
+        comment: String?
     ): IRequest<Void, Error>
 
-
+    /**
+     * Updates order's current status to processing and sends a notification to the customer.
+     *
+     * @param orderExternalId Order's id which should be updated. Make sure to use
+     * order's external id rather than internal
+     * @param attributes List of attributes about the order
+     * @param comment A comment that will be added to the order with the new status and will be
+     * displayed in the payment unlocking request (optional). Length must be in range of 1-4096
+     * symbols inclusively
+     *
+     * @return Nothing special, just void;)
+     *
+     * @see Order.externalId
+     */
+    fun setOrderStatusProcessing(
+        orderExternalId: String,
+        attributes: List<Attribute>?,
+        comment: String?
+    ): IRequest<Void, Error>
 }

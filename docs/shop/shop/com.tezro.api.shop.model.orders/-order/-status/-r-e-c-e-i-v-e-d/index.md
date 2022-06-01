@@ -1,23 +1,28 @@
 ---
-title: RECEIVED -
+title: RECEIVED
 ---
-//[shop](../../../../../index.md)/[com.tezro.api.shop.model.orders](../../../index.md)/[Order](../../index.md)/[Status](../index.md)/[RECEIVED](index.md)
+//[shop](../../../../../index.html)/[com.tezro.api.shop.model.orders](../../../index.html)/[Order](../../index.html)/[Status](../index.html)/[RECEIVED](index.html)
 
 
 
-# RECEIVED  
- [jvm] [RECEIVED](index.md)()  
+# RECEIVED
+
+
+
+[jvm]\
+[RECEIVED](index.html)()
+
 
 
 Indicates that the customer has confirmed delivery and unlocked payment. If not, payment will be unlocked automatically in 45 days after delivery confirmation by shop.
 
-   
 
 
-## Properties  
-  
-|  Name |  Summary | 
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order.Status.RECEIVED/name/#/PointingToDeclaration/"></a>[name](name.md)| <a name="com.tezro.api.shop.model.orders/Order.Status.RECEIVED/name/#/PointingToDeclaration/"></a> [jvm] val [name](name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Status.RECEIVED/ordinal/#/PointingToDeclaration/"></a>[ordinal](ordinal.md)| <a name="com.tezro.api.shop.model.orders/Order.Status.RECEIVED/ordinal/#/PointingToDeclaration/"></a> [jvm] val [ordinal](ordinal.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
+| [name](../../-currency/-e-t-h/index.html#-372974862%2FProperties%2F-880856229) | [jvm]<br>val [name](../../-currency/-e-t-h/index.html#-372974862%2FProperties%2F-880856229): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [ordinal](../../-currency/-e-t-h/index.html#-739389684%2FProperties%2F-880856229) | [jvm]<br>val [ordinal](../../-currency/-e-t-h/index.html#-739389684%2FProperties%2F-880856229): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 

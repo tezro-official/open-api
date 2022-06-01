@@ -1,26 +1,28 @@
 ---
-title: customerFullName -
+title: customerFullName
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[Order](index.md)/[customerFullName](customer-full-name.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders](../index.html)/[Order](index.html)/[customerFullName](customer-full-name.html)
 
 
 
-# customerFullName  
-[jvm]  
-Content  
-val [customerFullName](customer-full-name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?  
-More info  
+# customerFullName
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [customerFullName](customer-full-name.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order/customerFullName/#/PointingToDeclaration/"></a>customerFullName| <a name="com.tezro.api.shop.model.orders/Order/customerFullName/#/PointingToDeclaration/"></a><br><br>First and Last name of the customer<br><br>|
-  
-  
+| customerFullName | First and Last name of the customer |
+
 
 
 

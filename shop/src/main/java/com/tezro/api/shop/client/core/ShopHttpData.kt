@@ -3,7 +3,7 @@ package com.tezro.api.shop.client.core
 internal object ShopHttpData {
 
     const val DOMAIN = "openapi.tezro.com"
-    const val TEST_URL = "https://test.$DOMAIN/"
+    const val TEST_URL = "https://dev-$DOMAIN/"
     const val PRODUCTION_URL = "https://$DOMAIN/"
     const val API_VERSION = "v1"
 
@@ -19,9 +19,8 @@ internal object ShopHttpData {
     const val API_PATH = "api/$API_VERSION"
     const val ORDER_MESSAGES_PATH = "$API_PATH/messages/{$ID_PATH}"
     const val ORDERS_PATH = "$API_PATH/orders"
-    const val INIT_ORDER_PATH = "$ORDERS_PATH/init"
+    const val ORDER_INIT_PATH = "$ORDERS_PATH/init"
     const val ORDER_PATH = "$ORDERS_PATH/{$ID_PATH}"
-    const val CONFIRM_DELIVERY_PATH = "$ORDER_PATH/confirmDelivery"
-    const val ADD_TRACKING_NUMBER_PATH = "$ORDER_PATH/addTrackingNumber"
 
+    const val ORDER_SET_STATUS_PATH = "$ORDER_PATH/setStatus"
 }

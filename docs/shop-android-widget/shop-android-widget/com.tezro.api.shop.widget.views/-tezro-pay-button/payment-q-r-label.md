@@ -1,30 +1,32 @@
 ---
-title: paymentQRLabel -
+title: paymentQRLabel
 ---
-//[shop-android-widget](../../../index.md)/[com.tezro.api.shop.widget.views](../index.md)/[TezroPayButton](index.md)/[paymentQRLabel](payment-q-r-label.md)
+//[shop-android-widget](../../../index.html)/[com.tezro.api.shop.widget.views](../index.html)/[TezroPayButton](index.html)/[paymentQRLabel](payment-q-r-label.html)
 
 
 
-# paymentQRLabel  
-[androidJvm]  
-Content  
-open var [paymentQRLabel](payment-q-r-label.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?  
-More info  
+# paymentQRLabel
+
+
+
+[androidJvm]\
+open var [paymentQRLabel](payment-q-r-label.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?
+
 
 
 Changes the text that is shown above payment QR code. It is recommended to show the default text.
 
 
 
-## See also  
-  
-androidJvm  
-  
+## See also
+
+
+androidJvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/paymentQRLabel/#/PointingToDeclaration/"></a>com.tezro.api.shop.model.orders.Order| <a name="com.tezro.api.shop.widget.views/TezroPayButton/paymentQRLabel/#/PointingToDeclaration/"></a>|
-  
-  
+| com.tezro.api.shop.model.orders.Order |  |
+
 
 
 

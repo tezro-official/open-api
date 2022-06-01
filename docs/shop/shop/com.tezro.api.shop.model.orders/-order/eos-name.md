@@ -1,26 +1,28 @@
 ---
-title: eosName -
+title: eosName
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[Order](index.md)/[eosName](eos-name.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders](../index.html)/[Order](index.html)/[eosName](eos-name.html)
 
 
 
-# eosName  
-[jvm]  
-Content  
-val [eosName](eos-name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
-More info  
+# eosName
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [eosName](eos-name.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order/eosName/#/PointingToDeclaration/"></a>eosName| <a name="com.tezro.api.shop.model.orders/Order/eosName/#/PointingToDeclaration/"></a><br><br>Shop's eos account name<br><br>|
-  
-  
+| eosName | Shop's eos account name |
+
 
 
 

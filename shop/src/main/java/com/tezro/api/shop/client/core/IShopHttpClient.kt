@@ -1,9 +1,8 @@
 package com.tezro.api.shop.client.core
 
-import com.tezro.api.shop.client.data.requests.AddTrackingNumberRequestBody
-import com.tezro.api.shop.client.data.requests.ConfirmDeliveryRequestBody
 import com.tezro.api.shop.client.data.requests.InitOrderRequestBody
 import com.tezro.api.shop.client.data.requests.SendMessageRequestBody
+import com.tezro.api.shop.client.data.requests.SetStatusRequestBody
 import com.tezro.api.shop.client.data.responses.OrderResponseBody
 import com.tezro.api.shop.client.data.responses.OrdersPageResponseBody
 import retrofit2.Call
@@ -17,13 +16,7 @@ internal interface IShopHttpClient {
         @Body body: SendMessageRequestBody
     ): Call<Void>
 
-    @POST(ShopHttpData.CONFIRM_DELIVERY_PATH)
-    fun confirmDelivery(
-        @Path(ShopHttpData.ID_PATH) orderId: String,
-        @Body body: ConfirmDeliveryRequestBody
-    ): Call<Void>
-
-    @POST(ShopHttpData.INIT_ORDER_PATH)
+    @POST(ShopHttpData.ORDER_INIT_PATH)
     fun initOrder(@Body body: InitOrderRequestBody): Call<OrderResponseBody>
 
     @GET(ShopHttpData.ORDERS_PATH)
@@ -32,10 +25,9 @@ internal interface IShopHttpClient {
     @GET(ShopHttpData.ORDER_PATH)
     fun getOrder(@Path(ShopHttpData.ID_PATH) orderId: String): Call<OrderResponseBody>
 
-    @POST(ShopHttpData.ADD_TRACKING_NUMBER_PATH)
-    fun addOrderTrackingNumber(
+    @POST(ShopHttpData.ORDER_SET_STATUS_PATH)
+    fun setOrderStatus(
         @Path(ShopHttpData.ID_PATH) orderId: String,
-        @Body body: AddTrackingNumberRequestBody
+        @Body body: SetStatusRequestBody
     ): Call<Void>
-
 }

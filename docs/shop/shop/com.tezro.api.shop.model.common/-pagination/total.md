@@ -1,26 +1,28 @@
 ---
-title: total -
+title: total
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.common](../index.md)/[Pagination](index.md)/[total](total.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.common](../index.html)/[Pagination](index.html)/[total](total.html)
 
 
 
-# total  
-[jvm]  
-Content  
-val [total](total.md): [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)  
-More info  
+# total
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [total](total.html): [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Pagination/total/#/PointingToDeclaration/"></a>total| <a name="com.tezro.api.shop.model.common/Pagination/total/#/PointingToDeclaration/"></a><br><br>Total items count<br><br>|
-  
-  
+| total | Total items count |
+
 
 
 

@@ -54,7 +54,8 @@ class MainActivity : Activity(), TezroPayButton.TezroPayButtonDelegate {
             "Test order ${Random().nextInt()}",
             "1",
             Order.Currency.USD,
-            "https://www.google.com",
+            // TODO: put your confirmAmountUrl here
+            "https://dev-openapi.tezro.com/api/v1/webhook?amountItems=1&amountShipping=1&amountTotal=1",
             Date(System.currentTimeMillis() + 100000),
             listOf("https://prod-buydo.oss-accelerate.aliyuncs.com/9a537dfd2e9a493f8fef4d35d119a43b.jpg"),
             listOf(Attribute("Test", "123"))

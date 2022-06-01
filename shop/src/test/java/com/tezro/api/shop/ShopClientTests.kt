@@ -2,7 +2,6 @@ package com.tezro.api.shop
 
 import com.google.gson.Gson
 import com.tezro.api.shop.client.core.IShopHttpClient
-import com.tezro.api.shop.client.data.requests.ConfirmDeliveryRequestBody
 import com.tezro.api.shop.client.data.requests.InitOrderRequestBody
 import com.tezro.api.shop.client.data.requests.SendMessageRequestBody
 import com.tezro.api.shop.providers.ServiceProviders
@@ -128,7 +127,7 @@ internal class ShopClientTests {
     @Test
     fun confirmOrderDelivery() {
         val sendMessageBody = ConfirmDeliveryRequestBody("Thanks for payment!")
-        val response = shopClient.confirmDelivery(
+        val response = shopClient.setOrderStatus(
                 "ssss",
                 sendMessageBody,
         ).execute()

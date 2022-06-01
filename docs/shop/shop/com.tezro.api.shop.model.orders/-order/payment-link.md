@@ -1,26 +1,28 @@
 ---
-title: paymentLink -
+title: paymentLink
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[Order](index.md)/[paymentLink](payment-link.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders](../index.html)/[Order](index.html)/[paymentLink](payment-link.html)
 
 
 
-# paymentLink  
-[jvm]  
-Content  
-val [paymentLink](payment-link.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
-More info  
+# paymentLink
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [paymentLink](payment-link.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order/paymentLink/#/PointingToDeclaration/"></a>paymentLink| <a name="com.tezro.api.shop.model.orders/Order/paymentLink/#/PointingToDeclaration/"></a><br><br>The link that will open Tezro app for payment transaction<br><br>|
-  
-  
+| paymentLink | The link that will open Tezro app for payment transaction |
+
 
 
 

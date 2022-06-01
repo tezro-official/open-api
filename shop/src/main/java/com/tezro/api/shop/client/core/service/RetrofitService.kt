@@ -1,16 +1,15 @@
 package com.tezro.api.shop.client.core.service
 
 import com.google.gson.Gson
-import com.tezro.api.core.client.requests.IRequest
-import com.tezro.api.core.client.requests.IRequestDelegate
-import com.tezro.api.core.client.requests.Request
+import com.tezro.api.shop.client.core.client.requests.IRequest
+import com.tezro.api.shop.client.core.client.requests.IRequestDelegate
+import com.tezro.api.shop.client.core.client.requests.Request
 import com.tezro.api.shop.client.data.responses.ErrorResponseBody
 import com.tezro.api.shop.service.ShopData
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import com.tezro.api.shop.model.common.Error
-
 
 abstract class RetrofitService  {
 

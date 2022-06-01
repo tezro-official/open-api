@@ -1,17 +1,25 @@
 ---
-title: initShopService -
+title: initShopService
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.providers](../index.md)/[Shop](index.md)/[initShopService](init-shop-service.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.providers](../index.html)/[Shop](index.html)/[initShopService](init-shop-service.html)
 
 
 
-# initShopService  
-[jvm]  
-Content  
-@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  
-  
-fun [initShopService](init-shop-service.md)(keyId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), secret: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, isTestMode: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)): [IShopService](../../com.tezro.api.shop.service/-i-shop-service/index.md)  
-More info  
+# initShopService
+
+
+
+[jvm]\
+
+
+
+
+@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)
+
+
+
+fun [initShopService](init-shop-service.html)(keyId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), secret: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, isTestMode: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)): [IShopService](../../com.tezro.api.shop.service/-i-shop-service/index.html)
+
 
 
 Creates a new instance of shop service.
@@ -30,34 +38,36 @@ The reason that singleton instance management is not handled by this library is 
 
 
 
-#### Return  
+#### Return
+
 
 
 Returns a new instance of shop service
 
 
 
-## See also  
-  
-jvm  
-  
-| | |
-|---|---|
-| <a name="com.tezro.api.shop.providers/Shop/initShopService/#kotlin.String#kotlin.String?#kotlin.Boolean/PointingToDeclaration/"></a>[com.tezro.api.shop.service.IShopService](../../com.tezro.api.shop.service/-i-shop-service/index.md)| <a name="com.tezro.api.shop.providers/Shop/initShopService/#kotlin.String#kotlin.String?#kotlin.Boolean/PointingToDeclaration/"></a>|
-  
+## See also
 
 
-## Parameters  
-  
-jvm  
-  
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.providers/Shop/initShopService/#kotlin.String#kotlin.String?#kotlin.Boolean/PointingToDeclaration/"></a>keyId| <a name="com.tezro.api.shop.providers/Shop/initShopService/#kotlin.String#kotlin.String?#kotlin.Boolean/PointingToDeclaration/"></a><br><br>Retrieve from credentials in Tezro app<br><br>|
-| <a name="com.tezro.api.shop.providers/Shop/initShopService/#kotlin.String#kotlin.String?#kotlin.Boolean/PointingToDeclaration/"></a>secret| <a name="com.tezro.api.shop.providers/Shop/initShopService/#kotlin.String#kotlin.String?#kotlin.Boolean/PointingToDeclaration/"></a><br><br>Retrieve from credentials in Tezro app, not providing secret will disable some of the requests<br><br>|
-| <a name="com.tezro.api.shop.providers/Shop/initShopService/#kotlin.String#kotlin.String?#kotlin.Boolean/PointingToDeclaration/"></a>isTestMode| <a name="com.tezro.api.shop.providers/Shop/initShopService/#kotlin.String#kotlin.String?#kotlin.Boolean/PointingToDeclaration/"></a><br><br>Uses test service mode<br><br>|
-  
-  
+| [com.tezro.api.shop.service.IShopService](../../com.tezro.api.shop.service/-i-shop-service/index.html) |  |
+
+
+
+## Parameters
+
+
+jvm
+
+| | |
+|---|---|
+| keyId | Retrieve from credentials in Tezro app |
+| secret | Retrieve from credentials in Tezro app, not providing secret will disable some of the requests |
+| isTestMode | Uses test service mode |
+
 
 
 

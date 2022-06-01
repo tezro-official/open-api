@@ -1,23 +1,28 @@
 ---
-title: CONFIRMED -
+title: CONFIRMED
 ---
-//[shop](../../../../../index.md)/[com.tezro.api.shop.model.orders](../../../index.md)/[Order](../../index.md)/[Status](../index.md)/[CONFIRMED](index.md)
+//[shop](../../../../../index.html)/[com.tezro.api.shop.model.orders](../../../index.html)/[Order](../../index.html)/[Status](../index.html)/[CONFIRMED](index.html)
 
 
 
-# CONFIRMED  
- [jvm] [CONFIRMED](index.md)()  
+# CONFIRMED
+
+
+
+[jvm]\
+[CONFIRMED](index.html)()
+
 
 
 Indicates that the customer has paid using escrow service in Tezro App.
 
-   
 
 
-## Properties  
-  
-|  Name |  Summary | 
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order.Status.CONFIRMED/name/#/PointingToDeclaration/"></a>[name](name.md)| <a name="com.tezro.api.shop.model.orders/Order.Status.CONFIRMED/name/#/PointingToDeclaration/"></a> [jvm] val [name](name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Status.CONFIRMED/ordinal/#/PointingToDeclaration/"></a>[ordinal](ordinal.md)| <a name="com.tezro.api.shop.model.orders/Order.Status.CONFIRMED/ordinal/#/PointingToDeclaration/"></a> [jvm] val [ordinal](ordinal.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
+| [name](../../-currency/-e-t-h/index.html#-372974862%2FProperties%2F-880856229) | [jvm]<br>val [name](../../-currency/-e-t-h/index.html#-372974862%2FProperties%2F-880856229): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [ordinal](../../-currency/-e-t-h/index.html#-739389684%2FProperties%2F-880856229) | [jvm]<br>val [ordinal](../../-currency/-e-t-h/index.html#-739389684%2FProperties%2F-880856229): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 

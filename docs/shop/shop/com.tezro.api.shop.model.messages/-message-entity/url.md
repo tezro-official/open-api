@@ -1,26 +1,28 @@
 ---
-title: url -
+title: url
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.messages](../index.md)/[MessageEntity](index.md)/[url](url.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.messages](../index.html)/[MessageEntity](index.html)/[url](url.html)
 
 
 
-# url  
-[jvm]  
-Content  
-val [url](url.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
-More info  
+# url
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [url](url.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.messages/MessageEntity/url/#/PointingToDeclaration/"></a>url| <a name="com.tezro.api.shop.model.messages/MessageEntity/url/#/PointingToDeclaration/"></a><br><br>Link that opens by clicking text. Must be valid URL<br><br>|
-  
-  
+| url | Link that opens by clicking text. Must be valid URL |
+
 
 
 

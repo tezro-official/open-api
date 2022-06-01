@@ -1,17 +1,31 @@
 ---
-title: RetrofitService -
+title: RetrofitService
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.client.core.service](../index.md)/[RetrofitService](index.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.client.core.service](../index.html)/[RetrofitService](index.html)
 
 
 
-# RetrofitService  
- [jvm] abstract class [RetrofitService](index.md)   
+# RetrofitService
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+[jvm]\
+abstract class [RetrofitService](index.html)
+
+
+
+## Constructors
+
+
+| | |
 |---|---|
-| <a name="com.tezro.api.shop.client.core.service/RetrofitService.Companion///PointingToDeclaration/"></a>[Companion](-companion/index.md)| <a name="com.tezro.api.shop.client.core.service/RetrofitService.Companion///PointingToDeclaration/"></a>[jvm]  <br>Content  <br>object [Companion](-companion/index.md)  <br><br><br>|
+| [RetrofitService](-retrofit-service.html) | [jvm]<br>fun [RetrofitService](-retrofit-service.html)() |
+
+
+## Types
+
+
+| Name | Summary |
+|---|---|
+| [Companion](-companion/index.html) | [jvm]<br>object [Companion](-companion/index.html) |
 

@@ -1,26 +1,28 @@
 ---
-title: statusCode -
+title: statusCode
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.common](../index.md)/[Error](index.md)/[statusCode](status-code.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.common](../index.html)/[Error](index.html)/[statusCode](status-code.html)
 
 
 
-# statusCode  
-[jvm]  
-Content  
-val [statusCode](status-code.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)  
-More info  
+# statusCode
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [statusCode](status-code.html): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Error/statusCode/#/PointingToDeclaration/"></a>statusCode| <a name="com.tezro.api.shop.model.common/Error/statusCode/#/PointingToDeclaration/"></a><br><br>Status code of the response<br><br>|
-  
-  
+| statusCode | Status code of the response |
+
 
 
 

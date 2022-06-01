@@ -1,27 +1,21 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
-    id 'org.jetbrains.dokka'
     id 'kotlin-kapt'
-    id 'maven-publish'
-    id 'signing'
 }
 
 ext {
-    PUBLISH_GROUP_ID = 'com.tezro.api'
-    PUBLISH_VERSION = '1.0.0'
     PUBLISH_ARTIFACT_ID = 'shop-android-widget'
 }
 
 apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+    compileSdkVersion 32
 
     defaultConfig {
         minSdkVersion 24
-        targetSdkVersion 30
+        targetSdkVersion 32
         versionCode 1
         versionName "1.0.0"
 
@@ -47,12 +41,12 @@ android {
 }
 
 dependencies {
-    implementation project(":shop")
+    api project(":shop")
     implementation 'com.journeyapps:zxing-android-embedded:4.2.0'
 
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
 dokkaJekyll {

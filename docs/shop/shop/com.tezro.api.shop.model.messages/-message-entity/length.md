@@ -1,26 +1,28 @@
 ---
-title: length -
+title: length
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.messages](../index.md)/[MessageEntity](index.md)/[length](length.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.messages](../index.html)/[MessageEntity](index.html)/[length](length.html)
 
 
 
-# length  
-[jvm]  
-Content  
-val [length](length.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)  
-More info  
+# length
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [length](length.html): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.messages/MessageEntity/length/#/PointingToDeclaration/"></a>length| <a name="com.tezro.api.shop.model.messages/MessageEntity/length/#/PointingToDeclaration/"></a><br><br>Length of clickable text. Length must be in range of 1-4096 Yes symbols inclusively<br><br>|
-  
-  
+| length | Length of clickable text. Length must be in range of 1-4096 Yes symbols inclusively |
+
 
 
 

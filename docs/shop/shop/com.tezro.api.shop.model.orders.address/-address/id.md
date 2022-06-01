@@ -1,26 +1,28 @@
 ---
-title: id -
+title: id
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders.address](../index.md)/[Address](index.md)/[id](id.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders.address](../index.html)/[Address](index.html)/[id](id.html)
 
 
 
-# id  
-[jvm]  
-Content  
-val [id](id.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
-More info  
+# id
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [id](id.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders.address/Address/id/#/PointingToDeclaration/"></a>id| <a name="com.tezro.api.shop.model.orders.address/Address/id/#/PointingToDeclaration/"></a><br><br>Address id<br><br>|
-  
-  
+| id | Address id |
+
 
 
 

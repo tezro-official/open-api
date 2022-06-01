@@ -1,26 +1,28 @@
 ---
-title: shippingAmount -
+title: shippingAmount
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[Order](index.md)/[shippingAmount](shipping-amount.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders](../index.html)/[Order](index.html)/[shippingAmount](shipping-amount.html)
 
 
 
-# shippingAmount  
-[jvm]  
-Content  
-val [shippingAmount](shipping-amount.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?  
-More info  
+# shippingAmount
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [shippingAmount](shipping-amount.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order/shippingAmount/#/PointingToDeclaration/"></a>shippingAmount| <a name="com.tezro.api.shop.model.orders/Order/shippingAmount/#/PointingToDeclaration/"></a><br><br>Shipping amount<br><br>|
-  
-  
+| shippingAmount | Shipping amount |
+
 
 
 

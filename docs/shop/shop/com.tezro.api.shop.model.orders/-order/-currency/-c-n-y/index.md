@@ -1,23 +1,28 @@
 ---
-title: CNY -
+title: CNY
 ---
-//[shop](../../../../../index.md)/[com.tezro.api.shop.model.orders](../../../index.md)/[Order](../../index.md)/[Currency](../index.md)/[CNY](index.md)
+//[shop](../../../../../index.html)/[com.tezro.api.shop.model.orders](../../../index.html)/[Order](../../index.html)/[Currency](../index.html)/[CNY](index.html)
 
 
 
-# CNY  
- [jvm] [CNY](index.md)()  
+# CNY
+
+
+
+[jvm]\
+[CNY](index.html)()
+
 
 
 Chinese Yuan currency symbol
 
-   
 
 
-## Properties  
-  
-|  Name |  Summary | 
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency.CNY/name/#/PointingToDeclaration/"></a>[name](name.md)| <a name="com.tezro.api.shop.model.orders/Order.Currency.CNY/name/#/PointingToDeclaration/"></a> [jvm] val [name](name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency.CNY/ordinal/#/PointingToDeclaration/"></a>[ordinal](ordinal.md)| <a name="com.tezro.api.shop.model.orders/Order.Currency.CNY/ordinal/#/PointingToDeclaration/"></a> [jvm] val [ordinal](ordinal.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
+| [name](../-e-t-h/index.html#-372974862%2FProperties%2F-880856229) | [jvm]<br>val [name](../-e-t-h/index.html#-372974862%2FProperties%2F-880856229): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [ordinal](../-e-t-h/index.html#-739389684%2FProperties%2F-880856229) | [jvm]<br>val [ordinal](../-e-t-h/index.html#-739389684%2FProperties%2F-880856229): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 

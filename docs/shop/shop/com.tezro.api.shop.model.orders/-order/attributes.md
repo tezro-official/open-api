@@ -1,26 +1,28 @@
 ---
-title: attributes -
+title: attributes
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[Order](index.md)/[attributes](attributes.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders](../index.html)/[Order](index.html)/[attributes](attributes.html)
 
 
 
-# attributes  
-[jvm]  
-Content  
-val [attributes](attributes.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[Attribute](../../com.tezro.api.shop.model.common/-attribute/index.md)>?  
-More info  
+# attributes
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [attributes](attributes.html): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[Attribute](../../com.tezro.api.shop.model.common/-attribute/index.html)&gt;?
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order/attributes/#/PointingToDeclaration/"></a>attributes| <a name="com.tezro.api.shop.model.orders/Order/attributes/#/PointingToDeclaration/"></a><br><br>List of attributes about the order<br><br>|
-  
-  
+| attributes | List of attributes about the order |
+
 
 
 

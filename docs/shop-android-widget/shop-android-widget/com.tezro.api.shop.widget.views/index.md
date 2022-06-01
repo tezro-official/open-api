@@ -1,16 +1,18 @@
 ---
-title: com.tezro.api.shop.widget.views -
+title: com.tezro.api.shop.widget.views
 ---
-//[shop-android-widget](../../index.md)/[com.tezro.api.shop.widget.views](index.md)
+//[shop-android-widget](../../index.html)/[com.tezro.api.shop.widget.views](index.html)
 
 
 
-# Package com.tezro.api.shop.widget.views  
+# Package com.tezro.api.shop.widget.views
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+## Types
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton///PointingToDeclaration/"></a>[TezroPayButton](-tezro-pay-button/index.md)| <a name="com.tezro.api.shop.widget.views/TezroPayButton///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>open class [TezroPayButton](-tezro-pay-button/index.md)(**context**: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), **attributeSet**: [AttributeSet](https://developer.android.com/reference/kotlin/android/util/AttributeSet.html)) : [LinearLayout](https://developer.android.com/reference/kotlin/android/widget/LinearLayout.html)  <br>More info  <br>A custom view that is used to proceed users to Tezro to pay for orders.  <br><br><br>|
+| [TezroPayButton](-tezro-pay-button/index.html) | [androidJvm]<br>open class [TezroPayButton](-tezro-pay-button/index.html)(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), attributeSet: [AttributeSet](https://developer.android.com/reference/kotlin/android/util/AttributeSet.html)) : [LinearLayout](https://developer.android.com/reference/kotlin/android/widget/LinearLayout.html)<br>A custom view that is used to proceed users to Tezro to pay for orders. |
 
