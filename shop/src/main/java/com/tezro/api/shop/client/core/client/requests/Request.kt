@@ -1,4 +1,4 @@
-package com.tezro.api.core.client.requests
+package com.tezro.api.shop.client.core.client.requests
 
 class Request<T, R> : IRequest<T, R>, IRequestDelegate<T, R> {
 

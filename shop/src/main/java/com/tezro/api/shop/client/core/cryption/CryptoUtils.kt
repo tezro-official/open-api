@@ -7,7 +7,7 @@ import javax.crypto.spec.SecretKeySpec
 
 object CryptoUtils {
 
-    private val HMAC_ALGORITHM_NAME = "Hmac"
+    private const val HMAC_ALGORITHM_NAME = "Hmac"
 
     fun ByteArray.toHexString(): String {
         val formatter = Formatter()
@@ -40,8 +40,6 @@ object CryptoUtils {
         return encryptedData.toHexString()
     }
 
-
-
     fun calculateHexHMAC(
             data: String,
             mac: Mac,
@@ -52,5 +50,4 @@ object CryptoUtils {
         val encryptedData = mac.doFinal(dataBytes)
         return encryptedData.toHexString()
     }
-
 }

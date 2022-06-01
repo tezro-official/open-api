@@ -11,7 +11,8 @@
         android:supportsRtl="true">
         <activity
             android:name=".shop.MainActivity"
-            android:label="@string/title_activity_main">
+            android:label="@string/title_activity_main"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
