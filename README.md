@@ -22,9 +22,9 @@ Our library is published to `mavenCentral`, so you need to include this reposito
 **Gradle**
 ```groovy
 dependencies {
-    implementation 'com.tezro.api:shop:1.1.0'
+    implementation 'com.tezro.api:shop:1.0.0-beta01'
     //Include if you are willing to use our android ready-views
-    implementation 'com.tezro.api:shop-android-widget:1.1.0'
+    implementation 'com.tezro.api:shop-android-widget:1.0.0-beta01'
 }
 ```
 
@@ -33,12 +33,12 @@ dependencies {
 <dependency>
     <groupId>com.tezro.api</groupId>
     <artifactId>shop</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0-beta01</version>
 </dependency>
 <dependency>
     <groupId>com.tezro.api</groupId>
     <artifactId>shop-android-widget</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0-beta01</version>
 </dependency>
 ```
 
