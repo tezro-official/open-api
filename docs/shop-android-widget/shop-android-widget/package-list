@@ -1,30 +1,30 @@
 $dokka.format:jekyll-v1
-$dokka.linkExtension:md
-$dokka.location:com.tezro.api.shop.widget.core////PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/index.md
-$dokka.location:com.tezro.api.shop.widget.core/PaymentHelper///PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-payment-helper/index.md
-$dokka.location:com.tezro.api.shop.widget.core/PaymentHelper/requestPaymentByLink/#android.content.Context#kotlin.String/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-payment-helper/request-payment-by-link.md
-$dokka.location:com.tezro.api.shop.widget.core/PaymentHelper/requestPaymentByOrder/#android.content.Context#com.tezro.api.shop.model.orders.Order/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-payment-helper/request-payment-by-order.md
-$dokka.location:com.tezro.api.shop.widget.core/ShopWidget///PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-shop-widget/index.md
-$dokka.location:com.tezro.api.shop.widget.core/ShopWidget/createOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-shop-widget/create-order.md
-$dokka.location:com.tezro.api.shop.widget.core/ShopWidget/getOrder/#kotlin.String/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-shop-widget/get-order.md
-$dokka.location:com.tezro.api.shop.widget.core/ShopWidget/init/#kotlin.String#kotlin.Boolean/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-shop-widget/init.md
-$dokka.location:com.tezro.api.shop.widget.views////PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/index.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate///PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/-tezro-pay-button-delegate/index.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.shop.model.common.Error/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/-tezro-pay-button-delegate/on-loading-order-error.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderStart/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/-tezro-pay-button-delegate/on-loading-order-start.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onNewOrderDataLoaded/#com.tezro.api.shop.model.orders.Order/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/-tezro-pay-button-delegate/on-new-order-data-loaded.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onRequestOrderInit/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/-tezro-pay-button-delegate/on-request-order-init.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton///PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/index.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/TezroPayButton/#android.content.Context#android.util.AttributeSet/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/-tezro-pay-button.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/buttonLabel/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/button-label.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/delegate/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/delegate.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/init-order.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/isAutomaticRedirectEnabled/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/is-automatic-redirect-enabled.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/isQRCodeEnabled/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/is-q-r-code-enabled.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/isSilentUpdate/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/is-silent-update.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/order/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/order.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/paymentQRLabel/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/payment-q-r-label.md
-$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/updateOrder/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/update-order.md
+$dokka.linkExtension:html
+$dokka.location:com.tezro.api.shop.widget.core////PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/index.html
+$dokka.location:com.tezro.api.shop.widget.core/PaymentHelper///PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-payment-helper/index.html
+$dokka.location:com.tezro.api.shop.widget.core/PaymentHelper/requestPaymentByLink/#android.content.Context#kotlin.String/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-payment-helper/request-payment-by-link.html
+$dokka.location:com.tezro.api.shop.widget.core/PaymentHelper/requestPaymentByOrder/#android.content.Context#com.tezro.api.shop.model.orders.Order/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-payment-helper/request-payment-by-order.html
+$dokka.location:com.tezro.api.shop.widget.core/ShopWidget///PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-shop-widget/index.html
+$dokka.location:com.tezro.api.shop.widget.core/ShopWidget/createOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-shop-widget/create-order.html
+$dokka.location:com.tezro.api.shop.widget.core/ShopWidget/getOrder/#kotlin.String/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-shop-widget/get-order.html
+$dokka.location:com.tezro.api.shop.widget.core/ShopWidget/init/#kotlin.String#kotlin.Boolean/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.core/-shop-widget/init.html
+$dokka.location:com.tezro.api.shop.widget.views////PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/index.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate///PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/-tezro-pay-button-delegate/index.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.shop.model.common.Error/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/-tezro-pay-button-delegate/on-loading-order-error.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderStart/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/-tezro-pay-button-delegate/on-loading-order-start.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onNewOrderDataLoaded/#com.tezro.api.shop.model.orders.Order/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/-tezro-pay-button-delegate/on-new-order-data-loaded.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onRequestOrderInit/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/-tezro-pay-button-delegate/on-request-order-init.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton///PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/index.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/TezroPayButton/#android.content.Context#android.util.AttributeSet/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/-tezro-pay-button.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/buttonLabel/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/button-label.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/delegate/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/delegate.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/initOrder/#kotlin.String#kotlin.String#kotlin.String#com.tezro.api.shop.model.orders.Order.Currency#kotlin.String#java.util.Date#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[com.tezro.api.shop.model.common.Attribute]?/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/init-order.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/isAutomaticRedirectEnabled/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/is-automatic-redirect-enabled.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/isQRCodeEnabled/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/is-q-r-code-enabled.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/isSilentUpdate/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/is-silent-update.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/order/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/order.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/paymentQRLabel/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/payment-q-r-label.html
+$dokka.location:com.tezro.api.shop.widget.views/TezroPayButton/updateOrder/#/PointingToDeclaration/shop-android-widget/com.tezro.api.shop.widget.views/-tezro-pay-button/update-order.html
 com.tezro.api.shop.widget.core
 com.tezro.api.shop.widget.views
 

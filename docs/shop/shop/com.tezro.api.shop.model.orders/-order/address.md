@@ -1,26 +1,28 @@
 ---
-title: address -
+title: address
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[Order](index.md)/[address](address.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders](../index.html)/[Order](index.html)/[address](address.html)
 
 
 
-# address  
-[jvm]  
-Content  
-val [address](address.md): [Address](../../com.tezro.api.shop.model.orders.address/-address/index.md)?  
-More info  
+# address
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [address](address.html): [Address](../../com.tezro.api.shop.model.orders.address/-address/index.html)?
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order/address/#/PointingToDeclaration/"></a>address| <a name="com.tezro.api.shop.model.orders/Order/address/#/PointingToDeclaration/"></a><br><br>Delivery address. Available after confirming address by the customer<br><br>|
-  
-  
+| address | Delivery address. Available after confirming address by the customer |
+
 
 
 

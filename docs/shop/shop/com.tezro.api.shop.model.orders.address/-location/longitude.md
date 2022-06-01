@@ -1,26 +1,28 @@
 ---
-title: longitude -
+title: longitude
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders.address](../index.md)/[Location](index.md)/[longitude](longitude.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders.address](../index.html)/[Location](index.html)/[longitude](longitude.html)
 
 
 
-# longitude  
-[jvm]  
-Content  
-val [longitude](longitude.md): [Double](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)  
-More info  
+# longitude
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [longitude](longitude.html): [Double](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders.address/Location/longitude/#/PointingToDeclaration/"></a>longitude| <a name="com.tezro.api.shop.model.orders.address/Location/longitude/#/PointingToDeclaration/"></a><br><br>the east–west position of the point<br><br>|
-  
-  
+| longitude | the east–west position of the point |
+
 
 
 

@@ -1,26 +1,28 @@
 ---
-title: offset -
+title: offset
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.common](../index.md)/[Pagination](index.md)/[offset](offset.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.common](../index.html)/[Pagination](index.html)/[offset](offset.html)
 
 
 
-# offset  
-[jvm]  
-Content  
-val [offset](offset.md): [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)  
-More info  
+# offset
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [offset](offset.html): [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Pagination/offset/#/PointingToDeclaration/"></a>offset| <a name="com.tezro.api.shop.model.common/Pagination/offset/#/PointingToDeclaration/"></a><br><br>Skipped items count<br><br>|
-  
-  
+| offset | Skipped items count |
+
 
 
 

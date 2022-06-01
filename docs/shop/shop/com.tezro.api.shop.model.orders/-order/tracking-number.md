@@ -1,26 +1,28 @@
 ---
-title: trackingNumber -
+title: trackingNumber
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[Order](index.md)/[trackingNumber](tracking-number.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders](../index.html)/[Order](index.html)/[trackingNumber](tracking-number.html)
 
 
 
-# trackingNumber  
-[jvm]  
-Content  
-val [trackingNumber](tracking-number.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?  
-More info  
+# trackingNumber
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [trackingNumber](tracking-number.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order/trackingNumber/#/PointingToDeclaration/"></a>trackingNumber| <a name="com.tezro.api.shop.model.orders/Order/trackingNumber/#/PointingToDeclaration/"></a><br><br>The number that was provided by the seller which is used to track the location of the product during shipment<br><br>|
-  
-  
+| trackingNumber | The number that was provided by the seller which is used to track the location of the product during shipment |
+
 
 
 

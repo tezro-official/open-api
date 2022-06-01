@@ -1,26 +1,28 @@
 ---
-title: hasNext -
+title: hasNext
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.common](../index.md)/[Pagination](index.md)/[hasNext](has-next.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.common](../index.html)/[Pagination](index.html)/[hasNext](has-next.html)
 
 
 
-# hasNext  
-[jvm]  
-Content  
-val [hasNext](has-next.md): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)  
-More info  
+# hasNext
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [hasNext](has-next.html): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Pagination/hasNext/#/PointingToDeclaration/"></a>hasNext| <a name="com.tezro.api.shop.model.common/Pagination/hasNext/#/PointingToDeclaration/"></a><br><br>Indicates if there are next pages of elements<br><br>|
-  
-  
+| hasNext | Indicates if there are next pages of elements |
+
 
 
 

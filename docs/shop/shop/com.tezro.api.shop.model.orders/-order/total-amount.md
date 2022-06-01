@@ -1,26 +1,28 @@
 ---
-title: totalAmount -
+title: totalAmount
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[Order](index.md)/[totalAmount](total-amount.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders](../index.html)/[Order](index.html)/[totalAmount](total-amount.html)
 
 
 
-# totalAmount  
-[jvm]  
-Content  
-val [totalAmount](total-amount.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
-More info  
+# totalAmount
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [totalAmount](total-amount.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order/totalAmount/#/PointingToDeclaration/"></a>totalAmount| <a name="com.tezro.api.shop.model.orders/Order/totalAmount/#/PointingToDeclaration/"></a><br><br>Sum of item and shipping amounts<br><br>|
-  
-  
+| totalAmount | Sum of item and shipping amounts |
+
 
 
 

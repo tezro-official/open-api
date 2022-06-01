@@ -1,23 +1,28 @@
 ---
-title: DESCENDING -
+title: DESCENDING
 ---
-//[shop](../../../../../index.md)/[com.tezro.api.shop.model.common](../../../index.md)/[Pagination](../../index.md)/[Direction](../index.md)/[DESCENDING](index.md)
+//[shop](../../../../../index.html)/[com.tezro.api.shop.model.common](../../../index.html)/[Pagination](../../index.html)/[Direction](../index.html)/[DESCENDING](index.html)
 
 
 
-# DESCENDING  
- [jvm] [DESCENDING](index.md)()  
+# DESCENDING
+
+
+
+[jvm]\
+[DESCENDING](index.html)()
+
 
 
 Used to sort in reverse order (z-A or 9-1).
 
-   
 
 
-## Properties  
-  
-|  Name |  Summary | 
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Pagination.Direction.DESCENDING/name/#/PointingToDeclaration/"></a>[name](name.md)| <a name="com.tezro.api.shop.model.common/Pagination.Direction.DESCENDING/name/#/PointingToDeclaration/"></a> [jvm] val [name](name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="com.tezro.api.shop.model.common/Pagination.Direction.DESCENDING/ordinal/#/PointingToDeclaration/"></a>[ordinal](ordinal.md)| <a name="com.tezro.api.shop.model.common/Pagination.Direction.DESCENDING/ordinal/#/PointingToDeclaration/"></a> [jvm] val [ordinal](ordinal.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
+| [name](../../../../com.tezro.api.shop.model.orders/-order/-currency/-e-t-h/index.html#-372974862%2FProperties%2F-880856229) | [jvm]<br>val [name](../../../../com.tezro.api.shop.model.orders/-order/-currency/-e-t-h/index.html#-372974862%2FProperties%2F-880856229): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [ordinal](../../../../com.tezro.api.shop.model.orders/-order/-currency/-e-t-h/index.html#-739389684%2FProperties%2F-880856229) | [jvm]<br>val [ordinal](../../../../com.tezro.api.shop.model.orders/-order/-currency/-e-t-h/index.html#-739389684%2FProperties%2F-880856229): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 

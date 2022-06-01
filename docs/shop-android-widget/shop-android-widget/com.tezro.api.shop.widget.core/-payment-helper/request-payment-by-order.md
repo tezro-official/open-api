@@ -1,33 +1,41 @@
 ---
-title: requestPaymentByOrder -
+title: requestPaymentByOrder
 ---
-//[shop-android-widget](../../../index.md)/[com.tezro.api.shop.widget.core](../index.md)/[PaymentHelper](index.md)/[requestPaymentByOrder](request-payment-by-order.md)
+//[shop-android-widget](../../../index.html)/[com.tezro.api.shop.widget.core](../index.html)/[PaymentHelper](index.html)/[requestPaymentByOrder](request-payment-by-order.html)
 
 
 
-# requestPaymentByOrder  
-[androidJvm]  
-Content  
-@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  
-  
-fun [requestPaymentByOrder](request-payment-by-order.md)(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), order: Order)  
-More info  
+# requestPaymentByOrder
+
+
+
+[androidJvm]\
+
+
+
+
+@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)
+
+
+
+fun [requestPaymentByOrder](request-payment-by-order.html)(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), order: Order)
+
 
 
 Opens Tezro app or web browser if the app is not installed. Proceeds the user to order payment.
 
 
 
-## Parameters  
-  
-androidJvm  
-  
+## Parameters
+
+
+androidJvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.widget.core/PaymentHelper/requestPaymentByOrder/#android.content.Context#com.tezro.api.shop.model.orders.Order/PointingToDeclaration/"></a>context| <a name="com.tezro.api.shop.widget.core/PaymentHelper/requestPaymentByOrder/#android.content.Context#com.tezro.api.shop.model.orders.Order/PointingToDeclaration/"></a><br><br>Activity or application from where Tezro app will be opened<br><br>|
-| <a name="com.tezro.api.shop.widget.core/PaymentHelper/requestPaymentByOrder/#android.content.Context#com.tezro.api.shop.model.orders.Order/PointingToDeclaration/"></a>order| <a name="com.tezro.api.shop.widget.core/PaymentHelper/requestPaymentByOrder/#android.content.Context#com.tezro.api.shop.model.orders.Order/PointingToDeclaration/"></a><br><br>The order that should be payed<br><br>|
-  
-  
+| context | Activity or application from where Tezro app will be opened |
+| order | The order that should be payed |
+
 
 
 

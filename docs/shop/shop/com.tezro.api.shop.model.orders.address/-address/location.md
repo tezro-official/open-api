@@ -1,26 +1,28 @@
 ---
-title: location -
+title: location
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders.address](../index.md)/[Address](index.md)/[location](location.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders.address](../index.html)/[Address](index.html)/[location](location.html)
 
 
 
-# location  
-[jvm]  
-Content  
-val [location](location.md): [Location](../-location/index.md)?  
-More info  
+# location
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [location](location.html): [Location](../-location/index.html)?
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders.address/Address/location/#/PointingToDeclaration/"></a>location| <a name="com.tezro.api.shop.model.orders.address/Address/location/#/PointingToDeclaration/"></a><br><br>Geo location of the address line<br><br>|
-  
-  
+| location | Geo location of the address line |
+
 
 
 

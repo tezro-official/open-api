@@ -1,33 +1,38 @@
 ---
-title: Location -
+title: Location
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders.address](../index.md)/[Location](index.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders.address](../index.html)/[Location](index.html)
 
 
 
-# Location  
- [jvm] data class [Location](index.md)
+# Location
+
+
+
+[jvm]\
+data class [Location](index.html)
 
 Contains detailed information about the geo location
 
-   
 
 
-## Parameters  
-  
-jvm  
-  
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders.address/Location///PointingToDeclaration/"></a>latitude| <a name="com.tezro.api.shop.model.orders.address/Location///PointingToDeclaration/"></a><br><br>the north–south position of the point<br><br>|
-| <a name="com.tezro.api.shop.model.orders.address/Location///PointingToDeclaration/"></a>longitude| <a name="com.tezro.api.shop.model.orders.address/Location///PointingToDeclaration/"></a><br><br>the east–west position of the point<br><br>|
-  
+| latitude | the north–south position of the point |
+| longitude | the east–west position of the point |
 
 
-## Properties  
-  
-|  Name |  Summary | 
+
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders.address/Location/latitude/#/PointingToDeclaration/"></a>[latitude](latitude.md)| <a name="com.tezro.api.shop.model.orders.address/Location/latitude/#/PointingToDeclaration/"></a> [jvm] val [latitude](latitude.md): [Double](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)the north–south position of the point   <br>|
-| <a name="com.tezro.api.shop.model.orders.address/Location/longitude/#/PointingToDeclaration/"></a>[longitude](longitude.md)| <a name="com.tezro.api.shop.model.orders.address/Location/longitude/#/PointingToDeclaration/"></a> [jvm] val [longitude](longitude.md): [Double](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)the east–west position of the point   <br>|
+| [latitude](latitude.html) | [jvm]<br>val [latitude](latitude.html): [Double](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html) |
+| [longitude](longitude.html) | [jvm]<br>val [longitude](longitude.html): [Double](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html) |
 

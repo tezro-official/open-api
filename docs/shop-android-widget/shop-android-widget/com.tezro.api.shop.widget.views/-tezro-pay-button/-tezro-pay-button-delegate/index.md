@@ -1,12 +1,16 @@
 ---
-title: TezroPayButtonDelegate -
+title: TezroPayButtonDelegate
 ---
-//[shop-android-widget](../../../../index.md)/[com.tezro.api.shop.widget.views](../../index.md)/[TezroPayButton](../index.md)/[TezroPayButtonDelegate](index.md)
+//[shop-android-widget](../../../../index.html)/[com.tezro.api.shop.widget.views](../../index.html)/[TezroPayButton](../index.html)/[TezroPayButtonDelegate](index.html)
 
 
 
-# TezroPayButtonDelegate  
- [androidJvm] interface [TezroPayButtonDelegate](index.md)
+# TezroPayButtonDelegate
+
+
+
+[androidJvm]\
+interface [TezroPayButtonDelegate](index.html)
 
 Used to listen to different events and states of this button. To start listening, you must implement this interface and assign it to TezroPayButton.delegate.
 
@@ -14,25 +18,26 @@ Used to listen to different events and states of this button. To start listening
 
 Implementing methods is optional. You can implement only methods that you are interested in.
 
-   
 
 
-## See also  
-  
-androidJvm  
-  
+## See also
+
+
+androidJvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate///PointingToDeclaration/"></a>[com.tezro.api.shop.widget.views.TezroPayButton](../delegate.md)| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate///PointingToDeclaration/"></a>|
-  
+| [com.tezro.api.shop.widget.views.TezroPayButton](../delegate.html) |  |
 
 
-## Functions  
-  
-|  Name |  Summary | 
+
+## Functions
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.shop.model.common.Error/PointingToDeclaration/"></a>[onLoadingOrderError](on-loading-order-error.md)| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderError/#com.tezro.api.shop.model.common.Error/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>open fun [onLoadingOrderError](on-loading-order-error.md)(error: Error)  <br>More info  <br>This method will be called if something goes wrong while loading order data.  <br><br><br>|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderStart/#/PointingToDeclaration/"></a>[onLoadingOrderStart](on-loading-order-start.md)| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onLoadingOrderStart/#/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>open fun [onLoadingOrderStart](on-loading-order-start.md)()  <br>More info  <br>This method will be called if order data was provided or the update method was called.  <br><br><br>|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onNewOrderDataLoaded/#com.tezro.api.shop.model.orders.Order/PointingToDeclaration/"></a>[onNewOrderDataLoaded](on-new-order-data-loaded.md)| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onNewOrderDataLoaded/#com.tezro.api.shop.model.orders.Order/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>open fun [onNewOrderDataLoaded](on-new-order-data-loaded.md)(order: Order)  <br>More info  <br>This method will be called with the data of a new order when loading is finished.  <br><br><br>|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onRequestOrderInit/#/PointingToDeclaration/"></a>[onRequestOrderInit](on-request-order-init.md)| <a name="com.tezro.api.shop.widget.views/TezroPayButton.TezroPayButtonDelegate/onRequestOrderInit/#/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>open fun [onRequestOrderInit](on-request-order-init.md)()  <br>More info  <br>This method will be called if the user clicks on the button but no order data was provided.  <br><br><br>|
+| [onLoadingOrderError](on-loading-order-error.html) | [androidJvm]<br>open fun [onLoadingOrderError](on-loading-order-error.html)(error: Error)<br>This method will be called if something goes wrong while loading order data. |
+| [onLoadingOrderStart](on-loading-order-start.html) | [androidJvm]<br>open fun [onLoadingOrderStart](on-loading-order-start.html)()<br>This method will be called if order data was provided or the update method was called. To provide data you must call TezroPayButton.initOrder(). To update data you must call TezroPayButton.updateOrder(). |
+| [onNewOrderDataLoaded](on-new-order-data-loaded.html) | [androidJvm]<br>open fun [onNewOrderDataLoaded](on-new-order-data-loaded.html)(order: Order)<br>This method will be called with the data of a new order when loading is finished. Always called after the first TezroPayButton.initOrder() call or if initOrder is called with a different orderId. If there was an update request, and order data didn't change, this method won't be called. |
+| [onRequestOrderInit](on-request-order-init.html) | [androidJvm]<br>open fun [onRequestOrderInit](on-request-order-init.html)()<br>This method will be called if the user clicks on the button but no order data was provided. To provide data you must call TezroPayButton.initOrder(). |
 

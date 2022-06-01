@@ -1,26 +1,28 @@
 ---
-title: transactionId -
+title: transactionId
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[Order](index.md)/[transactionId](transaction-id.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders](../index.html)/[Order](index.html)/[transactionId](transaction-id.html)
 
 
 
-# transactionId  
-[jvm]  
-Content  
-val [transactionId](transaction-id.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?  
-More info  
+# transactionId
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [transactionId](transaction-id.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order/transactionId/#/PointingToDeclaration/"></a>transactionId| <a name="com.tezro.api.shop.model.orders/Order/transactionId/#/PointingToDeclaration/"></a><br><br>Id of payment transaction. Available after confirming order by the customer<br><br>|
-  
-  
+| transactionId | Id of payment transaction. Available after confirming order by the customer |
+
 
 
 

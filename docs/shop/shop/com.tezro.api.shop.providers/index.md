@@ -1,16 +1,18 @@
 ---
-title: com.tezro.api.shop.providers -
+title: com.tezro.api.shop.providers
 ---
-//[shop](../../index.md)/[com.tezro.api.shop.providers](index.md)
+//[shop](../../index.html)/[com.tezro.api.shop.providers](index.html)
 
 
 
-# Package com.tezro.api.shop.providers  
+# Package com.tezro.api.shop.providers
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+## Types
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.providers/Shop///PointingToDeclaration/"></a>[Shop](-shop/index.md)| <a name="com.tezro.api.shop.providers/Shop///PointingToDeclaration/"></a>[jvm]  <br>Content  <br>object [Shop](-shop/index.md)  <br>More info  <br>Tezro shop main class.  <br><br><br>|
+| [Shop](-shop/index.html) | [jvm]<br>object [Shop](-shop/index.html)<br>Tezro shop main class. Used to create different components for working with shops. |
 

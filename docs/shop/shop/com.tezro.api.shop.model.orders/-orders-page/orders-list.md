@@ -1,26 +1,28 @@
 ---
-title: ordersList -
+title: ordersList
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[OrdersPage](index.md)/[ordersList](orders-list.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders](../index.html)/[OrdersPage](index.html)/[ordersList](orders-list.html)
 
 
 
-# ordersList  
-[jvm]  
-Content  
-val [ordersList](orders-list.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[Order](../-order/index.md)>  
-More info  
+# ordersList
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [ordersList](orders-list.html): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[Order](../-order/index.html)&gt;
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/OrdersPage/ordersList/#/PointingToDeclaration/"></a>ordersList| <a name="com.tezro.api.shop.model.orders/OrdersPage/ordersList/#/PointingToDeclaration/"></a><br><br>Contains orders<br><br>|
-  
-  
+| ordersList | Contains orders |
+
 
 
 

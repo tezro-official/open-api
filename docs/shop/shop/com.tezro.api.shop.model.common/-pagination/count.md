@@ -1,26 +1,28 @@
 ---
-title: count -
+title: count
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.common](../index.md)/[Pagination](index.md)/[count](count.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.common](../index.html)/[Pagination](index.html)/[count](count.html)
 
 
 
-# count  
-[jvm]  
-Content  
-val [count](count.md): [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)  
-More info  
+# count
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [count](count.html): [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.common/Pagination/count/#/PointingToDeclaration/"></a>count| <a name="com.tezro.api.shop.model.common/Pagination/count/#/PointingToDeclaration/"></a><br><br>Current items count<br><br>|
-  
-  
+| count | Current items count |
+
 
 
 

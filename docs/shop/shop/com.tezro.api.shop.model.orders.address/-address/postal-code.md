@@ -1,26 +1,28 @@
 ---
-title: postalCode -
+title: postalCode
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders.address](../index.md)/[Address](index.md)/[postalCode](postal-code.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders.address](../index.html)/[Address](index.html)/[postalCode](postal-code.html)
 
 
 
-# postalCode  
-[jvm]  
-Content  
-val [postalCode](postal-code.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
-More info  
+# postalCode
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [postalCode](postal-code.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders.address/Address/postalCode/#/PointingToDeclaration/"></a>postalCode| <a name="com.tezro.api.shop.model.orders.address/Address/postalCode/#/PointingToDeclaration/"></a><br><br>Zip or postal code of the address line<br><br>|
-  
-  
+| postalCode | Zip or postal code of the address line |
+
 
 
 

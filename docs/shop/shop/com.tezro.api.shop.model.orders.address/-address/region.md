@@ -1,26 +1,28 @@
 ---
-title: region -
+title: region
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders.address](../index.md)/[Address](index.md)/[region](region.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders.address](../index.html)/[Address](index.html)/[region](region.html)
 
 
 
-# region  
-[jvm]  
-Content  
-val [region](region.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
-More info  
+# region
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [region](region.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders.address/Address/region/#/PointingToDeclaration/"></a>region| <a name="com.tezro.api.shop.model.orders.address/Address/region/#/PointingToDeclaration/"></a><br><br>Name of the region or state<br><br>|
-  
-  
+| region | Name of the region or state |
+
 
 
 

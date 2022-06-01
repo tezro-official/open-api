@@ -1,23 +1,28 @@
 ---
-title: EXPIRED -
+title: EXPIRED
 ---
-//[shop](../../../../../index.md)/[com.tezro.api.shop.model.orders](../../../index.md)/[Order](../../index.md)/[Status](../index.md)/[EXPIRED](index.md)
+//[shop](../../../../../index.html)/[com.tezro.api.shop.model.orders](../../../index.html)/[Order](../../index.html)/[Status](../index.html)/[EXPIRED](index.html)
 
 
 
-# EXPIRED  
- [jvm] [EXPIRED](index.md)()  
+# EXPIRED
+
+
+
+[jvm]\
+[EXPIRED](index.html)()
+
 
 
 Indicates that the order has expired. If customer not payed order through escrow service for the right time.
 
-   
 
 
-## Properties  
-  
-|  Name |  Summary | 
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order.Status.EXPIRED/name/#/PointingToDeclaration/"></a>[name](name.md)| <a name="com.tezro.api.shop.model.orders/Order.Status.EXPIRED/name/#/PointingToDeclaration/"></a> [jvm] val [name](name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Status.EXPIRED/ordinal/#/PointingToDeclaration/"></a>[ordinal](ordinal.md)| <a name="com.tezro.api.shop.model.orders/Order.Status.EXPIRED/ordinal/#/PointingToDeclaration/"></a> [jvm] val [ordinal](ordinal.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
+| [name](../../-currency/-e-t-h/index.html#-372974862%2FProperties%2F-880856229) | [jvm]<br>val [name](../../-currency/-e-t-h/index.html#-372974862%2FProperties%2F-880856229): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [ordinal](../../-currency/-e-t-h/index.html#-739389684%2FProperties%2F-880856229) | [jvm]<br>val [ordinal](../../-currency/-e-t-h/index.html#-739389684%2FProperties%2F-880856229): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 

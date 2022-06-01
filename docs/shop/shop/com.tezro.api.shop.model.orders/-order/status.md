@@ -1,26 +1,28 @@
 ---
-title: status -
+title: status
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[Order](index.md)/[status](status.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders](../index.html)/[Order](index.html)/[status](status.html)
 
 
 
-# status  
-[jvm]  
-Content  
-val [status](status.md): [Order.Status](-status/index.md)  
-More info  
+# status
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [status](status.html): [Order.Status](-status/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order/status/#/PointingToDeclaration/"></a>status| <a name="com.tezro.api.shop.model.orders/Order/status/#/PointingToDeclaration/"></a><br><br>Current status of the order<br><br>|
-  
-  
+| status | Current status of the order |
+
 
 
 

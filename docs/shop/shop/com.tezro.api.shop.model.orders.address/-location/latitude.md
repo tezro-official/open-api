@@ -1,26 +1,28 @@
 ---
-title: latitude -
+title: latitude
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders.address](../index.md)/[Location](index.md)/[latitude](latitude.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders.address](../index.html)/[Location](index.html)/[latitude](latitude.html)
 
 
 
-# latitude  
-[jvm]  
-Content  
-val [latitude](latitude.md): [Double](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)  
-More info  
+# latitude
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [latitude](latitude.html): [Double](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders.address/Location/latitude/#/PointingToDeclaration/"></a>latitude| <a name="com.tezro.api.shop.model.orders.address/Location/latitude/#/PointingToDeclaration/"></a><br><br>the north–south position of the point<br><br>|
-  
-  
+| latitude | the north–south position of the point |
+
 
 
 

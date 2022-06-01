@@ -1,26 +1,28 @@
 ---
-title: customerPhoneNumber -
+title: customerPhoneNumber
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[Order](index.md)/[customerPhoneNumber](customer-phone-number.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders](../index.html)/[Order](index.html)/[customerPhoneNumber](customer-phone-number.html)
 
 
 
-# customerPhoneNumber  
-[jvm]  
-Content  
-val [customerPhoneNumber](customer-phone-number.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?  
-More info  
+# customerPhoneNumber
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [customerPhoneNumber](customer-phone-number.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order/customerPhoneNumber/#/PointingToDeclaration/"></a>customerPhoneNumber| <a name="com.tezro.api.shop.model.orders/Order/customerPhoneNumber/#/PointingToDeclaration/"></a><br><br>Phone number of the customer<br><br>|
-  
-  
+| customerPhoneNumber | Phone number of the customer |
+
 
 
 

@@ -1,30 +1,32 @@
 ---
-title: order -
+title: order
 ---
-//[shop-android-widget](../../../index.md)/[com.tezro.api.shop.widget.views](../index.md)/[TezroPayButton](index.md)/[order](order.md)
+//[shop-android-widget](../../../index.html)/[com.tezro.api.shop.widget.views](../index.html)/[TezroPayButton](index.html)/[order](order.html)
 
 
 
-# order  
-[androidJvm]  
-Content  
-open var [order](order.md): Order? = null  
-More info  
+# order
+
+
+
+[androidJvm]\
+open var [order](order.html): Order? = null
+
 
 
 If you already have an order object then there is no need to create one. Use this setter to handle payment for a specific order. This will update QR and the behaviour of the button.
 
 
 
-## See also  
-  
-androidJvm  
-  
+## See also
+
+
+androidJvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.widget.views/TezroPayButton/order/#/PointingToDeclaration/"></a>com.tezro.api.shop.model.orders.Order| <a name="com.tezro.api.shop.widget.views/TezroPayButton/order/#/PointingToDeclaration/"></a>|
-  
-  
+| com.tezro.api.shop.model.orders.Order |  |
+
 
 
 

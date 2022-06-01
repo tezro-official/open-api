@@ -1,17 +1,19 @@
 ---
-title: com.tezro.api.shop.model.orders -
+title: com.tezro.api.shop.model.orders
 ---
-//[shop](../../index.md)/[com.tezro.api.shop.model.orders](index.md)
+//[shop](../../index.html)/[com.tezro.api.shop.model.orders](index.html)
 
 
 
-# Package com.tezro.api.shop.model.orders  
+# Package com.tezro.api.shop.model.orders
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+## Types
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order///PointingToDeclaration/"></a>[Order](-order/index.md)| <a name="com.tezro.api.shop.model.orders/Order///PointingToDeclaration/"></a>[jvm]  <br>Content  <br>data class [Order](-order/index.md)  <br>More info  <br>Contains detailed information about order  <br><br><br>|
-| <a name="com.tezro.api.shop.model.orders/OrdersPage///PointingToDeclaration/"></a>[OrdersPage](-orders-page/index.md)| <a name="com.tezro.api.shop.model.orders/OrdersPage///PointingToDeclaration/"></a>[jvm]  <br>Content  <br>data class [OrdersPage](-orders-page/index.md)(**pagination**: [Pagination](../com.tezro.api.shop.model.common/-pagination/index.md), **ordersList**: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[Order](-order/index.md)>)  <br>More info  <br>Contains detailed information about order page  <br><br><br>|
+| [Order](-order/index.html) | [jvm]<br>data class [Order](-order/index.html)<br>Contains detailed information about order |
+| [OrdersPage](-orders-page/index.html) | [jvm]<br>data class [OrdersPage](-orders-page/index.html)(val pagination: [Pagination](../com.tezro.api.shop.model.common/-pagination/index.html), val ordersList: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[Order](-order/index.html)&gt;)<br>Contains detailed information about order page |
 

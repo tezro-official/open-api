@@ -1,16 +1,18 @@
 ---
-title: com.tezro.api.shop.service -
+title: com.tezro.api.shop.service
 ---
-//[shop](../../index.md)/[com.tezro.api.shop.service](index.md)
+//[shop](../../index.html)/[com.tezro.api.shop.service](index.html)
 
 
 
-# Package com.tezro.api.shop.service  
+# Package com.tezro.api.shop.service
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+## Types
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.service/IShopService///PointingToDeclaration/"></a>[IShopService](-i-shop-service/index.md)| <a name="com.tezro.api.shop.service/IShopService///PointingToDeclaration/"></a>[jvm]  <br>Content  <br>interface [IShopService](-i-shop-service/index.md)  <br>More info  <br>A Service which is used to make requests to Tezro Open-Api to send or receive different information about a shop and orders.  <br><br><br>|
+| [IShopService](-i-shop-service/index.html) | [jvm]<br>interface [IShopService](-i-shop-service/index.html)<br>A Service which is used to make requests to Tezro Open-Api to send or receive different information about a shop and orders. |
 

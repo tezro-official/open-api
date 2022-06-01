@@ -1,23 +1,28 @@
 ---
-title: XAUT -
+title: XAUT
 ---
-//[shop](../../../../../index.md)/[com.tezro.api.shop.model.orders](../../../index.md)/[Order](../../index.md)/[Currency](../index.md)/[XAUT](index.md)
+//[shop](../../../../../index.html)/[com.tezro.api.shop.model.orders](../../../index.html)/[Order](../../index.html)/[Currency](../index.html)/[XAUT](index.html)
 
 
 
-# XAUT  
- [jvm] [XAUT](index.md)()  
+# XAUT
+
+
+
+[jvm]\
+[XAUT](index.html)()
+
 
 
 Tether Gold currency symbol
 
-   
 
 
-## Properties  
-  
-|  Name |  Summary | 
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency.XAUT/name/#/PointingToDeclaration/"></a>[name](name.md)| <a name="com.tezro.api.shop.model.orders/Order.Currency.XAUT/name/#/PointingToDeclaration/"></a> [jvm] val [name](name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency.XAUT/ordinal/#/PointingToDeclaration/"></a>[ordinal](ordinal.md)| <a name="com.tezro.api.shop.model.orders/Order.Currency.XAUT/ordinal/#/PointingToDeclaration/"></a> [jvm] val [ordinal](ordinal.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
+| [name](../-e-t-h/index.html#-372974862%2FProperties%2F-880856229) | [jvm]<br>val [name](../-e-t-h/index.html#-372974862%2FProperties%2F-880856229): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [ordinal](../-e-t-h/index.html#-739389684%2FProperties%2F-880856229) | [jvm]<br>val [ordinal](../-e-t-h/index.html#-739389684%2FProperties%2F-880856229): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 

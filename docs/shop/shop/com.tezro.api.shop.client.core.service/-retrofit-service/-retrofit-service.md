@@ -1,14 +1,17 @@
 ---
-title: RetrofitService -
+title: RetrofitService
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.client.core.service](../index.md)/[RetrofitService](index.md)/[RetrofitService](-retrofit-service.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.client.core.service](../index.html)/[RetrofitService](index.html)/[RetrofitService](-retrofit-service.html)
 
 
 
-# RetrofitService  
-[jvm]  
-Content  
-fun [RetrofitService](-retrofit-service.md)()  
+# RetrofitService
+
+
+
+[jvm]\
+fun [RetrofitService](-retrofit-service.html)()
+
 
 
 

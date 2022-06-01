@@ -1,26 +1,28 @@
 ---
-title: pagination -
+title: pagination
 ---
-//[shop](../../../index.md)/[com.tezro.api.shop.model.orders](../index.md)/[OrdersPage](index.md)/[pagination](pagination.md)
+//[shop](../../../index.html)/[com.tezro.api.shop.model.orders](../index.html)/[OrdersPage](index.html)/[pagination](pagination.html)
 
 
 
-# pagination  
-[jvm]  
-Content  
-val [pagination](pagination.md): [Pagination](../../com.tezro.api.shop.model.common/-pagination/index.md)  
-More info  
+# pagination
 
 
-## Parameters  
-  
-jvm  
-  
+
+[jvm]\
+val [pagination](pagination.html): [Pagination](../../com.tezro.api.shop.model.common/-pagination/index.html)
+
+
+
+## Parameters
+
+
+jvm
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/OrdersPage/pagination/#/PointingToDeclaration/"></a>pagination| <a name="com.tezro.api.shop.model.orders/OrdersPage/pagination/#/PointingToDeclaration/"></a><br><br>Contains detailed information about the page<br><br>|
-  
-  
+| pagination | Contains detailed information about the page |
+
 
 
 

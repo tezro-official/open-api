@@ -1,37 +1,42 @@
 ---
-title: Currency -
+title: Currency
 ---
-//[shop](../../../../index.md)/[com.tezro.api.shop.model.orders](../../index.md)/[Order](../index.md)/[Currency](index.md)
+//[shop](../../../../index.html)/[com.tezro.api.shop.model.orders](../../index.html)/[Order](../index.html)/[Currency](index.html)
 
 
 
-# Currency  
- [jvm] enum [Currency](index.md) : [Enum](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html)<[Order.Currency](index.md)> 
+# Currency
+
+
+
+[jvm]\
+enum [Currency](index.html) : [Enum](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html)&lt;[Order.Currency](index.html)&gt; 
 
 Indicates the currency of an order.
 
-   
 
 
-## Entries  
-  
+## Entries
+
+
 | | |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency.CNY///PointingToDeclaration/"></a>[CNY](-c-n-y/index.md)| <a name="com.tezro.api.shop.model.orders/Order.Currency.CNY///PointingToDeclaration/"></a> [jvm] [CNY](-c-n-y/index.md)()  <br>Chinese Yuan currency symbol   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency.EUR///PointingToDeclaration/"></a>[EUR](-e-u-r/index.md)| <a name="com.tezro.api.shop.model.orders/Order.Currency.EUR///PointingToDeclaration/"></a> [jvm] [EUR](-e-u-r/index.md)()  <br>Euro currency symbol   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency.USD///PointingToDeclaration/"></a>[USD](-u-s-d/index.md)| <a name="com.tezro.api.shop.model.orders/Order.Currency.USD///PointingToDeclaration/"></a> [jvm] [USD](-u-s-d/index.md)()  <br>United States Dollar currency symbol   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency.XAUT///PointingToDeclaration/"></a>[XAUT](-x-a-u-t/index.md)| <a name="com.tezro.api.shop.model.orders/Order.Currency.XAUT///PointingToDeclaration/"></a> [jvm] [XAUT](-x-a-u-t/index.md)()  <br>Tether Gold currency symbol   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency.CNHT///PointingToDeclaration/"></a>[CNHT](-c-n-h-t/index.md)| <a name="com.tezro.api.shop.model.orders/Order.Currency.CNHT///PointingToDeclaration/"></a> [jvm] [CNHT](-c-n-h-t/index.md)()  <br>Tether CNH currency symbol   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency.EURT///PointingToDeclaration/"></a>[EURT](-e-u-r-t/index.md)| <a name="com.tezro.api.shop.model.orders/Order.Currency.EURT///PointingToDeclaration/"></a> [jvm] [EURT](-e-u-r-t/index.md)()  <br>Tether EUR currency symbol.   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency.USDT///PointingToDeclaration/"></a>[USDT](-u-s-d-t/index.md)| <a name="com.tezro.api.shop.model.orders/Order.Currency.USDT///PointingToDeclaration/"></a> [jvm] [USDT](-u-s-d-t/index.md)()  <br>Tether USD currency symbol.   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency.BTC///PointingToDeclaration/"></a>[BTC](-b-t-c/index.md)| <a name="com.tezro.api.shop.model.orders/Order.Currency.BTC///PointingToDeclaration/"></a> [jvm] [BTC](-b-t-c/index.md)()  <br>Bitcoin currency symbol.   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency.ETH///PointingToDeclaration/"></a>[ETH](-e-t-h/index.md)| <a name="com.tezro.api.shop.model.orders/Order.Currency.ETH///PointingToDeclaration/"></a> [jvm] [ETH](-e-t-h/index.md)()  <br>Ethereum currency symbol.   <br>|
+| [CNY](-c-n-y/index.html) | [jvm]<br>[CNY](-c-n-y/index.html)()<br>Chinese Yuan currency symbol |
+| [EUR](-e-u-r/index.html) | [jvm]<br>[EUR](-e-u-r/index.html)()<br>Euro currency symbol |
+| [USD](-u-s-d/index.html) | [jvm]<br>[USD](-u-s-d/index.html)()<br>United States Dollar currency symbol |
+| [XAUT](-x-a-u-t/index.html) | [jvm]<br>[XAUT](-x-a-u-t/index.html)()<br>Tether Gold currency symbol |
+| [CNHT](-c-n-h-t/index.html) | [jvm]<br>[CNHT](-c-n-h-t/index.html)()<br>Tether CNH currency symbol |
+| [EURT](-e-u-r-t/index.html) | [jvm]<br>[EURT](-e-u-r-t/index.html)()<br>Tether EUR currency symbol. |
+| [USDT](-u-s-d-t/index.html) | [jvm]<br>[USDT](-u-s-d-t/index.html)()<br>Tether USD currency symbol. |
+| [BTC](-b-t-c/index.html) | [jvm]<br>[BTC](-b-t-c/index.html)()<br>Bitcoin currency symbol. |
+| [ETH](-e-t-h/index.html) | [jvm]<br>[ETH](-e-t-h/index.html)()<br>Ethereum currency symbol. |
 
 
-## Properties  
-  
-|  Name |  Summary | 
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency/name/#/PointingToDeclaration/"></a>[name](index.md#944538506%2FProperties%2F-880856229)| <a name="com.tezro.api.shop.model.orders/Order.Currency/name/#/PointingToDeclaration/"></a> [jvm] val [name](index.md#944538506%2FProperties%2F-880856229): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="com.tezro.api.shop.model.orders/Order.Currency/ordinal/#/PointingToDeclaration/"></a>[ordinal](index.md#1890205556%2FProperties%2F-880856229)| <a name="com.tezro.api.shop.model.orders/Order.Currency/ordinal/#/PointingToDeclaration/"></a> [jvm] val [ordinal](index.md#1890205556%2FProperties%2F-880856229): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
+| [name](-e-t-h/index.html#-372974862%2FProperties%2F-880856229) | [jvm]<br>val [name](-e-t-h/index.html#-372974862%2FProperties%2F-880856229): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [ordinal](-e-t-h/index.html#-739389684%2FProperties%2F-880856229) | [jvm]<br>val [ordinal](-e-t-h/index.html#-739389684%2FProperties%2F-880856229): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 
