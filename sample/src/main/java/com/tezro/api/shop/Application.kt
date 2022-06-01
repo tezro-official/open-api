@@ -8,7 +8,6 @@ class Application : Application() {
     override fun onCreate() {
         super.onCreate()
 
-        // TODO: put your key id here
-        ShopWidget.init("<key_id>", true)
+        ShopWidget.init("47d5af68-0857-4856-a072-63fa53ea87f2", true)
     }
 }
